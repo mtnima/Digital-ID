@@ -18,7 +18,8 @@ By leveraging advanced security measures and cutting-edge technologies, this pil
 
 The following demo uses the eID app to login to the "Khidmaty" Portal (currently under developpement itself),
 
-https://github.com/mtnima/Digital-ID/blob/main/Media/Demo_video_eID.mp4.mov
+
+https://user-images.githubusercontent.com/28960489/230099915-5bdf7f66-ab82-49e8-bf89-596736f4ed18.mp4
 
 ## Brief architecture of the project : 
 
