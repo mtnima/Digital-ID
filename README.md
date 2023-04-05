@@ -14,6 +14,11 @@ The project This approach supports the goals of the Mauritanian government's "Di
 
 By leveraging advanced security measures and cutting-edge technologies, this pilot project paves the road to the creation of a complete digital identity solution that enhances trust and reduces the risks of fraud while having a broader accessibility. A system that will benefit all Mauritanians, including the most vulnerable, by providing a secure and seamless digital experience that saves time and money while improving the quality and accessibility of public services.
 
+## Demo
+
+The following demo uses the eID app to login to the "Khidmaty" Portal (currently under developpement itself),
+
+https://github.com/mtnima/Digital-ID/blob/main/Media/Demo_video_eID.mp4.mov
 
 ## Brief architecture of the project : 
 
@@ -124,11 +129,6 @@ all theses SDK are proprietary solutions easily permutable with other solutions 
 | Omnimatch BioSDK | 4.0.0.978 | 4.0.0.946 |
 | T5-Cryptograph | 1.0.0.5 | 1.0.0.8 |
 
-## Demo
-
-The following demo uses the eID app to login to the "Khidmaty" Portal (currently under developpement itself),
-
-[![Watch the video])(Media\Demo_video_eID.mp4.mov)](Media\Demo_video_eID.mp4.mov)
 
 
 ## Support
