@@ -1,0 +1,178 @@
+/*
+ 
+ Localizable.strings
+ PFCM
+ 
+ Created by IOS on 29/08/21.
+ 
+ */
+
+"camera_close_message" = "Avancez votre visage de la caméra";
+
+"camera_far_message" = "Reculez votre visage de la caméra";
+
+//"camera_up_message" = "Move camera vertically up towards face";
+
+//"camera_down_message" = "Move camera vertically down towards face";
+
+//"centre_face_message" = "Please center your face";
+
+"open_eyes_message" = "Ouvez les yeux et regarder droit";
+
+"multiple_faces_detected" = "Plusieurs visages détectés";
+
+"detection_failed_message" = "Echec de la détection du visage";
+
+"no_faces_detected_message" = "Pas de visage détecté";
+
+"look_straight_message" = "Regardez en face";
+
+"mask_detected_message" =  "Masque détecté";
+
+"sunglasses_detected_message" = "Lunettes de soleil détectées";
+
+"eyes_closed_message" = "Yeux fermés ou couverts";
+
+//"hold_still_message" = "Hold Still";
+
+"spoof_detected_message" = "Fraude détectée";
+
+//"ok" = "Hold still and capture";
+
+"please_wait" = "Merci de patienter...";
+
+"centre_face_and_hold_still" = "Centrez votre visage et restez immobile";
+
+
+"SKIP" = "Ignorer";
+"WELCOME" = "Bienvenue";
+"CONTINUE" = "Continuez";
+
+"WELCOME_NOTE" = "e-ID Mauritanie vous permet de vous connecter aux services e-Gouvernementaux de façon sécurisée et sans mot de passe.";
+
+"TUTORIAL" = "Tutoriel";
+"TUTORIAL_NOTE" = "Suivez les étapes afin de comprendre comment paramétrer et utiliser l'e-ID Mauritanie.";
+
+"TUTORIAL_1" = "Tutoriel (1/2) : Vérification d'Identité";
+"TUTORIAL_NOTE_1" = "Afin de pouvoir utiliser votre e-ID Mauritanie, vous devez d'abord vérifier votre identité. Vous serez guidé pas-à-pas.";
+
+"TUTORIAL_2" = "Tutoriel (2/2) : Connexion sécurisée";
+"TUTORIAL_NOTE_2" = "Votre e-ID Mauritanie vous permet de vous connecter aux services e-Gouvernementaux de manière sécurisée et sans mot de passe. Vous devez simplement scanner le QR-code sur la page de connexion avec votre e-ID.";
+
+"START_VERIFY_IDENTITY_" = "Demarrez la vérification d'identité" ;
+"START_VERIFY_IDENTITY_NOTE" = "Pour la vérification d'identité, merci de vous munir de votre carte d'identité mauritanienne (délivrée après Juin 2022) ou à défaut votre passeport et activer le mode NFC sur votre téléphone mobile." ;
+
+"GET_STARTED" = "Commençons";
+
+"IDENTITY_TITLE" = "Vérification d'identité";
+"VERIFY_SCANNED_DATA" = "Vérification des données scannées";
+"NEXT_1" = "Suivant: Transfert des données";
+"IS_DATA_CORRECT" = "Est-ce que les données sont correctes ?";
+"IS_DATA_CORRECT_NOTE" = "Appuyez sur \"Suivant\" si les données sont identiques à celles de votre document d'identité ou de votre passeport. Appuyez sur \"Retour\" dans le cas contraire.";
+"NNI" = "Numéro National d'Identité";
+"BIRTH_DATE" = "Date de naissance";
+"EXPIRY_DATE" = "Date d'expiration";
+
+"BACK" = "Retour";
+"NEXT" = "Suivant";
+
+"TRANSFER_DATA" = "Transfert des données";
+"NEXT_2" = "Suivant: Comparaison de portrait";
+"START_DATA_TRANSFER" = "Démarrage du transfert des données";
+"STEP_NOTE" = "Pour démarrer la lecture des données de la puce de votre document d'identité, veuillez suivre les étapes suivantes:";
+"STEP_1" = "Activer le mode \"NFC\" sur votre smartphone";
+"STEP_2" = "Placer le dos de votre smartphone sur le document d'identité ou le passeport";
+"STEP_3" = "Déplacer le document jusqu'à ce que le smartphone vibre";
+"STEP_4" = "Veuillez ne pas bouger le document pendant toute la durée de transfert des informations";
+"TRANSFER_PROGRESS" = "Placez votre document d'identité contre le smartphone pour démarrer la lecture";
+"SUCCESS" = "Succès";
+"SUCCESS_NOTE" = "Votre identité a été vérifiée avec succès.";
+
+"FACE_MATCH" = "Comparaison de portrait";
+"VERIFY_STEP" = "Vérifiez qu'il s'agit bien de vous";
+"VERIFY_STEP_NOTE" = "Nous allons maintenant comparer les données de votre document d'identité à vos données";
+"VERIFY_STEP_1" = "Si vous portez des lunettes, assurez vous que vos yeux sont clairement visibles";
+"VERIFY_STEP_2" = "Choissisez un endroit suffisamment éclairé. Evitez toute ombre sur votre visage";
+"VERIFY_STEP_3" = "Gardez une expression de visage neutre";
+"VERIFY_STEP_4" = "Ne portez pas de lunettes de soleil";
+"VERIFY_STEP_5" = "Ne portez pas de chapeau";
+"START_VERIFICATION" = "Démarrer la vérification";
+
+"NEXT_3" = "Suivant: Utilisez votre e-ID Mauritanie";
+"FACE_SUCCSS" = "Correspondance réussie!";
+"FACE_SUCCESS_NOTE" = "Vous avez passé les étapes de vérification avec succès. Vous pouvez maintenant utiliser votre e-ID Mauritanie..";
+"FACE_FAILUR" = "Echec de la vérification du portrait!";
+"FACE_FAILUR_NOTE" = "Echec de la vérification du portrait.";
+"START_VERIFICATION_AGAIN" = "Recommencez la vérification";
+"CLOSE" = "Fermez";
+
+"VERIFIED_IDENTITY" = "Identité vérifiée";
+"BIRTH_PLACE" = "Lieu de naissance";
+"GENDER" = "Genre";
+"PHONE_NUMBER" = "Numéro de téléphone";
+"ISSUE_DATE" = "Date d'émission";
+"NATIONALITY" = "Nationalité";
+"Nationality" = "Nationalité";
+"AVAILABLE_SERVICE" = "Services disponibles ";
+"NEWS" = "Actualités";
+"LINKS" = "Liens utiles";
+"DOCUMENT" = "Documents";
+
+"SCANNER" = "Scanner de QR";
+"HOME" = "Page d'accueil";
+"SETTING" = "Paramètres";
+
+"REQUESTED_DATA" = "Données requises:";
+"RECIEPIENT_DATA" = "Destinataire des données :";
+"KHIDMATY" = "khidmaty";
+"LAST_NAME" = "Nom de famille";
+"FIRST_NAME" = "Prénoms";
+"MOBILE_NUMBER" = "Numéro de téléphone mobile";
+
+"THIRD_PARTY_LOGIN" = "Login third-party";
+"LOGIN_SUCCESS" = "Connexion réussie!";
+"LOGIN_SUCCESS_NOTE" = "Vous vous êtes authentifié avec succès sur l'application tierce.";
+
+"LOGIN_ERROR" = "Erreur de connexion !";
+"LOGIN_ERROR_NOTE" = "Votre tentative de connexion a échoué. Merci de vérifier auprès de l'application tierce que vous êtes authorisé à vous y connecter.";
+
+"GENERAL" = "Général";
+"LANGUAGE" = "Langue";
+"CONTACT_US" = "Nous contacter";
+
+"SECURITY" = "Sécurité";
+"CHANGE_PIN" = "Changer le code PIN";
+"PRIVACY_POLICY" = "Politique de Confidentialité";
+"NOT_MENTION" = "non mentionné";
+
+"WENT_WRONG" = "Something Went Wrong!";
+"INTIALIZED" = "Initialisation réussie" ;
+"CREATING_CRYPTO" = "Correspondance des portraits en cours, Création du cryptographe en cours";
+"RESTART" = "Problème rencontré avec FaceTemplate. Merci de redémarrer votre application";
+"TOKEN_REGISTER" = "Jeton authentifié, en cours d'enregistrement...";
+"TOKEN_AUTHENTICATION" = "Jeton créé, authentification du jeton en cours";
+"TOKEN_CREATION" = "Création du jeton en cours";
+
+"ID" = "ID";
+"Birth Date" = "Date de naissance";
+"Name" = "Nom";
+"Expiry Date" = "Date d'expiration";
+"Issue Date" = "Date d'émission";
+"FACE_TEMPLATE_FAILED" = "Echec de l'extraction des caractérisques du portrait. Merci de réessayer";
+"NO_SCAN_RESULT" = "No Scanning Result Found";
+"REGISTER_USER" = "Cryptographe créé, enregistrement en cours de l'utilisateur";
+"PUBLIC_KEY" = "Vérification des données de l'utilisateur";
+"FACE_MATCHING_FAILED" = "Echec lors de la comparaison des portraits";
+"FACE_MATCHED" = "Correspondance des portraits effectuée avec succès, Création du cryptographe en cours";
+"TRY_AGAIN" = "Something Went wrong please try again";
+"FACE_NOT_FOUND" = "Echec de la détection du visage";
+"INIT_OMNI" = "Initialisation d'OmniMatch...";
+"INIT_OCR" = "Initialisation de la ROC...";
+"SCAN_FACE" = "Prenez une photo";
+"LOG_OUT" = "Supprimer l’e-ID";
+"OK" = "OK";
+"CANCEL" = "Annulez";
+"CHANGE_LANGUAGE" = "Etes vous sûr de vouloir faire ces modifications";
+"LOG_OUT_CONFIRMATION" = "Etes vous sûr?";
+"SELECTED_LANGUAGE" = "French";
+"DEMO" = "Version de démonstration (non-officielle)";

@@ -1,0 +1,6 @@
+framework module RegulaCommon {
+  umbrella header "RegulaCommon.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<!--    btn_scan_face-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_drawable"
+    android:padding="@dimen/page_margin">
+
+
+    <include
+        android:id="@+id/header_layout_include"
+        layout="@layout/header_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/page_margin" />
+
+    <include
+        android:id="@+id/progress_layout_include"
+        layout="@layout/progress_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header_layout_include"
+        android:layout_margin="@dimen/page_margin" />
+
+
+    <TextView
+        android:id="@+id/sub_heading"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/progress_layout_include"
+        android:gravity="center_horizontal"
+        android:text="@string/demographics_verify_screen_subheading"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_desc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sub_heading"
+        android:gravity="center_horizontal"
+        android:text="@string/demographics_verify_screen_description" />
+
+
+    <include
+        layout="@layout/face_capture_instructions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_btns_layout"
+        android:layout_below="@+id/txt_desc"
+        android:layout_marginTop="@dimen/page_margin"
+        android:layout_marginBottom="@dimen/page_margin" />
+
+
+    <RelativeLayout
+        android:id="@+id/bottom_btns_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/page_margin"
+        android:layout_marginEnd="@dimen/page_margin">
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_back"
+            style="@style/back_btn_style"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:text="@string/label_back" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_next"
+            style="@style/next_btn_style"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:text="@string/label_next" />
+
+
+    </RelativeLayout>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_scan_face"
+        style="@style/intro_buttonShape"
+        android:layout_width="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:text="@string/start_verification" />
+
+</RelativeLayout>

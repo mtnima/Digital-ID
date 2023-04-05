@@ -1,0 +1,233 @@
+<resources>
+    <string name="app_name">@string/eid_mauritanie</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="next">Suivant</string>
+    <string name="previous">Précédent</string>
+
+
+    <string name="eid_mauritanie">e-ID Mauritanie</string>
+
+    <string name="welcome_to_eid_app">Bienvenu a votre application e-ID</string>
+    <string name="label_digital_identity_app">Application Identité Digitale</string>
+    <string name="label_continue">Continuer</string>
+
+
+    <string name="label_identity_verification">Verification d’identite</string>
+
+    <string name="face_capture_instruction_glasses">si vous portez des lunettes, assurez-vous que vos yeux sont clairement visibles</string>
+    <string name="face_capture_instruction_lighting">choisissez un endroit suffisamment éclairé. Évitez les ombres sur votre visage</string>
+    <string name="face_capture_instruction_expression">garder une expression de visage neutre</string>
+    <string name="face_capture_instruction_sunglasses">ne portez pas de lunettes de soleil</string>
+    <string name="face_capture_instruction_hat">Ne portez pas de chapeau</string>
+
+
+    <string name="label_verify_quality">Vérifier la qualité</string>
+    <string name="face_match_success">Correspondance réussie</string>
+    <string name="image_validated">Votre image est validée avec succès</string>
+    <string name="face_verification_failed">La détection de visage a échoué</string>
+
+    <string name="label_connect">Se connecter</string>
+
+
+    <string name="label_scan_face">scanner votre visage</string>
+
+
+    <string name="label_scan">Scanner</string>
+    <string name="label_home">Accueil</string>
+    <string name="label_settings">Parametre</string>
+
+
+    <string name="label_available_services">Services disponibles</string>
+
+    <string name="label_news">Actualites</string>
+    <string name="label_useful_links">Liens utiles</string>
+    <string name="label_documents">Documents</string>
+
+
+    <string name="label_skip">Passer</string>
+
+    <string name="lets_get_started">Démarrons</string>
+    <string name="start_identity_verification">Demarrez la vérification d\'identité</string>
+
+
+    <string name="demographics_verify_screen_subheading">Est-ce que les données sont correctes ?</string>
+    <string name="demographics_verify_screen_description">Appuyez sur "Suivant" si les données sont identiques à celles de votre document d\'identité ou de votre passeport.
+        Appuyez sur "Retour" dans le cas contraire</string>
+
+    <string name="label_next">Suivant</string>
+    <string name="label_back">Retour</string>
+    <string name="label_recapture">refaire la capture</string>
+
+
+    <string name="label_nnn">NNI</string>
+    <string name="label_first_name">Prénom</string>
+    <string name="label_last_name">Nom de famille</string>
+    <string name="label_dob">Date de naissance</string>
+    <string name="label_expiry">Date d\'expiration</string>
+
+
+    <string name="nfc_instruction_turn_on_nfc">Activer le mode "NFC" sur votre smartphone</string>
+    <string name="nfc_instruction_place_id_card">Placer le dos de votre smartphone sur le document d\'identité ou le passeport</string>
+    <string name="nfc_instruction_move_passport">Déplacer le document jusqu\'à ce que le smartphone vibre</string>
+    <string name="nfc_instruction_hold_still">Veuillez ne pas bouger le document pendant toute la durée de transfert des informations</string>
+
+
+    <string name="success">Succès</string>
+    <string name="data_readed_from_chip">Vos informartions personnelles ont été extraites à partir de votre document d\'identité avec succès</string>
+    <string name="start_verification">démarrage de la vérification</string>
+
+    <string name="label_transfer_data">démarrage de la vérification</string>
+    <string name="label_next_face_match">Suivant: Comparaison de portrait</string>
+    <string name="start_data_transfer">Démarrage du transfert des données</string>
+    <string name="label_nfc_steps_to_follow">Pour démarrer la lecture des données de la puce de votre document d\'identité, veuillez suivre les étapes suivantes:</string>
+
+    <string name="label_face_match">Comparaison de portrait</string>
+    <string name="start_using_eid">Suivant: Utilisez votre e-ID Mauritanie</string>
+
+    <string name="label_verify">Vérifiez qu\'il s\'agit bien de vous</string>
+    <string name="match_data_from_id">Nous allons maintenant comparer les données de votre document d\'identité avec vous</string>
+    <string name="match_data_from_eid">Nous allons maintenant comparer les données de votre eID avec vous</string>
+
+
+    <string name="choose_language">Sélection de la langue</string>
+    <string name="label_cancel">Annuler</string>
+
+
+    <string name="label_general">Général</string>
+    <string name="label_language">Langue</string>
+    <string name="label_contact_us">Nous contacter</string>
+    <string name="label_security">Sécurité</string>
+    <string name="label_change_pin">Changer le code PIN</string>
+    <string name="label_privacy_policy">Politique de Confidentialité</string>
+    <string name="label_logout">Supprimer l\'identité digitale</string>
+    <string name="label_verifed_identity">Identité vérifiée</string>
+    <string name="label_pob">Lieu de naissance</string>
+    <string name="nationality">Nationalité</string>
+    <string name="gender">Genre</string>
+    <string name="phone_number">Numéro de téléphone</string>
+    <string name="label_date_of_issue">Date d\'émission</string>
+
+    <string name="verify_the_scanned_data">Vérification des données scannées</string>
+    <string name="next_transfer_data">Suivant: Transfert des données</string>
+    <string name="login_third_party">Connexion au site tierce</string>
+    <string name="data_recipient">Destinataire des données :</string>
+    <string name="khidmaty">Khidmaty</string>
+    <string name="requested_data">Données requises</string>
+    <string name="mobile_phone_number">Numéro de téléphone mobile</string>
+    <string name="first_and_middlename">Prénoms</string>
+    <string name="lable_liveness_failed_3_times">Capture du portrait a échoué plus de trois fois</string>
+    <string name="liveness_failed">Echec lors de la vérification de la vivacité</string>
+    <string name="face_capture_failed">Echec lors de la capture du portrait</string>
+    <string name="face_capture_cancelled">Capture du portrait annulé</string>
+    <string name="face_capture_timedout">Capture du portrait hors délai</string>
+    <string name="eid_created">e-ID Mauritanie créée</string>
+    <string name="signature_validated">Signature validée</string>
+    <string name="eid_ready_to_use">Vous avez passé les étapes de vérification avec succès. Vous pouvez maintenant utiliser votre e-ID Mauritanie.</string>
+
+    <string name="registartion_failed">Echec de l\'enregistrement de l\'utilisateur</string>
+    <string name="scanning_cancelled">Annulation du scan</string>
+    <string name="unable_to_extract_face">Extraction du portrait impossible</string>
+    <string name="unable_to_extract_demographics">Extraction des données d\'identité impossible</string>
+
+
+    <string name="nfc_cancelled">Lecture NFC annulée</string>
+    <string name="nfc_failed">Echec de la lecture NFC</string>
+    <string name="extaract_facenfc_failed">Echec de la lecture du portrait en NFC</string>
+    <string name="language_french">Français</string>
+    <string name="language_english">Anglais</string>
+    <string name="init_sdk_failed">Echec de l\'initialisation du composant logiciel. Redémarrez l\'application</string>
+    <string name="validating_eid">Validaion de l\'eID en cours</string>
+    <string name="signature_verification_failed">Echec de la validation de la signature digitale</string>
+    <string name="retrieving_template">Recupération des caractéristiques</string>
+    <string name="matching_faces">Comparaison des portraits</string>
+    <string name="creating_eid">Création de l\'eID Mauritanie en cours</string>
+    <string name="saving_images">Sauvegarde des images</string>
+    <string name="registering_user">Enregistrement de l\'utilisateur en cours</string>
+    <string name="authentication_performing">Verification de l\'identité en cours</string>
+    <string name="auth_success">Verification de l\'identité réussie</string>
+    <string name="authorisation_success">Authorisation successful</string>
+    <string name="qr_auth_failure">Echec de la vérification du QR code</string>
+    <string name="authorisation_failure">Echec de l\'autorisation</string>
+    <string name="authentication_failure">Echec de la vérification d\'identitée</string>
+    <string name="omnimatch_initializing">Initialisation d\'Omnimatch</string>
+    <string name="init_ocr">Initialisation de la OCR</string>
+
+
+    <!--translated using google-->
+    <string name="label_retry">Recommencez</string>
+    <string name="label_no_internet">Pas de connexion Internet</string>
+
+    <string name="qr_login">Exécution de la connexion QR</string>
+
+
+    <string name="label_close">Fermer</string>
+    <string name="label_login_successful">Connexion réussie !</string>
+    <string name="login_success_description">Vous vous êtes authentifié avec succès sur une application tierce.</string>
+    <string name="label_login_error">Erreur d\'identification !</string>
+    <string name="login_error_description">Votre tentative d\'authentification a échoué.
+        Veuillez vérifier auprès d\'un tiers si vous avez l\'autorisation d\'accéder à ses services.</string>
+
+
+    <string name="label_demo_version">Version de démonstration (non-officielle)</string>
+
+    <string name="retrieving_keys">Récupération des clés</string>
+    <string name="retrieving_keys_failed">Échec de la récupération des clés</string>
+    <string name="downloading_ocr_database">Téléchargement de la base de données OCR (%1$d%%)</string>
+
+
+    <string name="camera_close_message">Avancez votre visage de la caméra</string>
+    <string name="camera_far_message">Reculez votre visage de la ca</string>
+
+
+    <string name="camera_up_message">@string/hold_still_and_center</string>
+    <string name="camera_down_message">@string/hold_still_and_center</string>
+    <string name="face_not_in_centre_x">@string/hold_still_and_center</string>
+
+    <string name="open_eyes_message">Ouvez les yeux et regarder droit</string>
+    <string name="multiple_faces_detected">Plusieurs visages détectés</string>
+    <string name="detection_failed_message">Echec de la détection du visage</string>
+    <string name="no_faces_detected_message">Pas de visage détecté</string>
+    <string name="look_straight_message">Regardez en face</string>
+    <string name="mask_detected_message">Masque détecté</string>
+    <string name="sunglasses_detected_message">Lunettes de soleil détectées</string>
+    <string name="eyes_closed_message">Yeux fermés ou couverts</string>
+    <string name="hold_still_message">@string/hold_still_and_center</string>
+    <string name="spoof_detected_message">Fraude détectée</string>
+    <string name="ok">@string/hold_still_and_center</string>
+    <string name="please_wait">Merci de patienter</string>
+
+    <string name= "hold_still_and_center">Centrez votre visage et restez immobile</string>
+
+    <string name="retrieve_face_template_failed">Échec de la récupération du modèle de visage</string>
+    <string name="error_in_template_creation">Erreur lors de la création du modèle</string>
+    <string name="error_in_matching">Erreur lors de la création du modèle : %1$s</string>
+    <string name="error_in_mauritania_creation">"Error in Creating Mauritania e-ID: %1$s</string>
+    <string name="failed_to_save_eid">Échec de l\'enregistrement de l\'eID mauritanien</string>
+
+    <string name="download_ocr_db_failed">Échec du téléchargement de la base de données OCR : %1$s</string>
+    <string name="init_ocr_failed">Échec de l\'initialisation de l\'OCR : : %1$s</string>
+
+
+
+    <string-array name="languages_list">
+        <item>Anglais</item>
+        <item>Français</item>
+    </string-array>
+
+    <string-array name="intro_page_headings">
+        <item>Bienvenue</item>
+        <item>Tutoriel</item>
+        <item>Tutoriel (½) : Identité vérifiée</item>
+        <item>Tutoriel (2/2) : Connexion sécurisée</item>
+        <item>Demarrez la vérification d\'identité</item>
+    </string-array>
+
+    <string-array name="intro_page_sub_headings">
+        <item>Votre e-ID Mauritanie vous permet de vous connecter aux services e-Gouvernementaux de manière sécurisée et sans mot de passe. Vous devez simplement scanner le QR-code sur la page de connexion avec votre e-ID</item>
+        <item>Suivez les étapes afin de comprendre comment paramétrer et utiliser l\'e-ID Mauritanie</item>
+        <item>Afin de pouvoir utiliser votre e-ID Mauritanie, vous devez d\'abord vérifier votre identité. Vous serez guidé pas-à-pas.</item>
+        <item>Votre e-ID Mauritanie vous permet de vous connecter aux services e-Gouvernementaux de manière sécurisée et sans mot de passe. Vous devez simplement scanner le QR-code sur la page de connexion avec votre e-ID</item>
+        <item>Pour la vérification d\'identité, merci de vous munir de votre carte d\'identité mauritanienne (délivrée après Juin 2022) ou à défaut votre passeport et activer le mode NFC sur votre téléphone mobile</item>
+    </string-array>
+</resources>

@@ -1,0 +1,117 @@
+
+/* Class = "UILabel"; text = "11/05/1991"; ObjectID = "0MQ-AI-Bgp"; */
+"0MQ-AI-Bgp.text" = "11/05/1991";
+
+/* Class = "UILabel"; text = "30 Aug 2016"; ObjectID = "0Yo-TQ-BSd"; */
+"0Yo-TQ-BSd.text" = "30 Aug 2016";
+
+/* Class = "UILabel"; text = "Verified Identity"; ObjectID = "0io-WK-pD4"; */
+"0io-WK-pD4.text" = "Identité vérifiée";
+
+/* Class = "UILabel"; text = "Date of Issue"; ObjectID = "4BN-96-USS"; */
+"4BN-96-USS.text" = "Date d'émission";
+
+/* Class = "UIButton"; configuration.title = "Next"; ObjectID = "61R-Kc-zTf"; */
+"61R-Kc-zTf.configuration.title" = "Next";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "61R-Kc-zTf"; */
+"61R-Kc-zTf.normalTitle" = "Button";
+
+/* Class = "UITabBarItem"; title = "Setting"; ObjectID = "6M3-j1-qW9"; */
+"6M3-j1-qW9.title" = "Setting";
+
+/* Class = "UILabel"; text = "1234567890"; ObjectID = "6is-pi-fAw"; */
+"6is-pi-fAw.text" = "1234567890";
+
+/* Class = "UILabel"; text = "Work In Progress Scanner"; ObjectID = "7PR-8e-JCy"; */
+"7PR-8e-JCy.text" = "Work In Progress Scanner";
+
+/* Class = "UILabel"; text = "Naukchott"; ObjectID = "9KN-Bz-JAr"; */
+"9KN-Bz-JAr.text" = "Naukchott";
+
+/* Class = "UILabel"; text = "Mohmed Ahmed"; ObjectID = "Arv-Nh-oWB"; */
+"Arv-Nh-oWB.text" = "Mohmed Ahmed";
+
+/* Class = "UILabel"; text = "Mauritanienne"; ObjectID = "BGO-YU-5Y3"; */
+"BGO-YU-5Y3.text" = "Mauritanienne";
+
+/* Class = "UILabel"; text = "Gender"; ObjectID = "BJM-eB-v5B"; */
+"BJM-eB-v5B.text" = "Genre";
+
+/* Class = "UILabel"; text = "Last name"; ObjectID = "C6C-Ag-MGF"; */
+"C6C-Ag-MGF.text" = "Last name";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "DSB-fV-Aqr"; */
+"DSB-fV-Aqr.title" = "Home";
+
+/* Class = "UILabel"; text = "khidmaty"; ObjectID = "FgV-ie-eLb"; */
+"FgV-ie-eLb.text" = "khidmaty";
+
+/* Class = "UILabel"; text = "NNI"; ObjectID = "Fhf-kF-q1b"; */
+"Fhf-kF-q1b.text" = "NNI";
+
+/* Class = "UILabel"; text = "First and middle name"; ObjectID = "GGi-C1-633"; */
+"GGi-C1-633.text" = "First and middle name";
+
+/* Class = "UILabel"; text = "Available Services"; ObjectID = "KUi-Bg-z8N"; */
+"KUi-Bg-z8N.text" = "Available Services";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "LwP-BG-OeG"; */
+"LwP-BG-OeG.text" = "Label";
+
+/* Class = "UILabel"; text = "Mobile phone number"; ObjectID = "T1i-Z8-2Dg"; */
+"T1i-Z8-2Dg.text" = "Mobile phone number";
+
+/* Class = "UILabel"; text = "male"; ObjectID = "UJV-F1-X71"; */
+"UJV-F1-X71.text" = "male";
+
+/* Class = "UILabel"; text = "English"; ObjectID = "UZs-cv-Wo9"; */
+"UZs-cv-Wo9.text" = "English";
+
+/* Class = "UILabel"; text = "Place Of Birth"; ObjectID = "XlD-sB-0me"; */
+"XlD-sB-0me.text" = "Lieu de naissance";
+
+/* Class = "UILabel"; text = "Useful Links"; ObjectID = "Yd6-yD-1m8"; */
+"Yd6-yD-1m8.text" = "Useful Links";
+
+/* Class = "UILabel"; text = "Documents"; ObjectID = "ZMu-yz-mFj"; */
+"ZMu-yz-mFj.text" = "Documents";
+
+/* Class = "UILabel"; text = "+222 36789088"; ObjectID = "bLU-iB-ftu"; */
+"bLU-iB-ftu.text" = "+222 36789088";
+
+/* Class = "UILabel"; text = "Requested Data:"; ObjectID = "bxm-tT-2Ds"; */
+"bxm-tT-2Ds.text" = "Requested Data:";
+
+/* Class = "UITabBarItem"; title = "QR Scanner"; ObjectID = "cmC-j6-5k9"; */
+"cmC-j6-5k9.title" = "QR Scanner";
+
+/* Class = "UILabel"; text = "Login third-party"; ObjectID = "d0d-s2-Yl7"; */
+"d0d-s2-Yl7.text" = "Login third-party";
+
+/* Class = "UILabel"; text = "Date of Expiry"; ObjectID = "ebu-6f-zrF"; */
+"ebu-6f-zrF.text" = "Date d'expiration";
+
+/* Class = "UILabel"; text = "Data recipient:"; ObjectID = "pXt-uE-oXu"; */
+"pXt-uE-oXu.text" = "Data recipient:";
+
+/* Class = "UILabel"; text = "20 Aug 2026"; ObjectID = "qIU-Sk-aIj"; */
+"qIU-Sk-aIj.text" = "20 Aug 2026";
+
+/* Class = "UILabel"; text = "Phone number"; ObjectID = "qP5-Pk-SWY"; */
+"qP5-Pk-SWY.text" = "Numéro de téléphone mobile";
+
+/* Class = "UILabel"; text = "News"; ObjectID = "rva-pc-uuB"; */
+"rva-pc-uuB.text" = "News";
+
+/* Class = "UILabel"; text = "Date of Birth"; ObjectID = "s38-rh-UMf"; */
+"s38-rh-UMf.text" = "Date de naissance";
+
+/* Class = "UILabel"; text = "Nationalite/Nationality"; ObjectID = "wLN-A2-waU"; */
+"wLN-A2-waU.text" = "Nationalité";
+
+/* Class = "UIButton"; configuration.title = "Back"; ObjectID = "zig-18-CuY"; */
+"zig-18-CuY.configuration.title" = "Back";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "zig-18-CuY"; */
+"zig-18-CuY.normalTitle" = "Button";

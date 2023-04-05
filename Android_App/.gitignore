@@ -1,0 +1,13 @@
+*.iml
+*.aar
+.gradle
+/local.properties
+.idea/*
+!.idea/copyright
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+ktlint
+local.properties
+*.license

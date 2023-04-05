@@ -1,0 +1,12 @@
+{
+  "barcodeGenerationParameters": {
+    "blockCols": 8,
+    "blockRows": 6,
+    "errorCorrection": 8,
+    "expirationdate": "2024-01-22T05:43:20Z",
+    "gridSize": 8,
+    "thickness": 2,
+    "title": null
+  }
+
+}

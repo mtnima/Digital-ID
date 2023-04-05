@@ -1,0 +1,6 @@
+framework module ALProgressView {
+  umbrella header "ALProgressView-umbrella.h"
+
+  export *
+  module * { export * }
+}

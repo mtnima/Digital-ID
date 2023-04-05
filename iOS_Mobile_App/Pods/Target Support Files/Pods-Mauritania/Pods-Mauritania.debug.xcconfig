@@ -1,0 +1,15 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/ALProgressView" "${PODS_CONFIGURATION_BUILD_DIR}/ActionSheetPicker-3.0" "${PODS_CONFIGURATION_BUILD_DIR}/Alamofire" "${PODS_CONFIGURATION_BUILD_DIR}/GradientCircularProgress" "${PODS_CONFIGURATION_BUILD_DIR}/MercariQRScanner" "${PODS_CONFIGURATION_BUILD_DIR}/lottie-ios" "${PODS_ROOT}/DocumentReader" "${PODS_ROOT}/DocumentReaderFullRFID" "${PODS_ROOT}/RegulaCommon" "${PODS_XCFRAMEWORKS_BUILD_DIR}/DocumentReader" "${PODS_XCFRAMEWORKS_BUILD_DIR}/DocumentReaderFullRFID" "${PODS_XCFRAMEWORKS_BUILD_DIR}/RegulaCommon"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/ALProgressView/ALProgressView.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Alamofire/Alamofire.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/GradientCircularProgress/GradientCircularProgress.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/MercariQRScanner/MercariQRScanner.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/lottie-ios/Lottie.framework/Headers"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) /usr/lib/swift '@executable_path/Frameworks' '@loader_path/Frameworks'
+LIBRARY_SEARCH_PATHS = $(inherited) "${DT_TOOLCHAIN_DIR}/usr/lib/swift/${PLATFORM_NAME}" /usr/lib/swift
+OTHER_LDFLAGS = $(inherited) -framework "ALProgressView" -framework "ActionSheetPicker_3_0" -framework "Alamofire" -framework "CFNetwork" -framework "CoreGraphics" -framework "DocumentReader" -framework "DocumentReaderCore" -framework "GradientCircularProgress" -framework "Lottie" -framework "MercariQRScanner" -framework "QuartzCore" -framework "RegulaCommon" -framework "UIKit" -weak_framework "CoreNFC"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+PODS_XCFRAMEWORKS_BUILD_DIR = $(PODS_CONFIGURATION_BUILD_DIR)/XCFrameworkIntermediates
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

@@ -1,0 +1,6 @@
+framework module Pods_Mauritania {
+  umbrella header "Pods-Mauritania-umbrella.h"
+
+  export *
+  module * { export * }
+}

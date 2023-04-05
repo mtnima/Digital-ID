@@ -1,0 +1,30 @@
+model_name = "landmarks_f8_linear.mlmodel";
+backend = "coreml";
+inputs_preprocess [
+    [
+        {
+            name = "resize";
+            params {
+                x = 224;
+                y = 224;
+                interpolation = 1;
+            }
+        }
+        {
+            name = "math_op";
+            params {
+                ops [
+                    {
+                        op = "div";
+                        value = 255.0;
+                    }
+                ]
+            }
+        }
+    ]
+]
+landmarks_input_name = "input_1";
+landmarks_x_output_name = "model/lambda/add_1";
+landmarks_y_output_name = "model/lambda_1/add_1";
+landmarks_has_occlusion_output = true;
+landmarks_occlusion_prob_output_name = "model/dense/Sigmoid";

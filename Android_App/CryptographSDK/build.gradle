@@ -1,0 +1,2 @@
+configurations.maybeCreate("default")
+artifacts.add("default", file('T5CryptographClient-release.aar'))

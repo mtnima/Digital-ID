@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/page_margin">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:id="@+id/circle_indicator_frame"
+        android:layout_alignParentTop="true">
+
+        <com.google.android.material.progressindicator.CircularProgressIndicator
+            android:id="@+id/progress_indicator"
+            android:layout_width="@dimen/progress_circle_size"
+            android:layout_height="@dimen/progress_circle_size"
+            android:progress="33"
+            app:indicatorColor="@color/green"
+            app:indicatorSize="@dimen/progress_circle_size"
+            app:trackColor="#ccc" />
+
+        <TextView
+            android:id="@+id/progress_indicator_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="1 of 3" />
+
+    </FrameLayout>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/page_margin"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/circle_indicator_frame"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/progress_layout_heading"
+            android:layout_width="wrap_content"
+            android:text="@string/verify_the_scanned_data"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/progress_layout_desc"
+            android:layout_width="wrap_content"
+            android:text="@string/next_transfer_data"
+            android:textSize="12sp"
+            android:layout_height="wrap_content"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</RelativeLayout>

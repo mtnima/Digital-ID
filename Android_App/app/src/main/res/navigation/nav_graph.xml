@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splash_fragment">
+
+
+    <fragment
+        android:id="@+id/splash_fragment"
+        android:name="com.digitalid.mauritania.ui.SplashFragment"
+        android:label="fragment_blank"
+        tools:layout="@layout/splash_fragment">
+
+
+        <action
+            android:id="@+id/action_splash_fragment_to_sendMoneyGraph"
+            app:destination="@id/loginGraph"
+            app:popUpTo="@+id/splash_fragment"
+            app:popUpToInclusive="true" />
+
+        <action
+            android:id="@+id/action_splash_fragment_to_intro_fragment"
+            app:destination="@id/intro_fragment"
+            app:popUpTo="@+id/splash_fragment"
+            app:popUpToInclusive="true" />
+
+
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/intro_fragment"
+        android:name="com.digitalid.mauritania.ui.IntroViewPagerFragment"
+        android:label="intro_fragment"
+        tools:layout="@layout/intro_view_pager_fragment">
+        <action
+            android:id="@+id/action_intro_fragment_to_demographics_verify_fragment"
+            app:destination="@id/demographics_verify_fragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/demographics_verify_fragment"
+        android:name="com.digitalid.mauritania.ui.DemographicsVerifyFragment"
+        android:label="demographics_verify_fragment"
+        tools:layout="@layout/verify_demographics_screen">
+        <action
+            android:id="@+id/action_demographics_verify_fragment_to_nfc_fragemnt"
+            app:destination="@id/nfc_fragemnt" />
+        <action
+            android:id="@+id/action_demographics_verify_fragment_to_faceCaptureFragment"
+            app:destination="@id/faceCaptureFragment" />
+        <action
+            android:id="@+id/action_demographics_verify_fragment_to_intro_fragment"
+            app:popUpTo="@+id/intro_fragment"
+            app:destination="@id/intro_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nfc_fragemnt"
+        android:name="com.digitalid.mauritania.ui.NFCFragemnt"
+        android:label="nfc_fragemnt"
+        tools:layout="@layout/start_nfc_screen">
+        <action
+            android:id="@+id/action_nfc_fragemnt_to_nfc_success_fragemnt"
+            app:destination="@id/nfc_success_fragemnt" />
+        <action
+            android:id="@+id/action_nfc_fragemnt_to_intro_fragment"
+            app:popUpTo="@+id/intro_fragment"
+            app:destination="@id/intro_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nfc_success_fragemnt"
+        android:name="com.digitalid.mauritania.ui.NFCSuccessFragemnt"
+        android:label="nfc_success_fragemnt"
+        tools:layout="@layout/nfc_success_screen">
+        <action
+            android:id="@+id/action_nfc_success_fragemnt_to_faceCaptureFragment"
+            app:destination="@id/faceCaptureFragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/faceCaptureFragment"
+        android:name="com.digitalid.mauritania.ui.FaceCaptureFragment"
+        android:label="fragment_face_capture"
+        tools:layout="@layout/face_capture_fragment">
+        <action
+            android:id="@+id/action_faceCaptureFragment_to_faceMatchingFragment"
+            app:destination="@id/faceMatchingFragment"
+            app:popUpTo="@+id/faceCaptureFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/faceMatchingFragment"
+        android:name="com.digitalid.mauritania.ui.FaceMatchingFragment"
+        android:label="fragment_face_capture"
+        tools:layout="@layout/face_matching_fragment">
+        <action
+            android:id="@+id/action_faceMatchingFragment_to_faceCaptureFragment"
+            app:destination="@id/faceCaptureFragment"
+            app:popUpTo="@+id/sec"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_faceMatchingFragment_to_sendMoneyGraph"
+            app:destination="@id/loginGraph"
+            app:popUpTo="@+id/intro_fragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+
+    <navigation
+        android:id="@+id/loginGraph"
+        app:startDestination="@id/navigation_home">
+        <fragment
+            android:id="@+id/navigation_scan"
+            android:name="com.digitalid.mauritania.ui.QrScanFragment"
+            android:label="fragment_1"
+            tools:layout="@layout/qr_reader_fragment">
+            <action
+                android:id="@+id/action_navigation_scan_to_blankFragment"
+                app:destination="@id/blankFragment" />
+        </fragment>
+        <fragment
+            android:id="@+id/navigation_home"
+            android:name="com.digitalid.mauritania.ui.HomeFragment"
+            android:label="fragment_2"
+            tools:layout="@layout/home_fragemnt" />
+
+
+
+
+        <fragment
+            android:id="@+id/navigation_settings"
+            android:name="com.digitalid.mauritania.ui.SettingsFragment"
+            android:label="fragment_3"
+            tools:layout="@layout/settings_fragemnt">
+
+
+            <action
+                android:id="@+id/action_settings_to_intro_fragment"
+                app:destination="@id/intro_fragment"
+                app:popUpTo="@+id/navigation_home"
+                app:popUpToInclusive="true" />
+
+
+
+
+        </fragment>
+
+
+
+
+        <fragment
+            android:id="@+id/navigation_third_party_login_openam"
+            android:name="com.digitalid.mauritania.ui.ThirdPartyLoginUsingOpenAM"
+            android:label="ThirdPartyLogin"
+            tools:layout="@layout/third_party_login">
+
+            <action
+                android:id="@+id/action_thirdparty_to_loginGraph"
+                app:destination="@id/loginGraph"
+                app:popUpTo="@+id/loginGraph"
+                app:popUpToInclusive="true" />
+            <action
+                android:id="@+id/action_third_party_to_result"
+                app:destination="@id/navigation_third_party_login_result">
+
+
+            </action>
+
+        </fragment>
+
+
+
+        <fragment
+            android:id="@+id/navigation_third_party_login_keycloak"
+            android:name="com.digitalid.mauritania.ui.ThirdPartyLoginUsingKeyCloak"
+            android:label="ThirdPartyLoginKeyCloak"
+            tools:layout="@layout/third_party_login">
+
+            <action
+                android:id="@+id/action_thirdparty_keycloak_to_loginGraph"
+                app:destination="@id/loginGraph"
+                app:popUpTo="@+id/loginGraph"
+                app:popUpToInclusive="true" />
+            <action
+                android:id="@+id/action_third_party_keycloak_to_result"
+                app:destination="@id/navigation_third_party_login_result">
+
+
+            </action>
+
+        </fragment>
+
+
+        <fragment
+            android:id="@+id/navigation_third_party_login_result"
+            android:name="com.digitalid.mauritania.ui.ThirdPartyLoginResult"
+            android:label="ThirdPartyLoginResult"
+            tools:layout="@layout/third_party_result">
+
+            <action
+                android:id="@+id/action_thirdparty_to_loginGraph"
+                app:destination="@id/loginGraph"
+                app:popUpTo="@+id/loginGraph"
+                app:popUpToInclusive="true" />
+
+        </fragment>
+        <fragment
+            android:id="@+id/blankFragment"
+            android:name="com.digitalid.mauritania.ui.CaptureFaceFragment"
+            android:label="fragment_blank"
+            tools:layout="@layout/crypto_face_matching_fragment">
+
+            <action
+                android:id="@+id/action_fragment4_to_loginGraph"
+                app:destination="@id/loginGraph"
+                app:popUpTo="@+id/loginGraph"
+                app:popUpToInclusive="true" />
+            <action
+                android:id="@+id/action_blankFragment_to_navigation_third_party_login"
+                app:destination="@id/navigation_third_party_login_openam" />
+            <action
+                android:id="@+id/action_blankFragment_to_navigation_third_party_login_keycloak"
+                app:destination="@id/navigation_third_party_login_keycloak" />
+        </fragment>
+
+    </navigation>
+</navigation>

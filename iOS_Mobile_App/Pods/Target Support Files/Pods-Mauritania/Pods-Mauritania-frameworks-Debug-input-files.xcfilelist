@@ -1,0 +1,10 @@
+${PODS_ROOT}/Target Support Files/Pods-Mauritania/Pods-Mauritania-frameworks.sh
+${BUILT_PRODUCTS_DIR}/ALProgressView/ALProgressView.framework
+${BUILT_PRODUCTS_DIR}/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/GradientCircularProgress/GradientCircularProgress.framework
+${BUILT_PRODUCTS_DIR}/MercariQRScanner/MercariQRScanner.framework
+${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/DocumentReader/DocumentReader.framework/DocumentReader
+${PODS_XCFRAMEWORKS_BUILD_DIR}/DocumentReaderFullRFID/DocumentReaderCore.framework/DocumentReaderCore
+${PODS_XCFRAMEWORKS_BUILD_DIR}/RegulaCommon/RegulaCommon.framework/RegulaCommon

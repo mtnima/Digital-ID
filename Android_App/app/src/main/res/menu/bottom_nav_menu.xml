@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_scan"
+        android:icon="@drawable/baseline_qr_code_scanner_24"
+        android:title="@string/label_scan" />
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/home"
+        android:title="@string/label_home" />
+
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/setting_line"
+        android:title="@string/label_settings" />
+
+</menu>

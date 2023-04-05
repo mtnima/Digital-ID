@@ -1,0 +1,15 @@
+*db.dat
+iOS_Mobile_App/Pods/DocumentReaderFullRFID/DocumentReaderCore.xcframework/ios-arm64/DocumentReaderCore.framework/DocumentReaderCore
+iOS_Mobile_App/Pods/DocumentReaderFullRFID/DocumentReaderCore.xcframework/ios-arm64_x86_64-simulator/DocumentReaderCore.framework/DocumentReaderCore
+iOS_Mobile_App/Pods/DocumentReader/DocumentReader.xcframework/ios-arm64/dSYMs/DocumentReader.framework.dSYM/Contents/Resources/DWARF/DocumentReader
+iOS_Mobile_App/Pods/DocumentReaderFullRFID/DocumentReaderCore.xcframework/ios-arm64/DocumentReaderCore.framework/resource.dat
+iOS_Mobile_App/Pods/DocumentReaderFullRFID/DocumentReaderCore.xcframework/ios-arm64/dSYMs/DocumentReaderCore.framework.dSYM/Contents/Resources/DWARF/DocumentReaderCore
+iOS_Mobile_App/Pods/DocumentReaderFullRFID/DocumentReaderCore.xcframework/ios-arm64_x86_64-simulator/DocumentReaderCore.framework/DocumentReaderCore
+iOS_Mobile_App/Pods/DocumentReaderFullRFID/DocumentReaderCore.xcframework/ios-arm64_x86_64-simulator/DocumentReaderCore.framework/resource.dat
+iOS_Mobile_App/Pods/DocumentReaderFullRFID/DocumentReaderCore.xcframework/ios-arm64_x86_64-simulator/dSYMs/DocumentReaderCore.framework.dSYM/Contents/Resources/DWARF/DocumentReaderCore
+iOS_Mobile_App/Pods/DocumentReader/DocumentReader.xcframework/ios-arm64_x86_64-simulator/dSYMs/DocumentReader.framework.dSYM/Contents/Resources/DWARF/DocumentReader
+iOS_Mobile_App/Pods/DocumentReader/DocumentReader.xcframework/ios-arm64_x86_64-simulator/DocumentReader.framework/DocumentReader
+
+
+
+

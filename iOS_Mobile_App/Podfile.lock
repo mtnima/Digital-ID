@@ -1,0 +1,56 @@
+PODS:
+  - ActionSheetPicker-3.0 (2.7.1)
+  - Alamofire (5.6.4)
+  - ALProgressView (2.0.0)
+  - DocumentReader (6.6.2753):
+    - RegulaCommon (= 6.6.203)
+  - DocumentReaderFullRFID (6.6.6999)
+  - GradientCircularProgress (3.13.0)
+  - lottie-ios (4.1.2)
+  - MercariQRScanner (1.9.0)
+  - RegulaCommon (6.6.203)
+
+DEPENDENCIES:
+  - ActionSheetPicker-3.0
+  - Alamofire
+  - ALProgressView
+  - DocumentReader
+  - DocumentReaderFullRFID
+  - GradientCircularProgress (from `https://github.com/keygx/GradientCircularProgress`)
+  - lottie-ios
+  - MercariQRScanner
+
+SPEC REPOS:
+  trunk:
+    - ActionSheetPicker-3.0
+    - Alamofire
+    - ALProgressView
+    - DocumentReader
+    - DocumentReaderFullRFID
+    - lottie-ios
+    - MercariQRScanner
+    - RegulaCommon
+
+EXTERNAL SOURCES:
+  GradientCircularProgress:
+    :git: https://github.com/keygx/GradientCircularProgress
+
+CHECKOUT OPTIONS:
+  GradientCircularProgress:
+    :commit: 9e2dc60d335ee6eb3677bfd9f965f0ade3607f4c
+    :git: https://github.com/keygx/GradientCircularProgress
+
+SPEC CHECKSUMS:
+  ActionSheetPicker-3.0: 36da254b97a09ff89679ecb8b8510bd3e5bdc773
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  ALProgressView: 547883405970e932d8f1f12b605aa4f6df08f155
+  DocumentReader: 1162aaa43f028fb63a9c50a197b4d7cebd99d404
+  DocumentReaderFullRFID: 6492cc41fcf3f703684db6411de33e35bdcc92d8
+  GradientCircularProgress: f5a04b862adc1fbafbd21c0ff450ed7d74d1926e
+  lottie-ios: b3846a9fa8ca1a1a3bebfa256ebe8b6fd4aaaaad
+  MercariQRScanner: e5aea873969af59b09b4cc411fc1c5b6293dba44
+  RegulaCommon: 5a2b9c9c24f45451532ee074e52a1450e328bd38
+
+PODFILE CHECKSUM: 55fff4fae51a1b5b32b6fb5c0d16ff53b001094a
+
+COCOAPODS: 1.11.3

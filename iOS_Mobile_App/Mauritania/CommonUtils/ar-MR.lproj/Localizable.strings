@@ -1,0 +1,153 @@
+/*
+ 
+ Localizable.strings
+ PFCM
+ 
+ Created by IOS on 29/08/21.
+ 
+ */
+
+"camera_close_message" = "Move face closer to camera";
+
+"camera_far_message" = "Move face far from camera";
+
+//"camera_up_message" = "Move camera vertically up towards face";
+
+//"camera_down_message" = "Move camera vertically down towards face";
+
+//"centre_face_message" = "Please center your face";
+
+"open_eyes_message" = "Open your eyes and look straight";
+
+"multiple_faces_detected" = "Multiple faces detected";
+
+"detection_failed_message" = "Face Detection failed";
+
+"no_faces_detected_message" = "No Faces Detected";
+
+"look_straight_message" = "Look Straight";
+
+"mask_detected_message" =  "Mask Detected";
+
+"sunglasses_detected_message" = "Sunglasses Detected";
+
+"eyes_closed_message" = "Eyes Closed/Covered";
+
+//"hold_still_message" = "Hold Still";
+
+"spoof_detected_message" = "Spoof Detected";
+
+//"ok" = "Hold still and capture";
+
+"please_wait" = "Please wait...";
+
+"centre_face_and_hold_still" = "Centre your face & Hold Still";
+
+
+"SKIP" = "Ignorer";
+"WELCOME" = "Bienvenue";
+"CONTINUE" = "Continuez";
+
+"WELCOME_NOTE" = "e-ID Mauritanie vous permet de vous connecter aux services e-Gouvernementaux de façon sécurisée et sans mot de passe.";
+
+"TUTORIAL" = "Tutoriel";
+"TUTORIAL_NOTE" = "Suivez les étapes afin de comprendre comment paramétrer et utiliser l'e-ID Mauritanie.";
+
+"TUTORIAL_1" = "Tutoriel (1/2) : Vérification d'Identité";
+"TUTORIAL_NOTE_1" = "Afin de pouvoir utiliser votre e-ID Mauritanie, vous devez d'abord vérifier votre identité. Vous serez guidé pas-à-pas.";
+
+"TUTORIAL_2" = "Tutoriel (2/2) : Connexion sécurisée";
+"TUTORIAL_NOTE_2" = "Votre e-ID Mauritanie vous permet de vous connecter aux services e-Gouvernementaux de manière sécurisée et sans mot de passe. Vous devez simplement scanner le QR-code sur la page de connexion avec votre e-ID.";
+
+"START_VERIFY_IDENTITY_" = "Demarrez la vérification d'identité" ;
+"START_VERIFY_IDENTITY_NOTE" = "Pour la vérification d'identité, merci de vous munir de votre carte d'identité mauritanienne (délivrée après Juin 2022) ou à défaut votre passeport et activer le mode NFC sur votre téléphone mobile." ;
+
+"GET_STARTED" = "Commençons";
+
+"IDENTITY_TITLE" = "Vérification d'identité";
+"VERIFY_SCANNED_DATA" = "Vérification des données scannées";
+"NEXT_1" = "Suivant: Transfert des données";
+"IS_DATA_CORRECT" = "Est-ce que les données sont correctes ?";
+"IS_DATA_CORRECT_NOTE" = "Appuyez sur \"Suivant\" si les données sont identiques à celles de votre document d'identité ou de votre passeport. Appuyez sur \"Retour\" dans le cas contraire.";
+"NNI" = "Numéro National d'Identité";
+"BIRTH_DATE" = "Date de naissance";
+"EXPIRY_DATE" = "Date d'expiration";
+
+"BACK" = "Retour";
+"NEXT" = "Next";
+
+"TRANSFER_DATA" = "Transfert des données";
+"NEXT_2" = "Suivant: Comparaison de portrait";
+"START_DATA_TRANSFER" = "Démarrage du transfert des données";
+"STEP_NOTE" = "Pour démarrer la lecture des données de la puce de votre document d'identité, veuillez suivre les étapes suivantes:";
+"STEP_1" = "Activer le mode \"NFC\" sur votre smartphone";
+"STEP_2" = "Placer le dos de votre smartphone sur le document d'identité ou le passeport";
+"STEP_3" = "Déplacer le document jusqu'à ce que le smartphone vibre";
+"STEP_4" = "Veuillez ne pas bouger le document pendant toute la durée de transfert des informations";
+"TRANSFER_PROGRESS" = "Placez votre document d'identité contre le smartphone pour démarrer la lecture";
+"SUCCESS" = "Succès";
+"SUCCESS_NOTE" = "Vos informartions personnelles ont été extraites à partir de votre document d'identité avec succès.";
+
+"FACE_MATCH" = "Comparaison de portrait";
+"VERIFY_STEP" = "Vérifie qu'il s'agit bien de vous";
+"VERIFY_STEP_NOTE" = "Nous allons maintenant comparer les données de votre document d'identité à vos données";
+"VERIFY_STEP_1" = "Si vous portez des lunettes, assurez vous que vos yeux sont clairement visibles";
+"VERIFY_STEP_2" = "Choissisez un endroit suffisamment éclairé. Evitez toute ombre sur votre visage";
+"VERIFY_STEP_3" = "Gardez une expression de visage neutre";
+"VERIFY_STEP_4" = "Ne portez pas de lunettes de soleil";
+"VERIFY_STEP_5" = "Ne portez pas de chapeau";
+"START_VERIFICATION" = "Démarrer la vérification";
+
+"NEXT_3" = "Suivant: Utilisez votre e-ID Mauritanie";
+"FACE_SUCCSS" = "Correspondance réussie!";
+"FACE_SUCCESS_NOTE" = "Vous avez passé les étapes de vérification avec succès. Vous pouvez maintenant utiliser votre e-ID Mauritanie..";
+"FACE_FAILUR" = "Echec de la vérification du portrait!";
+"FACE_FAILUR_NOTE" = "Echec de la vérification du portrait.";
+"START_VERIFICATION_AGAIN" = "Recommencez la vérification";
+"CLOSE" = "Fermez";
+
+"VERIFIED_IDENTITY" = "Identité vérifiée";
+"BIRTH_PLACE" = "Lieu de naissance";
+"GENDER" = "Genre";
+"PHONE_NUMBER" = "Numéro de téléphone";
+"ISSUE_DATE" = "Date d'émission";
+"NATIONALITY" = "Nationalité";
+"AVAILABLE_SERVICE " = "Services disponibles ";
+"NEWS" = "Actualités";
+"LINKS" = "Liens utiles";
+"DOCUMENT" = "Documents";
+
+"SCANNER" = "Scanner de QR";
+"HOME" = "Page d'accueil";
+"SETTING" = "Paramètres";
+
+
+"RECIEPIENT_DATA" = "Destinataire des données :";
+"KHIDMATY" = "khidmaty";
+"LAST_NAME" = "Nom de famille";
+"FIRST_NAME" = "Prénoms";
+"MOBILE_NUMBER" = "Numéro de téléphone mobile";
+
+"THIRD_PARTY_LOGIN" = "Login third-party";
+"LOGIN_SUCCESS" = "Connexion réussie!";
+"LOGIN_SUCCESS_NOTE" = "Vous vous êtes authentifié avec succès sur l'application tierce.";
+
+"LOGIN_ERROR" = "Erreur de connexion !";
+"LOGIN_ERROR_NOTE" = "Votre tentative de connexion a échoué. Merci de vérifier auprès de l'application tierce que vous êtes authorisé à vous y connecter.";
+
+"GENERAL" = "Général";
+"LANGUAGE" = "Langue";
+"CONTACT_US" = "Nous contacter";
+
+"SECURITY" = "Sécurité";
+"CHANGE_PIN" = "Changer le code PIN";
+"PRIVACY_POLICY" = "Politique de Confidentialité";
+"NOT_MENTION" = "Not Mention";
+
+"WENT_WRONG" = "Something Went Wrong!";
+"INTIALIZED" = "Initialisation réussie" ;
+"CREATING_CRYPTO" = "Matching Face, Creating Cryptograph";
+"RESTART" = "Something went wrong with Facetemplate, Please restart your application";
+"TOKEN_REGISTER" = "Token Authenticated, Registring...";
+"TOKEN_AUTHENTICATION" = "Token Created, Authenticating Token";
+"TOKEN_CREATION" = "Creating Token";

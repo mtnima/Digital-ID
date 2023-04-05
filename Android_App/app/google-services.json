@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "166628223530",
+    "project_id": "mauritaniaeid",
+    "storage_bucket": "mauritaniaeid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166628223530:android:4f5f203adf9b0f97057153",
+        "android_client_info": {
+          "package_name": "com.tech5.mauritania"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "166628223530-se01t2fo12d32gf9dvks8t558s2pkimt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIqitv7A_FF47NlwYEGAAAbRo5ypAnobU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "166628223530-se01t2fo12d32gf9dvks8t558s2pkimt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

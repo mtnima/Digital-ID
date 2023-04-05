@@ -1,0 +1,132 @@
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "0QM-cs-Vh2"; */
+"0QM-cs-Vh2.title" = "Item";
+
+/* Class = "UILabel"; text = "e-ID Mauritanie"; ObjectID = "1Wr-KX-YII"; */
+"1Wr-KX-YII.text" = "e-ID Mauritanie";
+
+/* Class = "UIButton"; configuration.title = "Skip"; ObjectID = "2Pc-L3-bZO"; */
+"2Pc-L3-bZO.configuration.title" = "Skip";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "2Pc-L3-bZO"; */
+"2Pc-L3-bZO.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Continue"; ObjectID = "3x7-kc-ykm"; */
+"3x7-kc-ykm.configuration.title" = "Continue";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "3x7-kc-ykm"; */
+"3x7-kc-ykm.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "الجمهورية اإلسالمية الموريتانية"; ObjectID = "7g6-Mh-Kwo"; */
+"7g6-Mh-Kwo.text" = "الجمهورية اإلسالمية الموريتانية";
+
+/* Class = "UILabel"; text = "Verify the scanned data"; ObjectID = "7yj-RO-HlD"; */
+"7yj-RO-HlD.text" = "Verify the scanned data";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "8RI-xT-eiw"; */
+"8RI-xT-eiw.text" = "Label";
+
+/* Class = "UILabel"; text = "Face - match success!"; ObjectID = "AXr-cR-tbP"; */
+"AXr-cR-tbP.text" = "Face - match success!";
+
+/* Class = "UIButton"; configuration.title = "Continuer"; ObjectID = "Al3-Ox-dYu"; */
+"Al3-Ox-dYu.configuration.title" = "Continuer";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Al3-Ox-dYu"; */
+"Al3-Ox-dYu.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "If you wear eye glasses, make sure your eyes are clearly visible"; ObjectID = "BQN-ZI-Jw5"; */
+"BQN-ZI-Jw5.text" = "If you wear eye glasses, make sure your eyes are clearly visible";
+
+/* Class = "UILabel"; text = "Is the scanned data correct?"; ObjectID = "DPo-Io-OMD"; */
+"DPo-Io-OMD.text" = "Is the scanned data correct?";
+
+/* Class = "UILabel"; text = "Vérifier la qualité"; ObjectID = "K8V-4e-LHP"; */
+"K8V-4e-LHP.text" = "Vérifier la qualité";
+
+/* Class = "UIButton"; configuration.title = "Next"; ObjectID = "KRs-X6-TIE"; */
+"KRs-X6-TIE.configuration.title" = "Next";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "KRs-X6-TIE"; */
+"KRs-X6-TIE.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Verification d’identite"; ObjectID = "M60-wv-CiQ"; */
+"M60-wv-CiQ.text" = "Verification d’identite";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "NRz-Rb-hLA"; */
+"NRz-Rb-hLA.text" = "Label";
+
+/* Class = "UILabel"; text = "République islamique de Mauritanie"; ObjectID = "Pxu-AZ-CN6"; */
+"Pxu-AZ-CN6.text" = "République islamique de Mauritanie";
+
+/* Class = "UILabel"; text = "You have successfully passed the face-match and liveness-check. Your Mauritania e-ID is ready to use."; ObjectID = "Qd9-WN-oLd"; */
+"Qd9-WN-oLd.text" = "You have successfully passed the face-match and liveness-check. Your Mauritania e-ID is ready to use.";
+
+/* Class = "UIButton"; configuration.title = "Back"; ObjectID = "QoW-m6-uDL"; */
+"QoW-m6-uDL.configuration.title" = "Back";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "QoW-m6-uDL"; */
+"QoW-m6-uDL.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "e-ID Mauritanie"; ObjectID = "T0e-2i-qRS"; */
+"T0e-2i-qRS.text" = "e-ID Mauritanie";
+
+/* Class = "UILabel"; text = "123456789"; ObjectID = "Tcz-QQ-CHa"; */
+"Tcz-QQ-CHa.text" = "123456789";
+
+/* Class = "UILabel"; text = "Start Identity Verification"; ObjectID = "Vhk-Kv-h2d"; */
+"Vhk-Kv-h2d.text" = "Start Identity Verification";
+
+/* Class = "UIButton"; configuration.title = "Skip"; ObjectID = "YEb-sL-xJc"; */
+"YEb-sL-xJc.configuration.title" = "Skip";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "YEb-sL-xJc"; */
+"YEb-sL-xJc.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Next: Face-match"; ObjectID = "bG6-df-eoP"; */
+"bG6-df-eoP.text" = "Next: Face-match";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "e3L-vD-W7z"; */
+"e3L-vD-W7z.text" = "Label";
+
+/* Class = "UILabel"; text = "Next: Face-match"; ObjectID = "g41-xY-wTz"; */
+"g41-xY-wTz.text" = "Next: Face-match";
+
+/* Class = "UILabel"; text = "Welcome"; ObjectID = "g5A-Ne-PUZ"; */
+"g5A-Ne-PUZ.text" = "Welcome";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "hZK-la-0xP"; */
+"hZK-la-0xP.text" = "1";
+
+/* Class = "UIButton"; configuration.title = "Continuer"; ObjectID = "heh-nk-4uq"; */
+"heh-nk-4uq.configuration.title" = "Continuer";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "heh-nk-4uq"; */
+"heh-nk-4uq.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Verification d’identite"; ObjectID = "hhH-WZ-1Nk"; */
+"hhH-WZ-1Nk.text" = "Verification d’identite";
+
+/* Class = "UILabel"; text = "Push “Next”, if the data below is the same as in your passport or ID card. Push “Back” if this is not the case."; ObjectID = "hmd-mm-6Wx"; */
+"hmd-mm-6Wx.text" = "Push “Next”, if the data below is the same as in your passport or ID card. Push “Back” if this is not the case.";
+
+/* Class = "UILabel"; text = "We now need to match the data from the ID card or passport with you"; ObjectID = "jj4-C1-Bwb"; */
+"jj4-C1-Bwb.text" = "We now need to match the data from the ID card or passport with you";
+
+/* Class = "UILabel"; text = "For the identity verification, please have your Mauritanian ID card (issued after June 2022) or passport ready and turn on “NFC” connectivity on your smartphone."; ObjectID = "lFn-dc-aVm"; */
+"lFn-dc-aVm.text" = "For the identity verification, please have your Mauritanian ID card (issued after June 2022) or passport ready and turn on “NFC” connectivity on your smartphone.";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "lZG-4F-nFA"; */
+"lZG-4F-nFA.text" = "Label";
+
+/* Class = "UILabel"; text = "Verify that is you"; ObjectID = "qgn-4y-QbX"; */
+"qgn-4y-QbX.text" = "Verify that is you";
+
+/* Class = "UILabel"; text = "Verify the scanned data"; ObjectID = "rku-VO-Zrr"; */
+"rku-VO-Zrr.text" = "Verify the scanned data";
+
+/* Class = "UIButton"; configuration.title = "Scan Your Face"; ObjectID = "vnw-R4-DhH"; */
+"vnw-R4-DhH.configuration.title" = "Scan Your Face";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "vnw-R4-DhH"; */
+"vnw-R4-DhH.normalTitle" = "Button";

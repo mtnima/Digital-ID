@@ -1,0 +1,168 @@
+ image: openjdk:8
+
+ definitions:
+   steps:
+
+     - step: &BuildAndPushVersion
+
+         name: Build Image Push to ECR
+
+         services:
+
+           - docker
+
+         script:
+           - export IMAGE_NAME=keycloak
+           - docker build -t $IMAGE_NAME .
+          
+           - pipe: atlassian/aws-ecr-push-image:2.0.0
+
+             variables:
+
+                 AWS_ACCESS_KEY_ID: ${AWS_ACCESS_KEY}
+
+                 AWS_SECRET_ACCESS_KEY: ${AWS_SECRET_KEY}
+
+                 AWS_DEFAULT_REGION: ${AWS_DEFAULT_REGION}
+
+                 IMAGE_NAME: ${IMAGE_NAME}
+
+                 TAGS: '${BITBUCKET_TAG} latest'
+
+               
+
+ pipelines:
+
+       branches:
+
+         staging:     
+
+           - step: *BuildAndPushVersion
+
+ 
+
+         
+
+        # - step:
+
+        #     name: create new file
+
+        #     script:
+
+        #       - export IMAGE_TAG=$(date +"%Y%m%d%H%M%S")-${BITBUCKET_COMMIT:0:7}
+
+        #       - export BRANCH_NAME="staging"
+
+         #      - export FILE_PATH="data/deployment.yaml"
+
+          #     - export COMMIT_MSG="Create new file via API"
+
+          #     - export CONTENT="$(sed 's/GENERATED_TAG/'"$IMAGE_TAG"'/' kubes-docs/deployment.yaml)"
+
+           #    - export BASE64_CONTENT=$(echo $CONTENT | base64)
+
+            #   - curl -X PUT -H "Content-Type:application/json" -H "Authorization:Basic $(echo -n $BITBUCKET_GIT_HTTP_ORIGIN_USERNAME:$BITBUCKET_GIT_HTTP_ORIGIN_PASSWORD | base64)" -d "{\"branch\":\"$BRANCH_NAME\", \"message\":\"$COMMIT_MSG\", \"author\":{\"name\":\"$BITBUCKET_GIT_HTTP_ORIGIN_USERNAME\", \"email\":\"$BITBUCKET_GIT_HTTP_ORIGIN_EMAIL\"}, \"parents\":[\"$BITBUCKET_COMMIT\"], \"content\":\"$BASE64_CONTENT\"}" "https://api.bitbucket.org/2.0/repositories/$BITBUCKET_REPO_FULL_NAME/"
+
+ #    - step:
+
+ #        name: Run Tests
+
+ #        caches:
+
+ #          - maven
+
+ #        script:
+
+ #          - chmod +x mvnw
+
+ #          - ./mvnw test
+
+ #            -Dhttps.protocols=TLSv1.2
+
+ #            -Dmaven.repo.local=$CI_PROJECT_DIR/.m2/repository
+
+ #            -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=WARN
+
+ #            -Dorg.slf4j.simpleLogger.showDateTime=true
+
+ #            -Djava.awt.headless=true
+
+ #            --batch-mode --errors --fail-at-end --show-version -DinstallAtEnd=true -DdeployAtEnd=true
+
+ #    - step:
+
+ #        name: Code Quality
+
+ #        caches:
+
+ #          - maven
+
+ #        script:
+
+ #          - mkdir codequality-results
+
+ #          - docker run
+
+ #            --env CODECLIMATE_CODE="$PWD"
+
+ #            --volume "$PWD":/code
+
+ #            --volume /var/run/docker.sock:/var/run/docker.sock
+
+ #            --volume /tmp/cc:/tmp/cc
+
+ #            codeclimate/codeclimate analyze -f html > ./codequality-results/index.html
+
+ #    - step:
+
+ #        name:  Build
+
+ #        image: maven:3-jdk-11
+
+ #        caches:
+
+ #          - maven
+
+ #        script:
+
+ #          - "mvn package -X"
+
+ #        artifacts:
+
+ #          - target/*.jar
+
+ #    - step:
+
+ #        name: Build Docker Image
+
+ #        image: atlassian/pipelines-awscli
+
+ #        script:
+
+ #          - echo $(aws ecr get-login --no-include-email --region us-east-1)  > login.sh
+
+ #          - aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 174391158959.dkr.ecr.us-east-1.amazonaws.com
+
+ #
+
+ #          - sh login.sh
+
+ #
+
+ #          - docker build -t $DOCKER_IMAGE_NAME:${BITBUCKET_COMMIT} .
+
+ #
+
+ #          - docker tag $DOCKER_IMAGE_NAME:${BITBUCKET_COMMIT} $DOCKER_ECR_REPO_URL/$DOCKER_IMAGE_NAME:${BITBUCKET_COMMIT}
+
+ #
+
+ #         - docker push $DOCKER_ECR_REPO_URL/$DOCKER_IMAGE_NAME:${BITBUCKET_COMMIT}
+
+ 
+
+ 
+
+ options:
+
+   docker: true

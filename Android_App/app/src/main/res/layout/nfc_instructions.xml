@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/page_margin"
+        android:orientation="vertical">
+
+
+        <FrameLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center_horizontal">
+
+            <com.google.android.material.progressindicator.CircularProgressIndicator
+
+                android:layout_width="@dimen/nfc_instructions_progress_circle_size"
+                android:layout_height="@dimen/nfc_instructions_progress_circle_size"
+                android:progress="100"
+                app:indicatorColor="@color/green"
+                app:indicatorSize="@dimen/nfc_instructions_progress_circle_size"
+                app:trackColor="#ccc" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="1" />
+
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/page_margin"
+            android:gravity="center_horizontal"
+            android:text="@string/nfc_instruction_turn_on_nfc" />
+
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center_horizontal">
+
+            <com.google.android.material.progressindicator.CircularProgressIndicator
+
+                android:layout_width="@dimen/nfc_instructions_progress_circle_size"
+                android:layout_height="@dimen/nfc_instructions_progress_circle_size"
+                android:progress="100"
+                app:indicatorColor="@color/green"
+                app:indicatorSize="@dimen/nfc_instructions_progress_circle_size"
+                app:trackColor="#ccc" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="2" />
+
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/page_margin"
+            android:gravity="center_horizontal"
+            android:text="@string/nfc_instruction_place_id_card" />
+
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center_horizontal">
+
+            <com.google.android.material.progressindicator.CircularProgressIndicator
+
+                android:layout_width="@dimen/nfc_instructions_progress_circle_size"
+                android:layout_height="@dimen/nfc_instructions_progress_circle_size"
+                android:progress="100"
+                app:indicatorColor="@color/green"
+                app:indicatorSize="@dimen/nfc_instructions_progress_circle_size"
+                app:trackColor="#ccc" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="3" />
+
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/page_margin"
+            android:gravity="center_horizontal"
+            android:text="@string/nfc_instruction_hold_still" />
+
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center_horizontal">
+
+            <com.google.android.material.progressindicator.CircularProgressIndicator
+                android:layout_width="@dimen/nfc_instructions_progress_circle_size"
+                android:layout_height="@dimen/nfc_instructions_progress_circle_size"
+                android:progress="100"
+                app:indicatorColor="@color/green"
+                app:indicatorSize="@dimen/nfc_instructions_progress_circle_size"
+                app:trackColor="#ccc" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="4" />
+
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/page_margin"
+            android:gravity="center_horizontal"
+            android:text="@string/nfc_instruction_move_passport" />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,227 @@
+<resources>
+    <string name="app_name">@string/eid_mauritanie</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+
+    <string name="eid_mauritanie">Mauritania e-ID</string>
+
+
+    <string name="welcome_to_eid_app">Welcome to your e-ID application</string>
+    <string name="label_digital_identity_app">Digital Identity Application</string>
+
+    <string name="label_continue">Continue</string>
+
+    <string name="label_identity_verification">Identity Verification</string>
+
+
+    <string name="face_capture_instruction_glasses">If you wear eye glasses, make sure your eyes are clearly visible</string>
+    <string name="face_capture_instruction_lighting">Choose a place with sufficient light</string>
+    <string name="face_capture_instruction_expression">Keep a neutral face expression</string>
+    <string name="face_capture_instruction_sunglasses">Do not wear sunglasses</string>
+    <string name="face_capture_instruction_hat">Do not wear any hat</string>
+
+
+    <string name="label_verify_quality">Verify the quality</string>
+    <string name="image_validated">Your image is successfully validated</string>
+    <string name="face_match_success">Face-match success !</string>
+    <string name="face_verification_failed">Face-match not successful !</string>
+    <string name="label_connect">Connect</string>
+
+
+    <string name="label_scan_face">Scan your face </string>
+
+    <string name="label_scan">Scan</string>
+    <string name="label_home">Home</string>
+    <string name="label_settings">Settings</string>
+
+    <string name="label_available_services">Available Services</string>
+
+    <string name="label_news">News</string>
+    <string name="label_useful_links">Useful Links</string>
+    <string name="label_documents">Documents</string>
+    <string name="label_skip">Skip</string>
+
+    <string name="lets_get_started">Let\'s Get Started</string>
+    <string name="start_identity_verification">Start Identity Verification</string>
+
+
+    <string name="demographics_verify_screen_subheading">Is the scanned  data correct?</string>
+    <string name="demographics_verify_screen_description">Push "Next",if the data below is the same as in your passport or ID card.Push "Back" if this is not the case.  </string>
+
+    <string name="label_back">Back</string>
+    <string name="label_next">Next</string>
+    <string name="label_recapture">Recapture</string>
+
+    <string name="label_nnn">NNI</string>
+    <string name="label_first_name">First name</string>
+    <string name="label_last_name">Last name</string>
+    <string name="label_dob">Date of birth</string>
+    <string name="label_expiry">Date of expiry</string>
+
+
+    <string name="nfc_instruction_turn_on_nfc">Turn on "NFC" on your smartphone</string>
+    <string name="nfc_instruction_place_id_card">Place the back of your smartphone the ID card or passport</string>
+    <string name="nfc_instruction_move_passport">Move your passport until the phone vibrates</string>
+    <string name="nfc_instruction_hold_still">Hold still while data is being transferred</string>
+
+    <string name="success">Success</string>
+    <string name="data_readed_from_chip">Your identity data has been successfully read out from the chip.</string>
+
+    <string name="start_verification">Start verification</string>
+
+    <string name="label_transfer_data">Transfer data</string>
+    <string name="label_next_face_match">Next : Face-match</string>
+    <string name="start_data_transfer">Start data transfer</string>
+    <string name="label_nfc_steps_to_follow">To start reading the chip data of your identify card , please follow these steps :</string>
+
+    <string name="label_face_match">Face match</string>
+    <string name="start_using_eid">Next : Start using your e-ID Mauritania</string>
+    <string name="label_verify">Verify that it is you</string>
+    <string name="match_data_from_id">We now need to match the data from the ID card or passport with you</string>
+    <string name="match_data_from_eid">We now need to match the data from the eID  with you</string>
+
+    <string name="choose_language">Choose Language</string>
+    <string name="label_cancel">Cancel</string>
+    <string name="label_general">General</string>
+    <string name="label_language">Language</string>
+    <string name="label_contact_us">Contact us</string>
+    <string name="label_security">Security</string>
+    <string name="label_change_pin">Change Pin</string>
+    <string name="label_privacy_policy">Privacy Policy</string>
+    <string name="label_logout">Delete e-ID</string>
+    <string name="label_verifed_identity">Verified Identity</string>
+    <string name="label_pob">Place of birth</string>
+    <string name="nationality">Nationality</string>
+    <string name="gender">Gender</string>
+    <string name="phone_number">Phone number</string>
+    <string name="label_date_of_issue">Date of issue</string>
+
+    <string name="verify_the_scanned_data">Verify the scanned data</string>
+    <string name="next_transfer_data">Next : Transfer Data</string>
+    <string name="login_third_party">Login third-party</string>
+    <string name="data_recipient">Data Recipient:</string>
+    <string name="khidmaty">Khidmaty</string>
+    <string name="requested_data">Requested Data:</string>
+    <string name="mobile_phone_number">Mobile phone number</string>
+    <string name="first_and_middlename">First and middlename</string>
+    <string name="lable_liveness_failed_3_times">Liveness Failed more than 3 times</string>
+    <string name="liveness_failed">Face Liveness Failed</string>
+    <string name="face_capture_failed">Face Capture Failed</string>
+    <string name="face_capture_cancelled">Face Capture Cancelled</string>
+    <string name="face_capture_timedout">Face Capture timedout</string>
+    <string name="eid_created">Mauritania e-ID created\!</string>
+    <string name="signature_validated">Signature Validated\!</string>
+    <string name="eid_ready_to_use">You have successfully passed the face-match and liveness-check. Your Mauritania e-ID is ready to use.</string>
+
+    <string name="registartion_failed">"User registration failed"</string>
+    <string name="scanning_cancelled">Scanning was cancelled</string>
+    <string name="unable_to_extract_face">Unable to extract Face Image</string>
+    <string name="unable_to_extract_demographics">Unable to extract Demographics</string>
+    <string name="nfc_cancelled">NFC reading was cancelled</string>
+    <string name="nfc_failed">NFC read Failed</string>
+    <string name="extaract_facenfc_failed">Extract Face Image from NFC Failed</string>
+    <string name="language_french">French</string>
+    <string name="language_english">English</string>
+    <string name="init_sdk_failed">Init SDK failed. Restart App</string>
+    <string name="validating_eid">Validating eID</string>
+    <string name="signature_verification_failed">Signature verification failed</string>
+    <string name="retrieving_template">Retrieving template</string>
+    <string name="matching_faces">Matching Faces</string>
+    <string name="creating_eid">Creating Mauritania e-ID</string>
+    <string name="saving_images">Saving Images....</string>
+    <string name="registering_user">Registering User</string>
+    <string name="authentication_performing">Performing Authentication</string>
+    <string name="auth_success">Authentication successful</string>
+    <string name="authorisation_success">Authorisation successful: %1s</string>
+    <string name="qr_auth_failure">QR Auth Failure :</string>
+    <string name="authorisation_failure">Authorisation Failure :</string>
+    <string name="authentication_failure">Authentication Failure :</string>
+    <string name="omnimatch_initializing">Initializing OmniMatch</string>
+    <string name="init_ocr">Initializing OCR</string>
+
+
+
+    <string name="label_retry">Retry</string>
+    <string name="label_no_internet">No internet connection</string>
+
+    <string name="qr_login">Performing QR Login</string>
+
+
+    <string name="label_close">Close</string>
+    <string name="label_login_successful">Login successful !</string>
+    <string name="login_success_description">You have successfully authenticated on third-party application.</string>
+    <string name="label_login_error">Login error !</string>
+    <string name="login_error_description">Your authentication attempt has not been successful. Please verify with third-party whether  you have the permission to access their services.</string>
+
+    <string name="retrieving_keys">Retrieving Keys</string>
+    <string name="retrieving_keys_failed">Retrieving Keys failed</string>
+
+    <string name="label_demo_version">Demo Version (non-official)</string>
+
+    <string name="downloading_ocr_database">Downloading OCR database (%1$d%%)</string>
+
+
+    <string name="camera_close_message">Move face closer to camera</string>
+    <string name="camera_far_message">Move face far from camera</string>
+
+
+    <string name="camera_up_message">@string/hold_still_and_center</string>
+    <string name="camera_down_message">@string/hold_still_and_center</string>
+    <string name="face_not_in_centre_x">@string/hold_still_and_center</string>
+
+    <string name="open_eyes_message">Open your eyes and look straight</string>
+    <string name="multiple_faces_detected">Multiple faces detected</string>
+    <string name="detection_failed_message">Face Detection failed</string>
+    <string name="no_faces_detected_message">No Faces Detected</string>
+    <string name="look_straight_message">Look Straight</string>
+    <string name="mask_detected_message">Mask Detected</string>
+    <string name="sunglasses_detected_message">Sunglasses Detected</string>
+    <string name="eyes_closed_message">Eyes Closed/Covered</string>
+    <string name="hold_still_message">@string/hold_still_and_center</string>
+    <string name="spoof_detected_message">Spoof Detected</string>
+    <string name="ok">@string/hold_still_and_center</string>
+    <string name="please_wait">Please wait…</string>
+
+    <string name= "hold_still_and_center">Centre your face &amp; Hold Still</string>
+
+    <string name="retrieve_face_template_failed">Retrieve face template failed</string>
+    <string name="error_in_template_creation">Error in template creation</string>
+    <string name="error_in_matching">Error in Matching : %$s</string>
+    <string name="error_in_mauritania_creation">Erreur lors de la création de l\'e-ID Mauritanie : %1$s</string>
+<string name="failed_to_save_eid">Failed to save Mauritania eID</string>
+    <string name="download_ocr_db_failed">Download OCR db failed : %1$s</string>
+    <string name="init_ocr_failed">Initializing OCR failed : %1$s</string>
+
+
+    <string-array name="languages_list">
+
+        <item>English</item>
+        <item>French</item>
+    </string-array>
+
+    <string-array name="intro_page_headings">
+        <item>Welcome</item>
+        <item>Tutorial</item>
+        <item>Tutorial (½) : Verified identity</item>
+        <item>Tutorial (2/2): Secure login</item>
+        <item>Start Identity Verification</item>
+    </string-array>
+
+    <string-array name="intro_page_sub_headings">
+        <item>e-ID Mauritania allows you to login to e-Government services in a secure password-less way.</item>
+        <item>Follow the steps to understand how to setup and use e-ID Mauritania.</item>
+        <item>To start using your e-ID Mauritania, you need to first verify your identity. You will be guided through
+            this process step-by-step.</item>
+        <item>Your e-ID Mauritania allows you to login to e-gov services in a secure and password-less way.
+            Simply scan the QR-code on the login-page with your e-ID.</item>
+        <item>For the identity verification, please have your Mauritanian ID card (issued after June 2022) or
+            passport ready and turn on NFC connectivity on your smartphone.</item>
+
+    </string-array>
+
+
+</resources>

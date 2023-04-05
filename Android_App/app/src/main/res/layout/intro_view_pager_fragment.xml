@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/page_margin">
+
+
+    <RelativeLayout
+        android:id="@+id/top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="@dimen/intro_page_logo_width"
+            android:layout_height="@dimen/intro_page_logo_width"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/emblem_of_mauritania" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_skip"
+            android:layout_width="120dp"
+            android:layout_height="@dimen/intro_page_skip_btn_height"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:text="@string/label_skip"
+            android:textAllCaps="false"
+            android:textColor="@color/green"
+            android:textSize="20sp"
+            app:backgroundTint="@color/white"
+            app:cornerRadius="30dp"
+            app:strokeColor="@color/green"
+
+            app:strokeWidth="2dp" />
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btn_continue"
+        android:layout_below="@+id/top_layout"
+        android:layout_marginTop="@dimen/page_margin"
+        android:orientation="vertical">
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/intro_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".ui.screens.intro.IntroViewPagerFragment" />
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/intro_tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            app:tabBackground="@drawable/tab_pager_selector"
+            app:tabGravity="center"
+            app:tabIndicatorHeight="0dp"
+            app:tabPaddingEnd="@dimen/tab_padding_end"
+            app:tabPaddingStart="@dimen/tab_padding_start" />
+    </FrameLayout>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_continue"
+        style="@style/intro_buttonShape"
+        android:layout_width="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:text="@string/label_continue" />
+
+</RelativeLayout>

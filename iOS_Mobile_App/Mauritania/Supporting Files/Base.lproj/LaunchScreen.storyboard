@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Bold.ttf">
+            <string>Poppins-Bold</string>
+        </array>
+        <array key="Poppins-Regular.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ellipse 1" translatesAutoresizingMaskIntoConstraints="NO" id="0Sd-mt-mLU">
+                                <rect key="frame" x="-56" y="59" width="136" height="136"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="136" id="Cai-sv-V6R"/>
+                                    <constraint firstAttribute="width" constant="136" id="ydt-ke-gJ8"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ellipse 2" translatesAutoresizingMaskIntoConstraints="NO" id="yRr-R1-kjv">
+                                <rect key="frame" x="235" y="304.66666666666669" width="268" height="268.00000000000006"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="268" id="4BX-l0-dZT"/>
+                                    <constraint firstAttribute="width" constant="268" id="CGE-zl-LAZ"/>
+                                </constraints>
+                            </imageView>
+                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Emblem_of_Mauritania" translatesAutoresizingMaskIntoConstraints="NO" id="vwQ-Bx-qrg">
+                                <rect key="frame" x="98.333333333333329" y="209" width="196.33333333333337" height="196.33333333333337"/>
+                            </imageView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="e-ID Mauritanie" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="70X-sa-Did">
+                                <rect key="frame" x="39.333333333333343" y="415.33333333333331" width="314.33333333333326" height="46.333333333333314"/>
+                                <fontDescription key="fontDescription" name="Poppins-Bold" family="Poppins" pointSize="33"/>
+                                <color key="textColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="République islamique de Mauritanie" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Og2-Iy-ONe">
+                                <rect key="frame" x="61.666666666666657" y="756" width="269.66666666666674" height="21"/>
+                                <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="15"/>
+                                <color key="textColor" systemColor="systemGreenColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="الجمهورية اإلسالمية الموريتانية" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4tS-Gj-26G">
+                                <rect key="frame" x="39.333333333333343" y="787" width="314.33333333333326" height="21"/>
+                                <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="15"/>
+                                <color key="textColor" systemColor="systemGreenColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="yRr-R1-kjv" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="2QD-dr-0V0"/>
+                            <constraint firstItem="vwQ-Bx-qrg" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.5" id="77e-Hy-wI6"/>
+                            <constraint firstItem="0Sd-mt-mLU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="-56" id="Aog-8F-OQH"/>
+                            <constraint firstItem="vwQ-Bx-qrg" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Ehk-cq-wQM"/>
+                            <constraint firstItem="0Sd-mt-mLU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="LZX-xF-vpU"/>
+                            <constraint firstItem="4tS-Gj-26G" firstAttribute="top" secondItem="Og2-Iy-ONe" secondAttribute="bottom" constant="10" id="ONn-mr-qXQ"/>
+                            <constraint firstItem="70X-sa-Did" firstAttribute="top" secondItem="vwQ-Bx-qrg" secondAttribute="bottom" constant="10" id="Od8-q1-8t9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="4tS-Gj-26G" secondAttribute="bottom" constant="10" id="Tyw-Qk-GUf"/>
+                            <constraint firstItem="70X-sa-Did" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="czE-5f-vbt"/>
+                            <constraint firstItem="4tS-Gj-26G" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.8" id="dJq-MA-rug"/>
+                            <constraint firstItem="yRr-R1-kjv" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="110" id="nim-EW-sgH"/>
+                            <constraint firstItem="vwQ-Bx-qrg" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.5" id="p5V-4T-lxW"/>
+                            <constraint firstItem="4tS-Gj-26G" firstAttribute="centerX" secondItem="vwQ-Bx-qrg" secondAttribute="centerX" id="pjN-j8-mmu"/>
+                            <constraint firstItem="70X-sa-Did" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="uOU-K2-lUa"/>
+                            <constraint firstItem="Og2-Iy-ONe" firstAttribute="centerX" secondItem="4tS-Gj-26G" secondAttribute="centerX" id="x22-sj-KhT"/>
+                            <constraint firstItem="Og2-Iy-ONe" firstAttribute="width" secondItem="4tS-Gj-26G" secondAttribute="width" multiplier="0.8579" id="xJW-bk-Upj"/>
+                            <constraint firstItem="70X-sa-Did" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.8" id="xKG-ts-u1W"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Ellipse 1" width="228" height="233"/>
+        <image name="Ellipse 2" width="318" height="588"/>
+        <image name="Emblem_of_Mauritania" width="900" height="900"/>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

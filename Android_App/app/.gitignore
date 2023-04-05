@@ -1,0 +1,6 @@
+encryptionKey.txt
+/build
+/releases
+/release
+/local.properties
+*.license

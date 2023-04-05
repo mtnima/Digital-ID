@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.LinearLayoutCompat xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/siv"
+                android:layout_width="@dimen/face_capture_instruction_img_size"
+                android:layout_height="@dimen/face_capture_instruction_img_size"
+                android:padding="3dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/glasses"
+                app:shapeAppearanceOverlay="@style/ShapeAppearance.CircularBorder"
+                app:strokeColor="@color/color_circle_border"
+                app:strokeWidth="2dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/face_capture_instruction_glasses" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="@dimen/face_capture_instruction_img_size"
+                android:layout_height="@dimen/face_capture_instruction_img_size"
+                android:padding="3dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/sun_light"
+                app:shapeAppearanceOverlay="@style/ShapeAppearance.CircularBorder"
+                app:strokeColor="@color/color_circle_border"
+                app:strokeWidth="2dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/face_capture_instruction_lighting" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+
+            <FrameLayout
+                android:layout_width="@dimen/face_capture_instruction_img_size"
+                android:layout_height="@dimen/face_capture_instruction_img_size"
+                android:background="@drawable/shape_circular_black">
+
+                <ImageView
+                    android:layout_width="@dimen/face_capture_instruction_img_size"
+                    android:layout_height="@dimen/face_capture_instruction_img_size"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/happy"
+                    app:strokeWidth="2dp" />
+
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/face_capture_instruction_expression" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="@dimen/face_capture_instruction_img_size"
+                android:layout_height="@dimen/face_capture_instruction_img_size"
+                android:background="@drawable/shape_circular_red">
+
+                <ImageView
+                    android:layout_width="@dimen/face_capture_instruction_img_size"
+                    android:layout_height="@dimen/face_capture_instruction_img_size"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/sunglasses"
+                    app:strokeWidth="2dp" />
+
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/face_capture_instruction_sunglasses" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="@dimen/face_capture_instruction_img_size"
+                android:layout_height="@dimen/face_capture_instruction_img_size"
+                android:background="@drawable/shape_circular_red">
+
+                <ImageView
+                    android:layout_width="@dimen/face_capture_instruction_img_size"
+                    android:layout_height="@dimen/face_capture_instruction_img_size"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/hat"
+                    app:strokeWidth="2dp" />
+
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/face_capture_instruction_hat" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.core.widget.NestedScrollView>

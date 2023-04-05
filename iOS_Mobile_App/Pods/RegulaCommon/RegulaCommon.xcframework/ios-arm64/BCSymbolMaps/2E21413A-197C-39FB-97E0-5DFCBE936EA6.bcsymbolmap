@@ -1,0 +1,1459 @@
+BCSymbolMap Version: 2.0
+Apple clang version 13.1.6 (clang-1316.0.21.2.5)
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk
+iPhoneOS15.5.sdk
+/Users/administratorregula/Library/Developer/Xcode/DerivedData/RegulaCommon-gvdddvjlmixfmogaffdeshmakthl/Build/Intermediates.noindex/ArchiveIntermediates/RegulaCommon/IntermediateBuildFilesPath/RegulaCommon.build/Release-iphoneos/RegulaCommon.build/DerivedSources/RegulaCommon_vers.c
+/Users/administratorregula/workspace/iOS_Common_Build/iOS_Common
++[RGLCCameraPreviewView layerClass]
+-[RGLCCameraPreviewView previewLayer]
+-[RGLCCameraPreviewView session]
+-[RGLCCameraPreviewView setSession:]
+_OBJC_CLASSLIST_REFERENCES_$_
+_OBJC_SELECTOR_REFERENCES_
+_OBJC_SELECTOR_REFERENCES_.2
+_OBJC_SELECTOR_REFERENCES_.4
+_OBJC_SELECTOR_REFERENCES_.6
+_OBJC_SELECTOR_REFERENCES_.8
+__OBJC_$_CLASS_METHODS_RGLCCameraPreviewView
+__OBJC_METACLASS_RO_$_RGLCCameraPreviewView
+__OBJC_$_INSTANCE_METHODS_RGLCCameraPreviewView
+__OBJC_$_PROP_LIST_RGLCCameraPreviewView
+__OBJC_CLASS_RO_$_RGLCCameraPreviewView
+/Users/administratorregula/workspace/iOS_Common_Build/iOS_Common/Sources/Camera/RGLCCameraPreviewView.m
+Sources/Camera/RGLCCameraPreviewView.m
+-[RGLCCameraDevice init]
+-[RGLCCameraDevice captureDeviceFormat]
+-[RGLCCameraDevice depthDataFormat]
+-[RGLCCameraDevice captureDeviceFormatForPosition:]
+-[RGLCCameraDevice depthDataFormatForPosition:]
+-[RGLCCameraDevice updatePosition:]
+-[RGLCCameraDevice deviceForPosition:]
+-[RGLCCameraDevice updateCaptureDeviceFormat:depthDataFormat:forPosition:]
+-[RGLCCameraDevice depthDataFormatForFormat:]
+___45-[RGLCCameraDevice depthDataFormatForFormat:]_block_invoke
+___45-[RGLCCameraDevice depthDataFormatForFormat:]_block_invoke_2
+___45-[RGLCCameraDevice depthDataFormatForFormat:]_block_invoke_3
+-[RGLCCameraDevice findClosestDeviceFormatByResolution:forPosition:]
+___68-[RGLCCameraDevice findClosestDeviceFormatByResolution:forPosition:]_block_invoke
+___68-[RGLCCameraDevice findClosestDeviceFormatByResolution:forPosition:]_block_invoke_2
+___68-[RGLCCameraDevice findClosestDeviceFormatByResolution:forPosition:]_block_invoke_3
+-[RGLCCameraDevice setVideoZoomFactor:]
+-[RGLCCameraDevice videoZoomFactor]
+-[RGLCCameraDevice videoMaxZoomFactor]
+-[RGLCCameraDevice updateVideoZoomFactor:animated:completion:]
+___62-[RGLCCameraDevice updateVideoZoomFactor:animated:completion:]_block_invoke
+___copy_helper_block_e8_32b
+___destroy_helper_block_e8_32s
+-[RGLCCameraDevice rampingVideoZoomDidChange:]
++[RGLCCameraDevice captureDeviceFor:]
+-[RGLCCameraDevice backCamera]
+-[RGLCCameraDevice setBackCamera:]
+-[RGLCCameraDevice frontCamera]
+-[RGLCCameraDevice setFrontCamera:]
+-[RGLCCameraDevice camera]
+-[RGLCCameraDevice setCamera:]
+-[RGLCCameraDevice position]
+-[RGLCCameraDevice setPosition:]
+-[RGLCCameraDevice backCaptureDeviceFormat]
+-[RGLCCameraDevice setBackCaptureDeviceFormat:]
+-[RGLCCameraDevice backDepthDataFormat]
+-[RGLCCameraDevice setBackDepthDataFormat:]
+-[RGLCCameraDevice frontCaptureDeviceFormat]
+-[RGLCCameraDevice setFrontCaptureDeviceFormat:]
+-[RGLCCameraDevice frontDepthDataFormat]
+-[RGLCCameraDevice setFrontDepthDataFormat:]
+-[RGLCCameraDevice setCaptureDeviceFormat:]
+-[RGLCCameraDevice setDepthDataFormat:]
+-[RGLCCameraDevice rampingObservingToken]
+-[RGLCCameraDevice setRampingObservingToken:]
+-[RGLCCameraDevice rampingCompletion]
+-[RGLCCameraDevice setRampingCompletion:]
+-[RGLCCameraDevice .cxx_destruct]
+___clang_at_available_requires_core_foundation_framework
+_OBJC_SELECTOR_REFERENCES_.10
+_OBJC_SELECTOR_REFERENCES_.12
+_OBJC_SELECTOR_REFERENCES_.14
+_OBJC_SELECTOR_REFERENCES_.16
+_OBJC_SELECTOR_REFERENCES_.18
+_OBJC_SELECTOR_REFERENCES_.20
+_OBJC_SELECTOR_REFERENCES_.22
+_OBJC_SELECTOR_REFERENCES_.24
+_OBJC_SELECTOR_REFERENCES_.26
+_OBJC_CLASSLIST_REFERENCES_$_.30
+_OBJC_SELECTOR_REFERENCES_.32
+_OBJC_SELECTOR_REFERENCES_.34
+_OBJC_SELECTOR_REFERENCES_.36
+_OBJC_SELECTOR_REFERENCES_.38
+_OBJC_SELECTOR_REFERENCES_.40
+_OBJC_SELECTOR_REFERENCES_.42
+_OBJC_SELECTOR_REFERENCES_.44
+_OBJC_SELECTOR_REFERENCES_.46
+_OBJC_SELECTOR_REFERENCES_.48
+_OBJC_SELECTOR_REFERENCES_.50
+_OBJC_SELECTOR_REFERENCES_.56
+___block_descriptor_32_e57_q24?0"AVCaptureDeviceFormat"8"AVCaptureDeviceFormat"16l
+___block_literal_global
+_OBJC_SELECTOR_REFERENCES_.59
+_OBJC_SELECTOR_REFERENCES_.61
+_OBJC_CLASSLIST_REFERENCES_$_.62
+___block_descriptor_32_e48_B24?0"AVCaptureDeviceFormat"8"NSDictionary"16l
+___block_literal_global.64
+_OBJC_SELECTOR_REFERENCES_.66
+_OBJC_SELECTOR_REFERENCES_.68
+___block_literal_global.69
+_OBJC_SELECTOR_REFERENCES_.71
+_OBJC_SELECTOR_REFERENCES_.73
+_OBJC_SELECTOR_REFERENCES_.75
+___block_descriptor_36_e48_B24?0"AVCaptureDeviceFormat"8"NSDictionary"16l
+___block_descriptor_48_e57_q24?0"AVCaptureDeviceFormat"8"AVCaptureDeviceFormat"16l
+___block_literal_global.77
+_OBJC_SELECTOR_REFERENCES_.79
+_OBJC_SELECTOR_REFERENCES_.81
+_OBJC_SELECTOR_REFERENCES_.83
+_OBJC_CLASSLIST_REFERENCES_$_.84
+_OBJC_SELECTOR_REFERENCES_.86
+___block_descriptor_40_e8_32bs_e5_v8?0l
+_OBJC_SELECTOR_REFERENCES_.89
+_OBJC_CLASSLIST_REFERENCES_$_.92
+_OBJC_SELECTOR_REFERENCES_.96
+_OBJC_SELECTOR_REFERENCES_.98
+_OBJC_SELECTOR_REFERENCES_.100
+_OBJC_SELECTOR_REFERENCES_.102
+_OBJC_SELECTOR_REFERENCES_.104
+_OBJC_SELECTOR_REFERENCES_.106
+_OBJC_SELECTOR_REFERENCES_.108
+_OBJC_SELECTOR_REFERENCES_.112
+_OBJC_SELECTOR_REFERENCES_.116
+_OBJC_SELECTOR_REFERENCES_.118
+_OBJC_SELECTOR_REFERENCES_.120
+_OBJC_SELECTOR_REFERENCES_.122
+_OBJC_CLASSLIST_REFERENCES_$_.123
+_OBJC_CLASSLIST_REFERENCES_$_.124
+_OBJC_SELECTOR_REFERENCES_.126
+_OBJC_SELECTOR_REFERENCES_.128
+_OBJC_SELECTOR_REFERENCES_.130
+_OBJC_SELECTOR_REFERENCES_.132
+_OBJC_SELECTOR_REFERENCES_.134
+__OBJC_$_CLASS_METHODS_RGLCCameraDevice
+__OBJC_METACLASS_RO_$_RGLCCameraDevice
+__OBJC_$_INSTANCE_METHODS_RGLCCameraDevice
+_OBJC_IVAR_$_RGLCCameraDevice._backCamera
+_OBJC_IVAR_$_RGLCCameraDevice._frontCamera
+_OBJC_IVAR_$_RGLCCameraDevice._camera
+_OBJC_IVAR_$_RGLCCameraDevice._position
+_OBJC_IVAR_$_RGLCCameraDevice._backCaptureDeviceFormat
+_OBJC_IVAR_$_RGLCCameraDevice._backDepthDataFormat
+_OBJC_IVAR_$_RGLCCameraDevice._frontCaptureDeviceFormat
+_OBJC_IVAR_$_RGLCCameraDevice._frontDepthDataFormat
+_OBJC_IVAR_$_RGLCCameraDevice._captureDeviceFormat
+_OBJC_IVAR_$_RGLCCameraDevice._depthDataFormat
+_OBJC_IVAR_$_RGLCCameraDevice._rampingObservingToken
+_OBJC_IVAR_$_RGLCCameraDevice._rampingCompletion
+__OBJC_$_INSTANCE_VARIABLES_RGLCCameraDevice
+__OBJC_$_PROP_LIST_RGLCCameraDevice
+__OBJC_CLASS_RO_$_RGLCCameraDevice
+/Users/administratorregula/workspace/iOS_Common_Build/iOS_Common/Sources/Camera/RGLCCameraDevice.m
+Sources/Camera/RGLCCameraDevice.m
+Sources/Camera/RGLCCameraDevice.h
+__destroy_helper_block_e8_32s
+__copy_helper_block_e8_32b
+__62-[RGLCCameraDevice updateVideoZoomFactor:animated:completion:]_block_invoke
+dispatch_get_main_queue
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/usr/include/dispatch/queue.h
+__68-[RGLCCameraDevice findClosestDeviceFormatByResolution:forPosition:]_block_invoke_3
+__68-[RGLCCameraDevice findClosestDeviceFormatByResolution:forPosition:]_block_invoke_2
+__68-[RGLCCameraDevice findClosestDeviceFormatByResolution:forPosition:]_block_invoke
+__CGSizeEqualToSize
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+__45-[RGLCCameraDevice depthDataFormatForFormat:]_block_invoke_3
+__45-[RGLCCameraDevice depthDataFormatForFormat:]_block_invoke_2
+__45-[RGLCCameraDevice depthDataFormatForFormat:]_block_invoke
+/Users/administratorregula/workspace/iOS_Common_Build/iOS_Common/Sources/RGLCError.m
+RGLCErrorOrUnderlyingErrorHasCodeInDomain
+Sources/RGLCError.m
+RGLCErrorWithUnderlyingError
+___RGLCCopyCVPixelBuffer_block_invoke
+___copy_helper_block_e8_32s
+___RGLCCopyCVPixelBuffer_block_invoke.17
+_OBJC_CLASSLIST_REFERENCES_$_.4
+_OBJC_CLASSLIST_REFERENCES_$_.9
+_OBJC_SELECTOR_REFERENCES_.11
+_OBJC_SELECTOR_REFERENCES_.13
+___block_descriptor_48_e8_32s_e15_v32?0816^B24l
+/Users/administratorregula/workspace/iOS_Common_Build/iOS_Common/Sources/Extensions/CVPixelBufferRef+RGLCAdditions.m
+__RGLCCopyCVPixelBuffer_block_invoke.17
+Sources/Extensions/CVPixelBufferRef+RGLCAdditions.m
+__copy_helper_block_e8_32s
+__RGLCCopyCVPixelBuffer_block_invoke
+RGLCCopyCVPixelBuffer
+llvm.loop.mustprogress
+-[RGLCCamera initWithConfiguration:]
+-[RGLCCamera init]
+-[RGLCCamera dealloc]
+-[RGLCCamera setVideoZoomFactor:]
+___33-[RGLCCamera setVideoZoomFactor:]_block_invoke
+-[RGLCCamera setCurrentDevicePosition:]
+-[RGLCCamera currentDevicePosition]
+-[RGLCCamera isTorchAvailable]
+-[RGLCCamera setTorchMode:]
+-[RGLCCamera torchMode]
+-[RGLCCamera setRotationEnabled:]
+-[RGLCCamera setSessionPreset:]
+-[RGLCCamera start:]
+___20-[RGLCCamera start:]_block_invoke
+-[RGLCCamera stop]
+___18-[RGLCCamera stop]_block_invoke
+-[RGLCCamera updateCaptureDeviceFormat:depthDataFormat:forPosition:]
+___68-[RGLCCamera updateCaptureDeviceFormat:depthDataFormat:forPosition:]_block_invoke
+___copy_helper_block_e8_32s40s48s
+___destroy_helper_block_e8_32s40s48s
+-[RGLCCamera toggleDevicePosition]
+-[RGLCCamera focusAtPoint:continuousAuto:]
+-[RGLCCamera focusAtPoint:]
+-[RGLCCamera updateVideoZoomFactor:animated:completion:]
+___56-[RGLCCamera updateVideoZoomFactor:animated:completion:]_block_invoke
+___copy_helper_block_e8_32s40b
+___destroy_helper_block_e8_32s40s
+-[RGLCCamera capturePhoto:completion:]
+-[RGLCCamera capturePhoto:]
+-[RGLCCamera capturePhotoWithTask:]
+-[RGLCCamera configureSessionOnceWithError:]
+___44-[RGLCCamera configureSessionOnceWithError:]_block_invoke
+___44-[RGLCCamera configureSessionOnceWithError:]_block_invoke_2
+-[RGLCCamera setupInputDevices]
+-[RGLCCamera setupOutputDevices]
+___32-[RGLCCamera setupOutputDevices]_block_invoke
+___copy_helper_block_e8_32w
+___destroy_helper_block_e8_32w
+-[RGLCCamera isSessionPresetSelected]
+-[RGLCCamera setupCaptureDevice]
+___32-[RGLCCamera setupCaptureDevice]_block_invoke
+-[RGLCCamera setupTorchMode:]
+-[RGLCCamera setupDeviceOrienatationHandling]
+-[RGLCCamera handleOrientationChange]
+-[RGLCCamera isFrameRateSupported:withFormat:]
+-[RGLCCamera addObservers]
+-[RGLCCamera registerOnCaptureDeviceSubjectAreaDidChangeNotificationForDevice:]
+-[RGLCCamera unregisterOnCaptureDeviceSubjectAreaDidChangeNotificationForDevice:]
+-[RGLCCamera removeObservers]
+-[RGLCCamera onSessionRuntimeErrorNotification:]
+___48-[RGLCCamera onSessionRuntimeErrorNotification:]_block_invoke
+___copy_helper_block_e8_32s40s
+-[RGLCCamera onSessionDidStartRunningNotification:]
+___51-[RGLCCamera onSessionDidStartRunningNotification:]_block_invoke
+-[RGLCCamera onSessionDidStopRunningNotification:]
+___50-[RGLCCamera onSessionDidStopRunningNotification:]_block_invoke
+-[RGLCCamera onSessionWasInterruptedNotification:]
+___50-[RGLCCamera onSessionWasInterruptedNotification:]_block_invoke
+-[RGLCCamera onSessionInterruptionEndedNotification:]
+___53-[RGLCCamera onSessionInterruptionEndedNotification:]_block_invoke
+-[RGLCCamera onCaptureDeviceSubjectAreaDidChangeNotification:]
+___62-[RGLCCamera onCaptureDeviceSubjectAreaDidChangeNotification:]_block_invoke
++[RGLCCamera cameraPermissionGranted]
++[RGLCCamera requestCameraPermission:]
+___38+[RGLCCamera requestCameraPermission:]_block_invoke
+___38+[RGLCCamera requestCameraPermission:]_block_invoke_2
+-[RGLCCamera objectHeightOnPreviewForDistance:realObjectHeight:focalLength:cameraScale:]
+-[RGLCCamera cameraZoomForDistance:objectPreviewHeight:realObjectHeight:focalLength:]
+-[RGLCCamera session]
+-[RGLCCamera setSession:]
+-[RGLCCamera previewView]
+-[RGLCCamera setPreviewView:]
+-[RGLCCamera device]
+-[RGLCCamera setDevice:]
+-[RGLCCamera output]
+-[RGLCCamera setOutput:]
+-[RGLCCamera isRotationEnabled]
+-[RGLCCamera sessionPreset]
+-[RGLCCamera videoZoomFactor]
+-[RGLCCamera onDidRecieveRuntimeError]
+-[RGLCCamera setOnDidRecieveRuntimeError:]
+-[RGLCCamera onDidStartRunning]
+-[RGLCCamera setOnDidStartRunning:]
+-[RGLCCamera onDidStopRunning]
+-[RGLCCamera setOnDidStopRunning:]
+-[RGLCCamera onInterrupted]
+-[RGLCCamera setOnInterrupted:]
+-[RGLCCamera onInterruptionEnded]
+-[RGLCCamera setOnInterruptionEnded:]
+-[RGLCCamera onCaptureDeviceSubjectAreaDidChange]
+-[RGLCCamera setOnCaptureDeviceSubjectAreaDidChange:]
+-[RGLCCamera sessionQueue]
+-[RGLCCamera setSessionQueue:]
+-[RGLCCamera configuration]
+-[RGLCCamera setConfiguration:]
+-[RGLCCamera deviceInput]
+-[RGLCCamera setDeviceInput:]
+-[RGLCCamera bufferStream]
+-[RGLCCamera setBufferStream:]
+-[RGLCCamera isCameraConfigured]
+-[RGLCCamera setCameraConfigured:]
+-[RGLCCamera .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.1
+_OBJC_SELECTOR_REFERENCES_.3
+_OBJC_SELECTOR_REFERENCES_.5
+_OBJC_SELECTOR_REFERENCES_.7
+_OBJC_CLASSLIST_REFERENCES_$_.10
+_OBJC_CLASSLIST_REFERENCES_$_.11
+_OBJC_CLASSLIST_REFERENCES_$_.14
+_OBJC_CLASSLIST_REFERENCES_$_.15
+_OBJC_SELECTOR_REFERENCES_.17
+_OBJC_CLASSLIST_REFERENCES_$_.18
+_OBJC_SELECTOR_REFERENCES_.25
+_OBJC_SELECTOR_REFERENCES_.27
+_OBJC_SELECTOR_REFERENCES_.29
+_OBJC_CLASSLIST_REFERENCES_$_.32
+___block_descriptor_48_e8_32s_e5_v8?0l
+_OBJC_SELECTOR_REFERENCES_.43
+_OBJC_SELECTOR_REFERENCES_.45
+_OBJC_SELECTOR_REFERENCES_.47
+_OBJC_SELECTOR_REFERENCES_.49
+_OBJC_SELECTOR_REFERENCES_.51
+_OBJC_SELECTOR_REFERENCES_.53
+_OBJC_SELECTOR_REFERENCES_.55
+_OBJC_SELECTOR_REFERENCES_.63
+_OBJC_SELECTOR_REFERENCES_.65
+_OBJC_SELECTOR_REFERENCES_.67
+_OBJC_SELECTOR_REFERENCES_.69
+_OBJC_SELECTOR_REFERENCES_.77
+_OBJC_SELECTOR_REFERENCES_.85
+_OBJC_CLASSLIST_REFERENCES_$_.86
+_OBJC_SELECTOR_REFERENCES_.90
+___block_descriptor_40_e8_32s_e5_v8?0l
+___block_descriptor_64_e8_32s40s48s_e5_v8?0l
+_OBJC_SELECTOR_REFERENCES_.124
+_OBJC_SELECTOR_REFERENCES_.136
+_OBJC_SELECTOR_REFERENCES_.142
+_OBJC_SELECTOR_REFERENCES_.144
+_OBJC_SELECTOR_REFERENCES_.146
+_OBJC_SELECTOR_REFERENCES_.148
+_OBJC_SELECTOR_REFERENCES_.150
+_OBJC_SELECTOR_REFERENCES_.152
+_OBJC_SELECTOR_REFERENCES_.154
+_OBJC_SELECTOR_REFERENCES_.158
+___block_descriptor_57_e8_32s40bs_e5_v8?0l
+_OBJC_SELECTOR_REFERENCES_.160
+_OBJC_SELECTOR_REFERENCES_.162
+_OBJC_SELECTOR_REFERENCES_.164
+_OBJC_SELECTOR_REFERENCES_.166
+_OBJC_CLASSLIST_REFERENCES_$_.171
+_OBJC_SELECTOR_REFERENCES_.173
+_OBJC_CLASSLIST_REFERENCES_$_.174
+_OBJC_SELECTOR_REFERENCES_.176
+_OBJC_SELECTOR_REFERENCES_.178
+_OBJC_SELECTOR_REFERENCES_.182
+_OBJC_SELECTOR_REFERENCES_.186
+_OBJC_SELECTOR_REFERENCES_.190
+_OBJC_SELECTOR_REFERENCES_.192
+_OBJC_SELECTOR_REFERENCES_.196
+_OBJC_SELECTOR_REFERENCES_.198
+_OBJC_SELECTOR_REFERENCES_.202
+_OBJC_CLASSLIST_REFERENCES_$_.203
+_OBJC_SELECTOR_REFERENCES_.205
+_OBJC_SELECTOR_REFERENCES_.207
+_OBJC_SELECTOR_REFERENCES_.209
+_OBJC_SELECTOR_REFERENCES_.211
+_OBJC_SELECTOR_REFERENCES_.217
+_OBJC_SELECTOR_REFERENCES_.219
+_OBJC_SELECTOR_REFERENCES_.221
+_OBJC_SELECTOR_REFERENCES_.225
+_OBJC_SELECTOR_REFERENCES_.227
+___block_descriptor_40_e8_32w_e51_v24?0"AVCaptureOutput"8^{opaqueCMSampleBuffer=}16l
+_OBJC_SELECTOR_REFERENCES_.234
+_OBJC_SELECTOR_REFERENCES_.236
+_OBJC_SELECTOR_REFERENCES_.238
+_OBJC_SELECTOR_REFERENCES_.244
+_OBJC_SELECTOR_REFERENCES_.246
+_OBJC_SELECTOR_REFERENCES_.250
+_OBJC_SELECTOR_REFERENCES_.252
+_OBJC_SELECTOR_REFERENCES_.254
+_OBJC_SELECTOR_REFERENCES_.256
+_OBJC_SELECTOR_REFERENCES_.258
+_OBJC_SELECTOR_REFERENCES_.262
+_OBJC_SELECTOR_REFERENCES_.264
+_OBJC_SELECTOR_REFERENCES_.266
+_OBJC_SELECTOR_REFERENCES_.272
+_OBJC_CLASSLIST_REFERENCES_$_.273
+_OBJC_SELECTOR_REFERENCES_.275
+_OBJC_CLASSLIST_REFERENCES_$_.276
+___block_descriptor_40_e8_32s_e35_B24?0"NSString"8"NSDictionary"16l
+_OBJC_SELECTOR_REFERENCES_.279
+_OBJC_SELECTOR_REFERENCES_.281
+_OBJC_SELECTOR_REFERENCES_.283
+_OBJC_SELECTOR_REFERENCES_.289
+_OBJC_SELECTOR_REFERENCES_.293
+_OBJC_SELECTOR_REFERENCES_.301
+_OBJC_CLASSLIST_REFERENCES_$_.306
+_OBJC_SELECTOR_REFERENCES_.308
+_OBJC_SELECTOR_REFERENCES_.310
+_OBJC_SELECTOR_REFERENCES_.312
+_OBJC_SELECTOR_REFERENCES_.320
+_OBJC_SELECTOR_REFERENCES_.334
+_OBJC_CLASSLIST_REFERENCES_$_.335
+_OBJC_SELECTOR_REFERENCES_.337
+_OBJC_SELECTOR_REFERENCES_.339
+_OBJC_SELECTOR_REFERENCES_.341
+_OBJC_CLASSLIST_REFERENCES_$_.342
+_OBJC_SELECTOR_REFERENCES_.344
+_OBJC_SELECTOR_REFERENCES_.346
+_OBJC_SELECTOR_REFERENCES_.348
+_OBJC_SELECTOR_REFERENCES_.350
+_OBJC_CLASSLIST_REFERENCES_$_.351
+_OBJC_SELECTOR_REFERENCES_.353
+_OBJC_SELECTOR_REFERENCES_.355
+_OBJC_SELECTOR_REFERENCES_.357
+_OBJC_SELECTOR_REFERENCES_.359
+_OBJC_SELECTOR_REFERENCES_.363
+_OBJC_SELECTOR_REFERENCES_.365
+_OBJC_SELECTOR_REFERENCES_.367
+_OBJC_SELECTOR_REFERENCES_.369
+_OBJC_SELECTOR_REFERENCES_.373
+_OBJC_SELECTOR_REFERENCES_.375
+_OBJC_SELECTOR_REFERENCES_.377
+_OBJC_SELECTOR_REFERENCES_.379
+_OBJC_SELECTOR_REFERENCES_.381
+_OBJC_SELECTOR_REFERENCES_.383
+_OBJC_SELECTOR_REFERENCES_.387
+_OBJC_SELECTOR_REFERENCES_.389
+_OBJC_SELECTOR_REFERENCES_.391
+_OBJC_SELECTOR_REFERENCES_.393
+_OBJC_SELECTOR_REFERENCES_.397
+_OBJC_SELECTOR_REFERENCES_.399
+___block_descriptor_48_e8_32s40s_e5_v8?0l
+_OBJC_SELECTOR_REFERENCES_.403
+_OBJC_SELECTOR_REFERENCES_.407
+_OBJC_SELECTOR_REFERENCES_.409
+_OBJC_SELECTOR_REFERENCES_.413
+_OBJC_SELECTOR_REFERENCES_.417
+_OBJC_SELECTOR_REFERENCES_.421
+_OBJC_SELECTOR_REFERENCES_.427
+_OBJC_SELECTOR_REFERENCES_.429
+___block_descriptor_41_e8_32bs_e5_v8?0l
+___block_descriptor_40_e8_32bs_e8_v12?0B8l
+_OBJC_SELECTOR_REFERENCES_.440
+_OBJC_SELECTOR_REFERENCES_.442
+_OBJC_SELECTOR_REFERENCES_.444
+_OBJC_SELECTOR_REFERENCES_.446
+__OBJC_$_CLASS_METHODS_RGLCCamera
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+__OBJC_$_PROP_LIST_NSObject
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+__OBJC_PROTOCOL_$_NSObject
+__OBJC_LABEL_PROTOCOL_$_NSObject
+__OBJC_$_PROTOCOL_REFS_AVCaptureVideoDataOutputSampleBufferDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_AVCaptureVideoDataOutputSampleBufferDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_AVCaptureVideoDataOutputSampleBufferDelegate
+__OBJC_PROTOCOL_$_AVCaptureVideoDataOutputSampleBufferDelegate
+__OBJC_LABEL_PROTOCOL_$_AVCaptureVideoDataOutputSampleBufferDelegate
+__OBJC_CLASS_PROTOCOLS_$_RGLCCamera
+__OBJC_METACLASS_RO_$_RGLCCamera
+__OBJC_$_INSTANCE_METHODS_RGLCCamera
+_OBJC_IVAR_$_RGLCCamera._rotationEnabled
+_OBJC_IVAR_$_RGLCCamera._cameraConfigured
+_OBJC_IVAR_$_RGLCCamera._session
+_OBJC_IVAR_$_RGLCCamera._previewView
+_OBJC_IVAR_$_RGLCCamera._device
+_OBJC_IVAR_$_RGLCCamera._output
+_OBJC_IVAR_$_RGLCCamera._sessionPreset
+_OBJC_IVAR_$_RGLCCamera._videoZoomFactor
+_OBJC_IVAR_$_RGLCCamera._onDidRecieveRuntimeError
+_OBJC_IVAR_$_RGLCCamera._onDidStartRunning
+_OBJC_IVAR_$_RGLCCamera._onDidStopRunning
+_OBJC_IVAR_$_RGLCCamera._onInterrupted
+_OBJC_IVAR_$_RGLCCamera._onInterruptionEnded
+_OBJC_IVAR_$_RGLCCamera._onCaptureDeviceSubjectAreaDidChange
+_OBJC_IVAR_$_RGLCCamera._sessionQueue
+_OBJC_IVAR_$_RGLCCamera._configuration
+_OBJC_IVAR_$_RGLCCamera._deviceInput
+_OBJC_IVAR_$_RGLCCamera._bufferStream
+__OBJC_$_INSTANCE_VARIABLES_RGLCCamera
+__OBJC_$_PROP_LIST_RGLCCamera
+__OBJC_CLASS_RO_$_RGLCCamera
+/Users/administratorregula/workspace/iOS_Common_Build/iOS_Common/Sources/Camera/RGLCCamera.m
+Sources/Camera/RGLCCamera.m
+Sources/Camera/RGLCCamera.h
+__38+[RGLCCamera requestCameraPermission:]_block_invoke_2
+__38+[RGLCCamera requestCameraPermission:]_block_invoke
+__62-[RGLCCamera onCaptureDeviceSubjectAreaDidChangeNotification:]_block_invoke
+__53-[RGLCCamera onSessionInterruptionEndedNotification:]_block_invoke
+__50-[RGLCCamera onSessionWasInterruptedNotification:]_block_invoke
+__50-[RGLCCamera onSessionDidStopRunningNotification:]_block_invoke
+__51-[RGLCCamera onSessionDidStartRunningNotification:]_block_invoke
+__copy_helper_block_e8_32s40s
+__48-[RGLCCamera onSessionRuntimeErrorNotification:]_block_invoke
+__32-[RGLCCamera setupCaptureDevice]_block_invoke
+__destroy_helper_block_e8_32w
+__copy_helper_block_e8_32w
+__32-[RGLCCamera setupOutputDevices]_block_invoke
+__44-[RGLCCamera configureSessionOnceWithError:]_block_invoke_2
+__44-[RGLCCamera configureSessionOnceWithError:]_block_invoke
+__destroy_helper_block_e8_32s40s
+__copy_helper_block_e8_32s40b
+__56-[RGLCCamera updateVideoZoomFactor:animated:completion:]_block_invoke
+__destroy_helper_block_e8_32s40s48s
+__copy_helper_block_e8_32s40s48s
+__68-[RGLCCamera updateCaptureDeviceFormat:depthDataFormat:forPosition:]_block_invoke
+__18-[RGLCCamera stop]_block_invoke
+__20-[RGLCCamera start:]_block_invoke
+__33-[RGLCCamera setVideoZoomFactor:]_block_invoke
+-[RGLCProvider initWithSession:]
+-[RGLCProvider acceptableStatusCodes]
+-[RGLCProvider setAcceptableStatusCodes:]
+-[RGLCProvider acceptableContentTypes]
+-[RGLCProvider setAcceptableContentTypes:]
+-[RGLCProvider request:completion:]
+___35-[RGLCProvider request:completion:]_block_invoke
+___copy_helper_block_e8_32b40s
+___35-[RGLCProvider request:completion:]_block_invoke.30
++[RGLCProvider mapResponseSerializationError:]
+-[RGLCProvider overrideURL]
+-[RGLCProvider setOverrideURL:]
+-[RGLCProvider baseURL]
+-[RGLCProvider setBaseURL:]
+-[RGLCProvider session]
+-[RGLCProvider setSession:]
+-[RGLCProvider responseSerializer]
+-[RGLCProvider setResponseSerializer:]
+-[RGLCProvider serializer]
+-[RGLCProvider setSerializer:]
+-[RGLCProvider .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.7
+_OBJC_SELECTOR_REFERENCES_.9
+_OBJC_SELECTOR_REFERENCES_.15
+_OBJC_SELECTOR_REFERENCES_.19
+_OBJC_SELECTOR_REFERENCES_.21
+_OBJC_SELECTOR_REFERENCES_.23
+_OBJC_CLASSLIST_REFERENCES_$_.24
+___block_descriptor_48_e8_32bs40s_e5_v8?0l
+___block_descriptor_48_e8_32bs40s_e38_v32?0"NSURLResponse"816"NSError"24l
+_OBJC_SELECTOR_REFERENCES_.41
+__OBJC_$_CLASS_METHODS_RGLCProvider
+__OBJC_METACLASS_RO_$_RGLCProvider
+__OBJC_$_INSTANCE_METHODS_RGLCProvider
+_OBJC_IVAR_$_RGLCProvider._overrideURL
+_OBJC_IVAR_$_RGLCProvider._baseURL
+_OBJC_IVAR_$_RGLCProvider._session
+_OBJC_IVAR_$_RGLCProvider._responseSerializer
+_OBJC_IVAR_$_RGLCProvider._serializer
+__OBJC_$_INSTANCE_VARIABLES_RGLCProvider
+__OBJC_$_PROP_LIST_RGLCProvider
+__OBJC_CLASS_RO_$_RGLCProvider
+/Users/administratorregula/workspace/iOS_Common_Build/iOS_Common/Sources/Provider/RGLCProvider.m
+Sources/Provider/RGLCProvider.m
+Sources/Provider/RGLCProvider.h
+__35-[RGLCProvider request:completion:]_block_invoke.30
+__copy_helper_block_e8_32b40s
+__35-[RGLCProvider request:completion:]_block_invoke
+-[RGLCVideoRecorder init]
+-[RGLCVideoRecorder recordImageBuffer:atPresentationTime:completion:]
+___69-[RGLCVideoRecorder recordImageBuffer:atPresentationTime:completion:]_block_invoke
+___69-[RGLCVideoRecorder recordImageBuffer:atPresentationTime:completion:]_block_invoke_2
+___69-[RGLCVideoRecorder recordImageBuffer:atPresentationTime:completion:]_block_invoke.6
+-[RGLCVideoRecorder startRecordingAtFileURL:fileType:outputSettings:completion:]
+___80-[RGLCVideoRecorder startRecordingAtFileURL:fileType:outputSettings:completion:]_block_invoke
+___80-[RGLCVideoRecorder startRecordingAtFileURL:fileType:outputSettings:completion:]_block_invoke_2
+___80-[RGLCVideoRecorder startRecordingAtFileURL:fileType:outputSettings:completion:]_block_invoke_3
+___copy_helper_block_e8_32s40b48s56s64s
+___destroy_helper_block_e8_32s40s48s56s64s
+-[RGLCVideoRecorder stopRecordingWithCompletion:]
+___49-[RGLCVideoRecorder stopRecordingWithCompletion:]_block_invoke
+___49-[RGLCVideoRecorder stopRecordingWithCompletion:]_block_invoke_2
+___copy_helper_block_e8_32b40s48s
+___49-[RGLCVideoRecorder stopRecordingWithCompletion:]_block_invoke.66
+___49-[RGLCVideoRecorder stopRecordingWithCompletion:]_block_invoke_2.67
+___copy_helper_block_e8_32s40b48s
+-[RGLCVideoRecorder queue]
+-[RGLCVideoRecorder setQueue:]
+-[RGLCVideoRecorder firstSample]
+-[RGLCVideoRecorder setFirstSample:]
+-[RGLCVideoRecorder isRecording]
+-[RGLCVideoRecorder setIsRecording:]
+-[RGLCVideoRecorder assetWriter]
+-[RGLCVideoRecorder setAssetWriter:]
+-[RGLCVideoRecorder inputPixelBufferAdapter]
+-[RGLCVideoRecorder setInputPixelBufferAdapter:]
+-[RGLCVideoRecorder assetWriterVideoInput]
+-[RGLCVideoRecorder setAssetWriterVideoInput:]
+-[RGLCVideoRecorder .cxx_destruct]
+___block_descriptor_40_e8_32bs_e17_v16?0"NSError"8l
+_OBJC_SELECTOR_REFERENCES_.28
+_OBJC_SELECTOR_REFERENCES_.30
+___block_descriptor_80_e8_32s40bs_e5_v8?0l
+_OBJC_CLASSLIST_REFERENCES_$_.35
+_OBJC_SELECTOR_REFERENCES_.37
+_OBJC_SELECTOR_REFERENCES_.39
+_OBJC_CLASSLIST_REFERENCES_$_.40
+_OBJC_CLASSLIST_REFERENCES_$_.47
+_OBJC_SELECTOR_REFERENCES_.57
+_OBJC_CLASSLIST_REFERENCES_$_.58
+_OBJC_SELECTOR_REFERENCES_.60
+_OBJC_SELECTOR_REFERENCES_.62
+_OBJC_SELECTOR_REFERENCES_.64
+___block_descriptor_72_e8_32s40bs48s56s64s_e5_v8?0l
+___block_descriptor_56_e8_32bs40s48s_e5_v8?0l
+___block_descriptor_40_e8_32bs_e27_v24?0"NSURL"8"NSError"16l
+___block_descriptor_56_e8_32s40bs48s_e5_v8?0l
+___block_descriptor_48_e8_32s40bs_e5_v8?0l
+__OBJC_METACLASS_RO_$_RGLCVideoRecorder
+__OBJC_$_INSTANCE_METHODS_RGLCVideoRecorder
+_OBJC_IVAR_$_RGLCVideoRecorder._firstSample
+_OBJC_IVAR_$_RGLCVideoRecorder._isRecording
+_OBJC_IVAR_$_RGLCVideoRecorder._queue
+_OBJC_IVAR_$_RGLCVideoRecorder._assetWriter
+_OBJC_IVAR_$_RGLCVideoRecorder._inputPixelBufferAdapter
+_OBJC_IVAR_$_RGLCVideoRecorder._assetWriterVideoInput
+__OBJC_$_INSTANCE_VARIABLES_RGLCVideoRecorder
+__OBJC_$_PROP_LIST_RGLCVideoRecorder
+__OBJC_CLASS_RO_$_RGLCVideoRecorder
+/Users/administratorregula/workspace/iOS_Common_Build/iOS_Common/Sources/VideoRecorder/RGLCVideoRecorder.m
+Sources/VideoRecorder/RGLCVideoRecorder.m
+__copy_helper_block_e8_32s40b48s
+__49-[RGLCVideoRecorder stopRecordingWithCompletion:]_block_invoke_2.67
+__49-[RGLCVideoRecorder stopRecordingWithCompletion:]_block_invoke.66
+__copy_helper_block_e8_32b40s48s
+__49-[RGLCVideoRecorder stopRecordingWithCompletion:]_block_invoke_2
+__49-[RGLCVideoRecorder stopRecordingWithCompletion:]_block_invoke
+__destroy_helper_block_e8_32s40s48s56s64s
+__copy_helper_block_e8_32s40b48s56s64s
+__80-[RGLCVideoRecorder startRecordingAtFileURL:fileType:outputSettings:completion:]_block_invoke_3
+__80-[RGLCVideoRecorder startRecordingAtFileURL:fileType:outputSettings:completion:]_block_invoke_2
+__80-[RGLCVideoRecorder startRecordingAtFileURL:fileType:outputSettings:completion:]_block_invoke
+__69-[RGLCVideoRecorder recordImageBuffer:atPresentationTime:completion:]_block_invoke.6
+__69-[RGLCVideoRecorder recordImageBuffer:atPresentationTime:completion:]_block_invoke_2
+__69-[RGLCVideoRecorder recordImageBuffer:atPresentationTime:completion:]_block_invoke
++[RGLCHTTPSessionManager manager]
+-[RGLCHTTPSessionManager init]
+-[RGLCHTTPSessionManager initWithBaseURL:]
+-[RGLCHTTPSessionManager initWithSessionConfiguration:]
+-[RGLCHTTPSessionManager initWithBaseURL:sessionConfiguration:]
+-[RGLCHTTPSessionManager baseURL]
+-[RGLCHTTPSessionManager setRequestSerializer:]
+-[RGLCHTTPSessionManager setResponseSerializer:]
+-[RGLCHTTPSessionManager GET:parameters:headers:success:failure:]
+-[RGLCHTTPSessionManager HEAD:parameters:headers:success:failure:]
+___66-[RGLCHTTPSessionManager HEAD:parameters:headers:success:failure:]_block_invoke
+-[RGLCHTTPSessionManager POST:parameters:headers:success:failure:]
+-[RGLCHTTPSessionManager PUT:parameters:headers:success:failure:]
+-[RGLCHTTPSessionManager PATCH:parameters:headers:success:failure:]
+-[RGLCHTTPSessionManager DELETE:parameters:headers:success:failure:]
+-[RGLCHTTPSessionManager dataTaskWithHTTPMethod:URLString:parameters:headers:success:failure:]
+___94-[RGLCHTTPSessionManager dataTaskWithHTTPMethod:URLString:parameters:headers:success:failure:]_block_invoke
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___94-[RGLCHTTPSessionManager dataTaskWithHTTPMethod:URLString:parameters:headers:success:failure:]_block_invoke.64
+___copy_helper_block_e8_32b40b48r
+___destroy_helper_block_e8_32s40s48r
+-[RGLCHTTPSessionManager overridenBaseURL]
+-[RGLCHTTPSessionManager setOverridenBaseURL:]
+-[RGLCHTTPSessionManager requestSerializer]
+-[RGLCHTTPSessionManager setBaseURL:]
+-[RGLCHTTPSessionManager .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.27
+_OBJC_SELECTOR_REFERENCES_.31
+_OBJC_IVAR_$_RGLCHTTPSessionManager._baseURL
+_OBJC_IVAR_$_RGLCHTTPSessionManager._requestSerializer
+_OBJC_SELECTOR_REFERENCES_.35
+___block_descriptor_40_e8_32bs_e33_v24?0"NSURLSessionDataTask"816l
+_OBJC_SELECTOR_REFERENCES_.52
+_OBJC_SELECTOR_REFERENCES_.54
+_OBJC_SELECTOR_REFERENCES_.58
+___block_descriptor_56_e8_32bs40bs48r_e38_v32?0"NSURLResponse"816"NSError"24l
+_OBJC_IVAR_$_RGLCHTTPSessionManager._overridenBaseURL
+__OBJC_$_CLASS_METHODS_RGLCHTTPSessionManager
+__OBJC_METACLASS_RO_$_RGLCHTTPSessionManager
+__OBJC_$_INSTANCE_METHODS_RGLCHTTPSessionManager
+__OBJC_$_INSTANCE_VARIABLES_RGLCHTTPSessionManager
+__OBJC_$_PROP_LIST_RGLCHTTPSessionManager
+__OBJC_CLASS_RO_$_RGLCHTTPSessionManager
+/Users/administratorregula/workspace/iOS_Common_Build/iOS_Common/Sources/Networking/RGLCHTTPSessionManager.m
+Sources/Networking/RGLCHTTPSessionManager.m
+Sources/Networking/RGLCHTTPSessionManager.h
+__destroy_helper_block_e8_32s40s48r
+__copy_helper_block_e8_32b40b48r
+__94-[RGLCHTTPSessionManager dataTaskWithHTTPMethod:URLString:parameters:headers:success:failure:]_block_invoke.64
+__Block_byref_object_dispose_
+__Block_byref_object_copy_
+__94-[RGLCHTTPSessionManager dataTaskWithHTTPMethod:URLString:parameters:headers:success:failure:]_block_invoke
+__66-[RGLCHTTPSessionManager HEAD:parameters:headers:success:failure:]_block_invoke
+-[RGLCProviderTask initWithType:]
+-[RGLCProviderTask type]
++[RGLCProviderTaskRequestPlain taskRequestPlain]
+-[RGLCProviderTaskRequestData initWithData:]
++[RGLCProviderTaskRequestData taskRequestData:]
+-[RGLCProviderTaskRequestData data]
+-[RGLCProviderTaskRequestData .cxx_destruct]
+-[RGLCProviderTaskRequestParameters initWithParameters:]
++[RGLCProviderTaskRequestParameters taskRequestParameters:]
+-[RGLCProviderTaskRequestParameters parameters]
+-[RGLCProviderTaskRequestParameters .cxx_destruct]
+__OBJC_METACLASS_RO_$_RGLCProviderTask
+__OBJC_$_INSTANCE_METHODS_RGLCProviderTask
+_OBJC_IVAR_$_RGLCProviderTask._type
+__OBJC_$_INSTANCE_VARIABLES_RGLCProviderTask
+__OBJC_$_PROP_LIST_RGLCProviderTask
+__OBJC_CLASS_RO_$_RGLCProviderTask
+__OBJC_$_CLASS_METHODS_RGLCProviderTaskRequestPlain
+__OBJC_METACLASS_RO_$_RGLCProviderTaskRequestPlain
+__OBJC_CLASS_RO_$_RGLCProviderTaskRequestPlain
+_OBJC_IVAR_$_RGLCProviderTaskRequestData._data
+__OBJC_$_CLASS_METHODS_RGLCProviderTaskRequestData
+__OBJC_METACLASS_RO_$_RGLCProviderTaskRequestData
+__OBJC_$_INSTANCE_METHODS_RGLCProviderTaskRequestData
+__OBJC_$_INSTANCE_VARIABLES_RGLCProviderTaskRequestData
+__OBJC_$_PROP_LIST_RGLCProviderTaskRequestData
+__OBJC_CLASS_RO_$_RGLCProviderTaskRequestData
+_OBJC_IVAR_$_RGLCProviderTaskRequestParameters._parameters
+__OBJC_$_CLASS_METHODS_RGLCProviderTaskRequestParameters
+__OBJC_METACLASS_RO_$_RGLCProviderTaskRequestParameters
+__OBJC_$_INSTANCE_METHODS_RGLCProviderTaskRequestParameters
+__OBJC_$_INSTANCE_VARIABLES_RGLCProviderTaskRequestParameters
+__OBJC_$_PROP_LIST_RGLCProviderTaskRequestParameters
+__OBJC_CLASS_RO_$_RGLCProviderTaskRequestParameters
+/Users/administratorregula/workspace/iOS_Common_Build/iOS_Common/Sources/Provider/RGLCProviderTask.m
+Sources/Provider/RGLCProviderTask.m
+Sources/Provider/RGLCProviderTask.h
++[NSBundle(RGLCSDKBundle) rglc_sdkBundle]
+___41+[NSBundle(RGLCSDKBundle) rglc_sdkBundle]_block_invoke
+__OBJC_METACLASS_RO_$_RGLCTokenClass
+__OBJC_CLASS_RO_$_RGLCTokenClass
+_rglc_sdkBundle.instance
+_rglc_sdkBundle.onceToken
+___block_descriptor_32_e5_v8?0l
+__OBJC_$_CATEGORY_CLASS_METHODS_NSBundle_$_RGLCSDKBundle
+__OBJC_$_CLASS_PROP_LIST_NSBundle_$_RGLCSDKBundle
+__OBJC_$_CATEGORY_NSBundle_$_RGLCSDKBundle
+/Users/administratorregula/workspace/iOS_Common_Build/iOS_Common/Sources/Extensions/NSBundle+RGLCSDKBundle.m
+__41+[NSBundle(RGLCSDKBundle) rglc_sdkBundle]_block_invoke
+Sources/Extensions/NSBundle+RGLCSDKBundle.m
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/usr/include/dispatch/once.h
++[RGLCLogger shared]
+___20+[RGLCLogger shared]_block_invoke
+___copy_helper_block_e8_
+___destroy_helper_block_e8_
+-[RGLCLogger init]
+-[RGLCLogger logLevel:subsystem:message:]
++[RGLCLogger osLogTypeForLevel:]
++[RGLCLogger prefixForLevel:]
++[RGLCLogger logLevel:subsystem:timeout:filename:line:message:]
++[RGLCLogger logLevel:subsystem:filename:line:message:]
+-[RGLCLogger timeoutTable]
+-[RGLCLogger setTimeoutTable:]
+-[RGLCLogger reportTimeTable]
+-[RGLCLogger setReportTimeTable:]
+-[RGLCLogger .cxx_destruct]
+_shared.instance
+_shared.onceToken
+___block_descriptor_40_e8__e5_v8?0l
+__OBJC_$_CLASS_METHODS_RGLCLogger
+__OBJC_METACLASS_RO_$_RGLCLogger
+__OBJC_$_INSTANCE_METHODS_RGLCLogger
+_OBJC_IVAR_$_RGLCLogger._defaultLogger
+_OBJC_IVAR_$_RGLCLogger._timeoutTable
+_OBJC_IVAR_$_RGLCLogger._reportTimeTable
+__OBJC_$_INSTANCE_VARIABLES_RGLCLogger
+__OBJC_$_PROP_LIST_RGLCLogger
+__OBJC_CLASS_RO_$_RGLCLogger
+/Users/administratorregula/workspace/iOS_Common_Build/iOS_Common/Sources/Logging/RGLCLogger.m
+Sources/Logging/RGLCLogger.m
+__destroy_helper_block_e8_
+__copy_helper_block_e8_
+__20+[RGLCLogger shared]_block_invoke
+-[RGLCCameraConfiguration isDataOutputSynchronizationEnabled]
+-[RGLCCameraConfiguration setDataOutputSynchronizationEnabled:]
+-[RGLCCameraConfiguration isDepthDataOutputEnabled]
+-[RGLCCameraConfiguration setDepthDataOutputEnabled:]
+-[RGLCCameraConfiguration shouldAutomaticallySelectDepthDataFormat]
+-[RGLCCameraConfiguration setShouldAutomaticallySelectDepthDataFormat:]
+-[RGLCCameraConfiguration shouldAutomaticallyDecreaseFramerate]
+-[RGLCCameraConfiguration setShouldAutomaticallyDecreaseFramerate:]
+-[RGLCCameraConfiguration captureConfiguration]
+-[RGLCCameraConfiguration setCaptureConfiguration:]
+-[RGLCCameraConfiguration videoConfiguration]
+-[RGLCCameraConfiguration setVideoConfiguration:]
+-[RGLCCameraConfiguration audioConfiguration]
+-[RGLCCameraConfiguration setAudioConfiguration:]
+-[RGLCCameraConfiguration depthConfiguration]
+-[RGLCCameraConfiguration setDepthConfiguration:]
+-[RGLCCameraConfiguration .cxx_destruct]
+__OBJC_METACLASS_RO_$_RGLCCameraConfiguration
+__OBJC_$_INSTANCE_METHODS_RGLCCameraConfiguration
+_OBJC_IVAR_$_RGLCCameraConfiguration._dataOutputSynchronizationEnabled
+_OBJC_IVAR_$_RGLCCameraConfiguration._depthDataOutputEnabled
+_OBJC_IVAR_$_RGLCCameraConfiguration._shouldAutomaticallySelectDepthDataFormat
+_OBJC_IVAR_$_RGLCCameraConfiguration._shouldAutomaticallyDecreaseFramerate
+_OBJC_IVAR_$_RGLCCameraConfiguration._captureConfiguration
+_OBJC_IVAR_$_RGLCCameraConfiguration._videoConfiguration
+_OBJC_IVAR_$_RGLCCameraConfiguration._audioConfiguration
+_OBJC_IVAR_$_RGLCCameraConfiguration._depthConfiguration
+__OBJC_$_INSTANCE_VARIABLES_RGLCCameraConfiguration
+__OBJC_$_PROP_LIST_RGLCCameraConfiguration
+__OBJC_CLASS_RO_$_RGLCCameraConfiguration
+/Users/administratorregula/workspace/iOS_Common_Build/iOS_Common/Sources/Camera/RGLCCameraConfiguration.m
+Sources/Camera/RGLCCameraConfiguration.m
+Sources/Camera/RGLCCameraConfiguration.h
+-[RGLCURLRequestInterceptor init]
++[RGLCURLRequestInterceptor new]
+-[RGLCURLRequestInterceptor initWithPrepare:]
+-[RGLCURLRequestInterceptor prepare]
+-[RGLCURLRequestInterceptor setPrepare:]
+-[RGLCURLRequestInterceptor .cxx_destruct]
+__OBJC_$_CLASS_METHODS_RGLCURLRequestInterceptor
+__OBJC_METACLASS_RO_$_RGLCURLRequestInterceptor
+__OBJC_$_INSTANCE_METHODS_RGLCURLRequestInterceptor
+_OBJC_IVAR_$_RGLCURLRequestInterceptor._prepare
+__OBJC_$_INSTANCE_VARIABLES_RGLCURLRequestInterceptor
+__OBJC_$_PROP_LIST_RGLCURLRequestInterceptor
+__OBJC_CLASS_RO_$_RGLCURLRequestInterceptor
+/Users/administratorregula/workspace/iOS_Common_Build/iOS_Common/Sources/Networking/RGLCURLRequestInterceptor.m
+Sources/Networking/RGLCURLRequestInterceptor.m
+Sources/Networking/RGLCURLRequestInterceptor.h
+-[RGLCCameraMetadataPlugin init]
++[RGLCCameraMetadataPlugin new]
+-[RGLCCameraMetadataPlugin initWithPreviewLayer:]
+-[RGLCCameraMetadataPlugin sendOutputMetadataObjects:objects:]
+-[RGLCCameraMetadataPlugin previewLayer]
+-[RGLCCameraMetadataPlugin setPreviewLayer:]
+-[RGLCCameraMetadataPlugin onMetadataObjectsOutput]
+-[RGLCCameraMetadataPlugin setOnMetadataObjectsOutput:]
+-[RGLCCameraMetadataPlugin .cxx_destruct]
+__OBJC_$_CLASS_METHODS_RGLCCameraMetadataPlugin
+__OBJC_METACLASS_RO_$_RGLCCameraMetadataPlugin
+__OBJC_$_INSTANCE_METHODS_RGLCCameraMetadataPlugin
+_OBJC_IVAR_$_RGLCCameraMetadataPlugin._previewLayer
+_OBJC_IVAR_$_RGLCCameraMetadataPlugin._onMetadataObjectsOutput
+__OBJC_$_INSTANCE_VARIABLES_RGLCCameraMetadataPlugin
+__OBJC_$_PROP_LIST_RGLCCameraMetadataPlugin
+__OBJC_CLASS_RO_$_RGLCCameraMetadataPlugin
+/Users/administratorregula/workspace/iOS_Common_Build/iOS_Common/Sources/Camera/Output/Plugins/RGLCCameraMetadataPlugin.m
+Sources/Camera/Output/Plugins/RGLCCameraMetadataPlugin.m
+Sources/Camera/Output/Plugins/RGLCCameraMetadataPlugin.h
+-[RGLCCameraPhotoCaptureTask initWithWillCapture:didFinishCapture:]
+-[RGLCCameraPhotoCaptureTask makeDefaultPhototSettings]
+-[RGLCCameraPhotoCaptureTask updateJPEGData:]
+-[RGLCCameraPhotoCaptureTask jpegData]
+-[RGLCCameraPhotoCaptureTask setJpegData:]
+-[RGLCCameraPhotoCaptureTask willCaptureBlock]
+-[RGLCCameraPhotoCaptureTask setWillCaptureBlock:]
+-[RGLCCameraPhotoCaptureTask didFinishBlock]
+-[RGLCCameraPhotoCaptureTask setDidFinishBlock:]
+-[RGLCCameraPhotoCaptureTask photoSettings]
+-[RGLCCameraPhotoCaptureTask setPhotoSettings:]
+-[RGLCCameraPhotoCaptureTask .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.3
+__OBJC_METACLASS_RO_$_RGLCCameraPhotoCaptureTask
+__OBJC_$_INSTANCE_METHODS_RGLCCameraPhotoCaptureTask
+_OBJC_IVAR_$_RGLCCameraPhotoCaptureTask._jpegData
+_OBJC_IVAR_$_RGLCCameraPhotoCaptureTask._willCaptureBlock
+_OBJC_IVAR_$_RGLCCameraPhotoCaptureTask._didFinishBlock
+_OBJC_IVAR_$_RGLCCameraPhotoCaptureTask._photoSettings
+__OBJC_$_INSTANCE_VARIABLES_RGLCCameraPhotoCaptureTask
+__OBJC_$_PROP_LIST_RGLCCameraPhotoCaptureTask
+__OBJC_CLASS_RO_$_RGLCCameraPhotoCaptureTask
+/Users/administratorregula/workspace/iOS_Common_Build/iOS_Common/Sources/Camera/Output/CapturePhoto/RGLCCameraPhotoCaptureTask.m
+Sources/Camera/Output/CapturePhoto/RGLCCameraPhotoCaptureTask.m
+Sources/Camera/Output/CapturePhoto/RGLCCameraPhotoCaptureTask.h
+-[RGLCLoggingViewController dealloc]
+-[RGLCLoggingViewController viewDidLoad]
+-[RGLCLoggingViewController viewWillAppear:]
+-[RGLCLoggingViewController viewDidAppear:]
+-[RGLCLoggingViewController viewWillDisappear:]
+-[RGLCLoggingViewController viewDidDisappear:]
+-[RGLCLoggingViewController didReceiveMemoryWarning]
+__OBJC_METACLASS_RO_$_RGLCLoggingViewController
+__OBJC_$_INSTANCE_METHODS_RGLCLoggingViewController
+__OBJC_CLASS_RO_$_RGLCLoggingViewController
+/Users/administratorregula/workspace/iOS_Common_Build/iOS_Common/Sources/Logging/RGLCLoggingViewController.m
+Sources/Logging/RGLCLoggingViewController.m
+-[RGLCCameraDeviceInput setupInputCameraWith:device:]
+-[RGLCCameraDeviceInput setupCurrentDevice:session:device:]
+-[RGLCCameraDeviceInput currentCamera]
+-[RGLCCameraDeviceInput setCurrentCamera:]
+-[RGLCCameraDeviceInput .cxx_destruct]
+__OBJC_METACLASS_RO_$_RGLCCameraDeviceInput
+__OBJC_$_INSTANCE_METHODS_RGLCCameraDeviceInput
+_OBJC_IVAR_$_RGLCCameraDeviceInput._currentCamera
+__OBJC_$_INSTANCE_VARIABLES_RGLCCameraDeviceInput
+__OBJC_$_PROP_LIST_RGLCCameraDeviceInput
+__OBJC_CLASS_RO_$_RGLCCameraDeviceInput
+/Users/administratorregula/workspace/iOS_Common_Build/iOS_Common/Sources/Camera/RGLCCameraDeviceInput.m
+Sources/Camera/RGLCCameraDeviceInput.m
+-[RGLCQueryStringPair initWithField:value:]
+-[RGLCQueryStringPair URLEncodedStringValue]
+-[RGLCQueryStringPair field]
+-[RGLCQueryStringPair setField:]
+-[RGLCQueryStringPair value]
+-[RGLCQueryStringPair setValue:]
+-[RGLCQueryStringPair .cxx_destruct]
++[RGLCHTTPRequestSerializer serializer]
+-[RGLCHTTPRequestSerializer init]
+___33-[RGLCHTTPRequestSerializer init]_block_invoke
+-[RGLCHTTPRequestSerializer HTTPRequestHeaders]
+___47-[RGLCHTTPRequestSerializer HTTPRequestHeaders]_block_invoke
+___copy_helper_block_e8_32s40r
+___destroy_helper_block_e8_32s40r
+-[RGLCHTTPRequestSerializer setValue:forHTTPHeaderField:]
+___57-[RGLCHTTPRequestSerializer setValue:forHTTPHeaderField:]_block_invoke
+-[RGLCHTTPRequestSerializer valueForHTTPHeaderField:]
+___53-[RGLCHTTPRequestSerializer valueForHTTPHeaderField:]_block_invoke
+___copy_helper_block_e8_32s40s48r
+-[RGLCHTTPRequestSerializer clearAuthorizationHeader]
+___53-[RGLCHTTPRequestSerializer clearAuthorizationHeader]_block_invoke
+-[RGLCHTTPRequestSerializer requestWithMethod:URLString:parameters:error:]
+-[RGLCHTTPRequestSerializer requestBySerializingRequest:withParameters:error:]
+___78-[RGLCHTTPRequestSerializer requestBySerializingRequest:withParameters:error:]_block_invoke
+-[RGLCHTTPRequestSerializer stringEncoding]
+-[RGLCHTTPRequestSerializer setStringEncoding:]
+-[RGLCHTTPRequestSerializer allowsCellularAccess]
+-[RGLCHTTPRequestSerializer setAllowsCellularAccess:]
+-[RGLCHTTPRequestSerializer cachePolicy]
+-[RGLCHTTPRequestSerializer setCachePolicy:]
+-[RGLCHTTPRequestSerializer HTTPShouldHandleCookies]
+-[RGLCHTTPRequestSerializer setHTTPShouldHandleCookies:]
+-[RGLCHTTPRequestSerializer HTTPShouldUsePipelining]
+-[RGLCHTTPRequestSerializer setHTTPShouldUsePipelining:]
+-[RGLCHTTPRequestSerializer networkServiceType]
+-[RGLCHTTPRequestSerializer setNetworkServiceType:]
+-[RGLCHTTPRequestSerializer timeoutInterval]
+-[RGLCHTTPRequestSerializer setTimeoutInterval:]
+-[RGLCHTTPRequestSerializer HTTPMethodsEncodingParametersInURI]
+-[RGLCHTTPRequestSerializer setHTTPMethodsEncodingParametersInURI:]
+-[RGLCHTTPRequestSerializer mutableHTTPRequestHeaders]
+-[RGLCHTTPRequestSerializer setMutableHTTPRequestHeaders:]
+-[RGLCHTTPRequestSerializer requestHeaderModificationQueue]
+-[RGLCHTTPRequestSerializer setRequestHeaderModificationQueue:]
+-[RGLCHTTPRequestSerializer .cxx_destruct]
++[RGLCJSONRequestSerializer serializer]
++[RGLCJSONRequestSerializer serializerWithWritingOptions:]
+-[RGLCJSONRequestSerializer requestBySerializingRequest:withParameters:error:]
+___78-[RGLCJSONRequestSerializer requestBySerializingRequest:withParameters:error:]_block_invoke
+-[RGLCJSONRequestSerializer writingOptions]
+-[RGLCJSONRequestSerializer setWritingOptions:]
+_OBJC_CLASSLIST_REFERENCES_$_.31
+_OBJC_SELECTOR_REFERENCES_.33
+__OBJC_METACLASS_RO_$_RGLCQueryStringPair
+__OBJC_$_INSTANCE_METHODS_RGLCQueryStringPair
+_OBJC_IVAR_$_RGLCQueryStringPair._field
+_OBJC_IVAR_$_RGLCQueryStringPair._value
+__OBJC_$_INSTANCE_VARIABLES_RGLCQueryStringPair
+__OBJC_$_PROP_LIST_RGLCQueryStringPair
+__OBJC_CLASS_RO_$_RGLCQueryStringPair
+_OBJC_CLASSLIST_REFERENCES_$_.70
+_OBJC_SELECTOR_REFERENCES_.74
+_OBJC_SELECTOR_REFERENCES_.76
+_OBJC_CLASSLIST_REFERENCES_$_.77
+_OBJC_SELECTOR_REFERENCES_.88
+_OBJC_SELECTOR_REFERENCES_.94
+_OBJC_CLASSLIST_REFERENCES_$_.97
+_OBJC_CLASSLIST_REFERENCES_$_.98
+_OBJC_SELECTOR_REFERENCES_.99
+_OBJC_CLASSLIST_REFERENCES_$_.105
+_OBJC_SELECTOR_REFERENCES_.107
+_OBJC_SELECTOR_REFERENCES_.109
+_OBJC_CLASSLIST_REFERENCES_$_.113
+_OBJC_SELECTOR_REFERENCES_.115
+___block_descriptor_40_e8_32s_e15_v32?08Q16^B24l
+_OBJC_CLASSLIST_REFERENCES_$_.129
+_OBJC_SELECTOR_REFERENCES_.131
+_OBJC_SELECTOR_REFERENCES_.133
+_OBJC_CLASSLIST_REFERENCES_$_.136
+_OBJC_SELECTOR_REFERENCES_.138
+_OBJC_SELECTOR_REFERENCES_.140
+_OBJC_CLASSLIST_REFERENCES_$_.143
+_OBJC_SELECTOR_REFERENCES_.145
+_OBJC_SELECTOR_REFERENCES_.147
+_OBJC_SELECTOR_REFERENCES_.149
+_OBJC_SELECTOR_REFERENCES_.161
+_OBJC_SELECTOR_REFERENCES_.163
+_OBJC_SELECTOR_REFERENCES_.165
+_OBJC_SELECTOR_REFERENCES_.167
+_OBJC_SELECTOR_REFERENCES_.169
+___block_descriptor_48_e8_32s40r_e5_v8?0l
+_OBJC_SELECTOR_REFERENCES_.172
+___block_descriptor_56_e8_32s40s48s_e5_v8?0l
+_OBJC_SELECTOR_REFERENCES_.174
+___block_descriptor_56_e8_32s40s48r_e5_v8?0l
+_OBJC_CLASSLIST_REFERENCES_$_.179
+_OBJC_SELECTOR_REFERENCES_.181
+_OBJC_CLASSLIST_REFERENCES_$_.182
+_OBJC_SELECTOR_REFERENCES_.184
+_OBJC_SELECTOR_REFERENCES_.188
+_OBJC_SELECTOR_REFERENCES_.194
+_OBJC_SELECTOR_REFERENCES_.200
+_OBJC_SELECTOR_REFERENCES_.204
+_OBJC_SELECTOR_REFERENCES_.206
+_OBJC_SELECTOR_REFERENCES_.208
+_OBJC_SELECTOR_REFERENCES_.210
+_OBJC_SELECTOR_REFERENCES_.212
+_OBJC_SELECTOR_REFERENCES_.214
+___block_descriptor_48_e8_32s40s_e15_v32?0816^B24l
+_OBJC_SELECTOR_REFERENCES_.223
+_OBJC_SELECTOR_REFERENCES_.229
+_OBJC_SELECTOR_REFERENCES_.231
+_OBJC_SELECTOR_REFERENCES_.237
+_OBJC_SELECTOR_REFERENCES_.239
+_OBJC_SELECTOR_REFERENCES_.245
+_OBJC_SELECTOR_REFERENCES_.247
+_OBJC_SELECTOR_REFERENCES_.249
+__OBJC_$_CLASS_METHODS_RGLCHTTPRequestSerializer
+__OBJC_$_PROTOCOL_REFS_RGLCURLRequestSerialization
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_RGLCURLRequestSerialization
+__OBJC_$_PROTOCOL_METHOD_TYPES_RGLCURLRequestSerialization
+__OBJC_PROTOCOL_$_RGLCURLRequestSerialization
+__OBJC_LABEL_PROTOCOL_$_RGLCURLRequestSerialization
+__OBJC_CLASS_PROTOCOLS_$_RGLCHTTPRequestSerializer
+__OBJC_METACLASS_RO_$_RGLCHTTPRequestSerializer
+__OBJC_$_INSTANCE_METHODS_RGLCHTTPRequestSerializer
+_OBJC_IVAR_$_RGLCHTTPRequestSerializer._allowsCellularAccess
+_OBJC_IVAR_$_RGLCHTTPRequestSerializer._HTTPShouldHandleCookies
+_OBJC_IVAR_$_RGLCHTTPRequestSerializer._HTTPShouldUsePipelining
+_OBJC_IVAR_$_RGLCHTTPRequestSerializer._stringEncoding
+_OBJC_IVAR_$_RGLCHTTPRequestSerializer._cachePolicy
+_OBJC_IVAR_$_RGLCHTTPRequestSerializer._networkServiceType
+_OBJC_IVAR_$_RGLCHTTPRequestSerializer._timeoutInterval
+_OBJC_IVAR_$_RGLCHTTPRequestSerializer._HTTPMethodsEncodingParametersInURI
+_OBJC_IVAR_$_RGLCHTTPRequestSerializer._mutableHTTPRequestHeaders
+_OBJC_IVAR_$_RGLCHTTPRequestSerializer._requestHeaderModificationQueue
+__OBJC_$_INSTANCE_VARIABLES_RGLCHTTPRequestSerializer
+__OBJC_$_PROP_LIST_RGLCHTTPRequestSerializer
+__OBJC_CLASS_RO_$_RGLCHTTPRequestSerializer
+_OBJC_SELECTOR_REFERENCES_.343
+_OBJC_CLASSLIST_REFERENCES_$_.347
+_OBJC_SELECTOR_REFERENCES_.349
+_OBJC_CLASSLIST_REFERENCES_$_.358
+_OBJC_SELECTOR_REFERENCES_.360
+_OBJC_SELECTOR_REFERENCES_.362
+_OBJC_SELECTOR_REFERENCES_.364
+_OBJC_IVAR_$_RGLCJSONRequestSerializer._writingOptions
+__OBJC_$_CLASS_METHODS_RGLCJSONRequestSerializer
+__OBJC_METACLASS_RO_$_RGLCJSONRequestSerializer
+__OBJC_$_INSTANCE_METHODS_RGLCJSONRequestSerializer
+__OBJC_$_INSTANCE_VARIABLES_RGLCJSONRequestSerializer
+__OBJC_$_PROP_LIST_RGLCJSONRequestSerializer
+__OBJC_CLASS_RO_$_RGLCJSONRequestSerializer
+/Users/administratorregula/workspace/iOS_Common_Build/iOS_Common/Sources/Networking/RGLCHTTPRequestSerializer.m
+Sources/Networking/RGLCHTTPRequestSerializer.h
+__78-[RGLCJSONRequestSerializer requestBySerializingRequest:withParameters:error:]_block_invoke
+Sources/Networking/RGLCHTTPRequestSerializer.m
+__78-[RGLCHTTPRequestSerializer requestBySerializingRequest:withParameters:error:]_block_invoke
+__53-[RGLCHTTPRequestSerializer clearAuthorizationHeader]_block_invoke
+__copy_helper_block_e8_32s40s48r
+__53-[RGLCHTTPRequestSerializer valueForHTTPHeaderField:]_block_invoke
+__57-[RGLCHTTPRequestSerializer setValue:forHTTPHeaderField:]_block_invoke
+__destroy_helper_block_e8_32s40r
+__copy_helper_block_e8_32s40r
+__47-[RGLCHTTPRequestSerializer HTTPRequestHeaders]_block_invoke
+__33-[RGLCHTTPRequestSerializer init]_block_invoke
+RGLCQueryStringPairsFromKeyAndValue
+RGLCQueryStringPairsFromDictionary
+RGLCQueryStringFromParameters
+RGLCPercentEscapedStringFromString
+NSMakeRange
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
+-[RGLCCameraSynchronizedData initWithVideoSampleBuffer:audioSampleBuffer:metadataObjects:depthData:]
+-[RGLCCameraSynchronizedData videoSampleBuffer]
+-[RGLCCameraSynchronizedData audioSampleBuffer]
+-[RGLCCameraSynchronizedData metadataObjects]
+-[RGLCCameraSynchronizedData depthData]
+-[RGLCCameraSynchronizedData .cxx_destruct]
+-[RGLCCameraSynchronizedDataPlugin sendOutputSynchronizedData:]
+-[RGLCCameraSynchronizedDataPlugin onSynchoronizedDataOutput]
+-[RGLCCameraSynchronizedDataPlugin setOnSynchoronizedDataOutput:]
+-[RGLCCameraSynchronizedDataPlugin .cxx_destruct]
+__OBJC_METACLASS_RO_$_RGLCCameraSynchronizedData
+__OBJC_$_INSTANCE_METHODS_RGLCCameraSynchronizedData
+_OBJC_IVAR_$_RGLCCameraSynchronizedData._videoSampleBuffer
+_OBJC_IVAR_$_RGLCCameraSynchronizedData._audioSampleBuffer
+_OBJC_IVAR_$_RGLCCameraSynchronizedData._metadataObjects
+_OBJC_IVAR_$_RGLCCameraSynchronizedData._depthData
+__OBJC_$_INSTANCE_VARIABLES_RGLCCameraSynchronizedData
+__OBJC_$_PROP_LIST_RGLCCameraSynchronizedData
+__OBJC_CLASS_RO_$_RGLCCameraSynchronizedData
+__OBJC_METACLASS_RO_$_RGLCCameraSynchronizedDataPlugin
+__OBJC_$_INSTANCE_METHODS_RGLCCameraSynchronizedDataPlugin
+_OBJC_IVAR_$_RGLCCameraSynchronizedDataPlugin._onSynchoronizedDataOutput
+__OBJC_$_INSTANCE_VARIABLES_RGLCCameraSynchronizedDataPlugin
+__OBJC_$_PROP_LIST_RGLCCameraSynchronizedDataPlugin
+__OBJC_CLASS_RO_$_RGLCCameraSynchronizedDataPlugin
+/Users/administratorregula/workspace/iOS_Common_Build/iOS_Common/Sources/Camera/Output/Plugins/RGLCCameraSynchronizedDataPlugin.m
+Sources/Camera/Output/Plugins/RGLCCameraSynchronizedDataPlugin.m
+Sources/Camera/Output/Plugins/RGLCCameraSynchronizedDataPlugin.h
+-[RGLCCameraMetadataDetectFacesPlugin sendOutputMetadataObjects:objects:]
+-[RGLCCameraMetadataDetectFacesPlugin onDetectFaces]
+-[RGLCCameraMetadataDetectFacesPlugin setOnDetectFaces:]
+-[RGLCCameraMetadataDetectFacesPlugin .cxx_destruct]
+_OBJC_IVAR_$_RGLCCameraMetadataDetectFacesPlugin._onDetectFaces
+__OBJC_METACLASS_RO_$_RGLCCameraMetadataDetectFacesPlugin
+__OBJC_$_INSTANCE_METHODS_RGLCCameraMetadataDetectFacesPlugin
+__OBJC_$_INSTANCE_VARIABLES_RGLCCameraMetadataDetectFacesPlugin
+__OBJC_$_PROP_LIST_RGLCCameraMetadataDetectFacesPlugin
+__OBJC_CLASS_RO_$_RGLCCameraMetadataDetectFacesPlugin
+/Users/administratorregula/workspace/iOS_Common_Build/iOS_Common/Sources/Camera/Output/Plugins/RGLCCameraMetadataDetectFacesPlugin.m
+Sources/Camera/Output/Plugins/RGLCCameraMetadataDetectFacesPlugin.m
+Sources/Camera/Output/Plugins/RGLCCameraMetadataDetectFacesPlugin.h
+-[RGLCURLSessionManager init]
+-[RGLCURLSessionManager initWithSessionConfiguration:]
+-[RGLCURLSessionManager session]
+-[RGLCURLSessionManager invalidateSessionCancelingTasks:resetSession:]
+-[RGLCURLSessionManager dataTaskWithRequest:completionHandler:]
+___63-[RGLCURLSessionManager dataTaskWithRequest:completionHandler:]_block_invoke
+___63-[RGLCURLSessionManager dataTaskWithRequest:completionHandler:]_block_invoke_2
+___63-[RGLCURLSessionManager dataTaskWithRequest:completionHandler:]_block_invoke.28
+___copy_helper_block_e8_32b40s48s56s
+___destroy_helper_block_e8_32s40s48s56s
+___copy_helper_block_e8_32b40w
+___destroy_helper_block_e8_32s40w
+-[RGLCURLSessionManager setSessionDidBecomeInvalidBlock:]
+-[RGLCURLSessionManager setSessionDidReceiveAuthenticationChallengeBlock:]
+-[RGLCURLSessionManager URLSession:didBecomeInvalidWithError:]
+-[RGLCURLSessionManager URLSession:didReceiveChallenge:completionHandler:]
+-[RGLCURLSessionManager operationQueue]
+-[RGLCURLSessionManager setOperationQueue:]
+-[RGLCURLSessionManager responseSerializer]
+-[RGLCURLSessionManager setResponseSerializer:]
+-[RGLCURLSessionManager requestInterceptor]
+-[RGLCURLSessionManager setRequestInterceptor:]
+-[RGLCURLSessionManager sessionConfiguration]
+-[RGLCURLSessionManager setSessionConfiguration:]
+-[RGLCURLSessionManager setSession:]
+-[RGLCURLSessionManager sessionDidBecomeInvalid]
+-[RGLCURLSessionManager setSessionDidBecomeInvalid:]
+-[RGLCURLSessionManager sessionDidReceiveAuthenticationChallenge]
+-[RGLCURLSessionManager setSessionDidReceiveAuthenticationChallenge:]
+-[RGLCURLSessionManager .cxx_destruct]
+___block_descriptor_64_e8_32bs40s48s56s_e5_v8?0l
+___block_descriptor_48_e8_32bs40w_e46_v32?0"NSData"8"NSURLResponse"16"NSError"24l
+_OBJC_CLASSLIST_REFERENCES_$_.36
+_OBJC_CLASSLIST_REFERENCES_$_.49
+__OBJC_$_PROTOCOL_REFS_NSURLSessionDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSURLSessionDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSURLSessionDelegate
+__OBJC_PROTOCOL_$_NSURLSessionDelegate
+__OBJC_LABEL_PROTOCOL_$_NSURLSessionDelegate
+__OBJC_CLASS_PROTOCOLS_$_RGLCURLSessionManager
+__OBJC_METACLASS_RO_$_RGLCURLSessionManager
+__OBJC_$_INSTANCE_METHODS_RGLCURLSessionManager
+_OBJC_IVAR_$_RGLCURLSessionManager._operationQueue
+_OBJC_IVAR_$_RGLCURLSessionManager._responseSerializer
+_OBJC_IVAR_$_RGLCURLSessionManager._requestInterceptor
+_OBJC_IVAR_$_RGLCURLSessionManager._sessionConfiguration
+_OBJC_IVAR_$_RGLCURLSessionManager._session
+_OBJC_IVAR_$_RGLCURLSessionManager._sessionDidBecomeInvalid
+_OBJC_IVAR_$_RGLCURLSessionManager._sessionDidReceiveAuthenticationChallenge
+__OBJC_$_INSTANCE_VARIABLES_RGLCURLSessionManager
+__OBJC_$_PROP_LIST_RGLCURLSessionManager
+__OBJC_CLASS_RO_$_RGLCURLSessionManager
+/Users/administratorregula/workspace/iOS_Common_Build/iOS_Common/Sources/Networking/RGLCURLSessionManager.m
+Sources/Networking/RGLCURLSessionManager.m
+Sources/Networking/RGLCURLSessionManager.h
+__destroy_helper_block_e8_32s40w
+__copy_helper_block_e8_32b40w
+__destroy_helper_block_e8_32s40s48s56s
+__copy_helper_block_e8_32b40s48s56s
+__63-[RGLCURLSessionManager dataTaskWithRequest:completionHandler:]_block_invoke.28
+__63-[RGLCURLSessionManager dataTaskWithRequest:completionHandler:]_block_invoke_2
+__63-[RGLCURLSessionManager dataTaskWithRequest:completionHandler:]_block_invoke
++[RGLCHTTPResponseSerializer serializer]
+-[RGLCHTTPResponseSerializer init]
+-[RGLCHTTPResponseSerializer validateResponse:data:error:]
+-[RGLCHTTPResponseSerializer responseObjectForResponse:data:error:]
+-[RGLCHTTPResponseSerializer acceptableStatusCodes]
+-[RGLCHTTPResponseSerializer setAcceptableStatusCodes:]
+-[RGLCHTTPResponseSerializer acceptableContentTypes]
+-[RGLCHTTPResponseSerializer setAcceptableContentTypes:]
+-[RGLCHTTPResponseSerializer .cxx_destruct]
++[RGLCJSONResponseSerializer serializer]
++[RGLCJSONResponseSerializer serializerWithReadingOptions:]
+-[RGLCJSONResponseSerializer init]
+-[RGLCJSONResponseSerializer responseObjectForResponse:data:error:]
+-[RGLCJSONResponseSerializer readingOptions]
+-[RGLCJSONResponseSerializer setReadingOptions:]
+-[RGLCJSONResponseSerializer removesKeysWithNullValues]
+-[RGLCJSONResponseSerializer setRemovesKeysWithNullValues:]
+_OBJC_CLASSLIST_REFERENCES_$_.16
+_OBJC_CLASSLIST_REFERENCES_$_.25
+_OBJC_CLASSLIST_REFERENCES_$_.26
+_OBJC_CLASSLIST_REFERENCES_$_.39
+_OBJC_CLASSLIST_REFERENCES_$_.46
+_OBJC_CLASSLIST_REFERENCES_$_.57
+_OBJC_SELECTOR_REFERENCES_.70
+_OBJC_SELECTOR_REFERENCES_.72
+_OBJC_CLASSLIST_REFERENCES_$_.75
+_OBJC_SELECTOR_REFERENCES_.87
+__OBJC_$_CLASS_METHODS_RGLCHTTPResponseSerializer
+__OBJC_$_PROTOCOL_REFS_RGLCURLResponseSerialization
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_RGLCURLResponseSerialization
+__OBJC_$_PROTOCOL_METHOD_TYPES_RGLCURLResponseSerialization
+__OBJC_PROTOCOL_$_RGLCURLResponseSerialization
+__OBJC_LABEL_PROTOCOL_$_RGLCURLResponseSerialization
+__OBJC_CLASS_PROTOCOLS_$_RGLCHTTPResponseSerializer
+__OBJC_METACLASS_RO_$_RGLCHTTPResponseSerializer
+__OBJC_$_INSTANCE_METHODS_RGLCHTTPResponseSerializer
+_OBJC_IVAR_$_RGLCHTTPResponseSerializer._acceptableStatusCodes
+_OBJC_IVAR_$_RGLCHTTPResponseSerializer._acceptableContentTypes
+__OBJC_$_INSTANCE_VARIABLES_RGLCHTTPResponseSerializer
+__OBJC_$_PROP_LIST_RGLCHTTPResponseSerializer
+__OBJC_CLASS_RO_$_RGLCHTTPResponseSerializer
+_OBJC_CLASSLIST_REFERENCES_$_.150
+_OBJC_CLASSLIST_REFERENCES_$_.159
+_OBJC_CLASSLIST_REFERENCES_$_.165
+_OBJC_IVAR_$_RGLCJSONResponseSerializer._readingOptions
+_OBJC_IVAR_$_RGLCJSONResponseSerializer._removesKeysWithNullValues
+__OBJC_$_CLASS_METHODS_RGLCJSONResponseSerializer
+__OBJC_METACLASS_RO_$_RGLCJSONResponseSerializer
+__OBJC_$_INSTANCE_METHODS_RGLCJSONResponseSerializer
+__OBJC_$_INSTANCE_VARIABLES_RGLCJSONResponseSerializer
+__OBJC_$_PROP_LIST_RGLCJSONResponseSerializer
+__OBJC_CLASS_RO_$_RGLCJSONResponseSerializer
+/Users/administratorregula/workspace/iOS_Common_Build/iOS_Common/Sources/Networking/RGLCHTTPResponseSerializer.m
+Sources/Networking/RGLCHTTPResponseSerializer.h
+Sources/Networking/RGLCHTTPResponseSerializer.m
+RGLCJSONObjectByRemovingKeysWithNullValues
+-[RGLCCameraOutput initWithConfiguration:]
+-[RGLCCameraOutput init]
+-[RGLCCameraOutput setSelectedMetadataObjectTypes:]
+-[RGLCCameraOutput setupCaptureOutput:queue:]
+-[RGLCCameraOutput capturePhotoWithTask:]
+-[RGLCCameraOutput capturePhotoWithSettings:completion:]
+-[RGLCCameraOutput capturePhotoWithCompletion:]
+-[RGLCCameraOutput addMetadataPlugin:forKey:]
+-[RGLCCameraOutput removeMetadataPluginForKey:]
+-[RGLCCameraOutput addSampleBufferPlugin:forKey:]
+-[RGLCCameraOutput removeSampleBufferPluginForKey:]
+-[RGLCCameraOutput addSynchronizedDataPlugin:forKey:]
+-[RGLCCameraOutput removedSynchronizedDataPlugin:]
+-[RGLCCameraOutput captureOutput:didOutputMetadataObjects:fromConnection:]
+-[RGLCCameraOutput captureOutput:didOutputSampleBuffer:fromConnection:]
+-[RGLCCameraOutput captureOutput:didDropSampleBuffer:fromConnection:]
+-[RGLCCameraOutput dataOutputSynchronizer:didOutputSynchronizedDataCollection:]
+-[RGLCCameraOutput updateMetadataOutput:selectedMetadataObjectTypes:]
+-[RGLCCameraOutput imageOutput]
+-[RGLCCameraOutput setImageOutput:]
+-[RGLCCameraOutput metadataOutput]
+-[RGLCCameraOutput setMetadataOutput:]
+-[RGLCCameraOutput videoOutput]
+-[RGLCCameraOutput setVideoOutput:]
+-[RGLCCameraOutput audioOutput]
+-[RGLCCameraOutput setAudioOutput:]
+-[RGLCCameraOutput depthDataOutput]
+-[RGLCCameraOutput setDepthDataOutput:]
+-[RGLCCameraOutput selectedMetadataObjectTypes]
+-[RGLCCameraOutput configuration]
+-[RGLCCameraOutput synchronizer]
+-[RGLCCameraOutput setSynchronizer:]
+-[RGLCCameraOutput sampleBufferPluginTable]
+-[RGLCCameraOutput setSampleBufferPluginTable:]
+-[RGLCCameraOutput synchronizedDataPluginTable]
+-[RGLCCameraOutput setSynchronizedDataPluginTable:]
+-[RGLCCameraOutput metadataPluginTable]
+-[RGLCCameraOutput setMetadataPluginTable:]
+-[RGLCCameraOutput .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.2
+_OBJC_CLASSLIST_REFERENCES_$_.5
+_OBJC_CLASSLIST_REFERENCES_$_.8
+_OBJC_CLASSLIST_REFERENCES_$_.89
+_OBJC_SELECTOR_REFERENCES_.91
+_OBJC_SELECTOR_REFERENCES_.93
+_OBJC_SELECTOR_REFERENCES_.95
+_OBJC_SELECTOR_REFERENCES_.97
+_OBJC_SELECTOR_REFERENCES_.103
+_OBJC_SELECTOR_REFERENCES_.105
+_OBJC_SELECTOR_REFERENCES_.111
+_OBJC_SELECTOR_REFERENCES_.113
+_OBJC_SELECTOR_REFERENCES_.117
+_OBJC_SELECTOR_REFERENCES_.119
+_OBJC_SELECTOR_REFERENCES_.121
+_OBJC_SELECTOR_REFERENCES_.123
+_OBJC_SELECTOR_REFERENCES_.125
+_OBJC_SELECTOR_REFERENCES_.127
+_OBJC_SELECTOR_REFERENCES_.129
+_OBJC_CLASSLIST_REFERENCES_$_.130
+_OBJC_CLASSLIST_REFERENCES_$_.139
+_OBJC_SELECTOR_REFERENCES_.141
+_OBJC_CLASSLIST_REFERENCES_$_.142
+_OBJC_CLASSLIST_REFERENCES_$_.147
+_OBJC_SELECTOR_REFERENCES_.151
+_OBJC_SELECTOR_REFERENCES_.153
+_OBJC_CLASSLIST_REFERENCES_$_.154
+_OBJC_SELECTOR_REFERENCES_.156
+_OBJC_CLASSLIST_REFERENCES_$_.169
+_OBJC_SELECTOR_REFERENCES_.171
+__OBJC_$_PROTOCOL_REFS_AVCaptureAudioDataOutputSampleBufferDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_AVCaptureAudioDataOutputSampleBufferDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_AVCaptureAudioDataOutputSampleBufferDelegate
+__OBJC_PROTOCOL_$_AVCaptureAudioDataOutputSampleBufferDelegate
+__OBJC_LABEL_PROTOCOL_$_AVCaptureAudioDataOutputSampleBufferDelegate
+__OBJC_$_PROTOCOL_REFS_AVCaptureDataOutputSynchronizerDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_AVCaptureDataOutputSynchronizerDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_AVCaptureDataOutputSynchronizerDelegate
+__OBJC_PROTOCOL_$_AVCaptureDataOutputSynchronizerDelegate
+__OBJC_LABEL_PROTOCOL_$_AVCaptureDataOutputSynchronizerDelegate
+__OBJC_$_PROTOCOL_REFS_AVCaptureMetadataOutputObjectsDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_AVCaptureMetadataOutputObjectsDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_AVCaptureMetadataOutputObjectsDelegate
+__OBJC_PROTOCOL_$_AVCaptureMetadataOutputObjectsDelegate
+__OBJC_LABEL_PROTOCOL_$_AVCaptureMetadataOutputObjectsDelegate
+__OBJC_CLASS_PROTOCOLS_$_RGLCCameraOutput
+__OBJC_METACLASS_RO_$_RGLCCameraOutput
+__OBJC_$_INSTANCE_METHODS_RGLCCameraOutput
+_OBJC_IVAR_$_RGLCCameraOutput._imageOutput
+_OBJC_IVAR_$_RGLCCameraOutput._metadataOutput
+_OBJC_IVAR_$_RGLCCameraOutput._videoOutput
+_OBJC_IVAR_$_RGLCCameraOutput._audioOutput
+_OBJC_IVAR_$_RGLCCameraOutput._depthDataOutput
+_OBJC_IVAR_$_RGLCCameraOutput._selectedMetadataObjectTypes
+_OBJC_IVAR_$_RGLCCameraOutput._configuration
+_OBJC_IVAR_$_RGLCCameraOutput._synchronizer
+_OBJC_IVAR_$_RGLCCameraOutput._sampleBufferPluginTable
+_OBJC_IVAR_$_RGLCCameraOutput._synchronizedDataPluginTable
+_OBJC_IVAR_$_RGLCCameraOutput._metadataPluginTable
+__OBJC_$_INSTANCE_VARIABLES_RGLCCameraOutput
+__OBJC_$_PROP_LIST_RGLCCameraOutput
+__OBJC_CLASS_RO_$_RGLCCameraOutput
+/Users/administratorregula/workspace/iOS_Common_Build/iOS_Common/Sources/Camera/Output/RGLCCameraOutput.m
+Sources/Camera/Output/RGLCCameraOutput.m
+Sources/Camera/Output/RGLCCameraOutput.h
+-[RGLCCameraCapturePhotoOutput init]
+-[RGLCCameraCapturePhotoOutput capturePhotoWithTask:]
+-[RGLCCameraCapturePhotoOutput capturePhotoWithSettings:completion:]
+___68-[RGLCCameraCapturePhotoOutput capturePhotoWithSettings:completion:]_block_invoke
+-[RGLCCameraCapturePhotoOutput capturePhotoWithCompletion:]
+___59-[RGLCCameraCapturePhotoOutput capturePhotoWithCompletion:]_block_invoke
+-[RGLCCameraCapturePhotoOutput captureOutput:willCapturePhotoForResolvedSettings:]
+-[RGLCCameraCapturePhotoOutput captureOutput:didFinishProcessingPhoto:error:]
+-[RGLCCameraCapturePhotoOutput captureOutput:didFinishCaptureForResolvedSettings:error:]
+-[RGLCCameraCapturePhotoOutput photoOutput]
+-[RGLCCameraCapturePhotoOutput setPhotoOutput:]
+-[RGLCCameraCapturePhotoOutput tasks]
+-[RGLCCameraCapturePhotoOutput setTasks:]
+-[RGLCCameraCapturePhotoOutput .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.20
+_OBJC_CLASSLIST_REFERENCES_$_.21
+___block_descriptor_40_e8_32bs_e60_v32?0"RGLCCameraPhotoCaptureTask"8"UIImage"16"NSError"24l
+_OBJC_CLASSLIST_REFERENCES_$_.55
+_OBJC_CLASSLIST_REFERENCES_$_.60
+_OBJC_CLASSLIST_REFERENCES_$_.65
+__OBJC_$_PROTOCOL_REFS_AVCapturePhotoCaptureDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_AVCapturePhotoCaptureDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_AVCapturePhotoCaptureDelegate
+__OBJC_PROTOCOL_$_AVCapturePhotoCaptureDelegate
+__OBJC_LABEL_PROTOCOL_$_AVCapturePhotoCaptureDelegate
+__OBJC_CLASS_PROTOCOLS_$_RGLCCameraCapturePhotoOutput
+__OBJC_METACLASS_RO_$_RGLCCameraCapturePhotoOutput
+__OBJC_$_INSTANCE_METHODS_RGLCCameraCapturePhotoOutput
+_OBJC_IVAR_$_RGLCCameraCapturePhotoOutput._photoOutput
+_OBJC_IVAR_$_RGLCCameraCapturePhotoOutput._tasks
+__OBJC_$_INSTANCE_VARIABLES_RGLCCameraCapturePhotoOutput
+__OBJC_$_PROP_LIST_RGLCCameraCapturePhotoOutput
+__OBJC_CLASS_RO_$_RGLCCameraCapturePhotoOutput
+/Users/administratorregula/workspace/iOS_Common_Build/iOS_Common/Sources/Camera/Output/CapturePhoto/RGLCCameraCapturePhotoOutput.m
+Sources/Camera/Output/CapturePhoto/RGLCCameraCapturePhotoOutput.m
+Sources/Camera/Output/CapturePhoto/RGLCCameraCapturePhotoOutput.h
+__59-[RGLCCameraCapturePhotoOutput capturePhotoWithCompletion:]_block_invoke
+__68-[RGLCCameraCapturePhotoOutput capturePhotoWithSettings:completion:]_block_invoke
+-[RGLCEnvironmentMetadata init]
+-[RGLCEnvironmentMetadata sdkBundle]
+-[RGLCEnvironmentMetadata platform]
+-[RGLCEnvironmentMetadata osVersion]
+-[RGLCEnvironmentMetadata deviceModel]
+-[RGLCEnvironmentMetadata sdkVersion]
+-[RGLCEnvironmentMetadata sdkBundleIdentifier]
+-[RGLCEnvironmentMetadata hostAppVersion]
+-[RGLCEnvironmentMetadata hostAppBundleIdentifier]
+-[RGLCEnvironmentMetadata batteryLevelPercent]
+-[RGLCEnvironmentMetadata displayBrightnessLevelPercent]
+-[RGLCEnvironmentMetadata lastLocation]
+-[RGLCEnvironmentMetadata hostAppBundle]
+-[RGLCEnvironmentMetadata locationManager]
+-[RGLCEnvironmentMetadata setLocationManager:]
+-[RGLCEnvironmentMetadata .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.54
+_OBJC_CLASSLIST_REFERENCES_$_.64
+__OBJC_METACLASS_RO_$_RGLCEnvironmentMetadata
+__OBJC_$_INSTANCE_METHODS_RGLCEnvironmentMetadata
+_OBJC_IVAR_$_RGLCEnvironmentMetadata._hostAppBundle
+_OBJC_IVAR_$_RGLCEnvironmentMetadata._locationManager
+__OBJC_$_INSTANCE_VARIABLES_RGLCEnvironmentMetadata
+__OBJC_$_PROP_LIST_RGLCEnvironmentMetadata
+__OBJC_CLASS_RO_$_RGLCEnvironmentMetadata
+/Users/administratorregula/workspace/iOS_Common_Build/iOS_Common/Sources/RGLCEnvironmentMetadata.m
+Sources/RGLCEnvironmentMetadata.m
++[AVCaptureConnection(RGLCUIDeviceOrientation) rglc_videoOrientationFrom:]
+__OBJC_$_CATEGORY_CLASS_METHODS_AVCaptureConnection_$_RGLCUIDeviceOrientation
+__OBJC_$_CATEGORY_AVCaptureConnection_$_RGLCUIDeviceOrientation
+/Users/administratorregula/workspace/iOS_Common_Build/iOS_Common/Sources/Extensions/AVCaptureConnection+RGLCUIDeviceOrientation.m
+Sources/Extensions/AVCaptureConnection+RGLCUIDeviceOrientation.m
+-[NSError(RGLCAdditions) rglc_firstErrorWithDomain:]
+-[NSError(RGLCAdditions) rglc_underlyingError]
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSError_$_RGLCAdditions
+__OBJC_$_CATEGORY_NSError_$_RGLCAdditions
+/Users/administratorregula/workspace/iOS_Common_Build/iOS_Common/Sources/Extensions/NSError+RGLCAdditions.m
+Sources/Extensions/NSError+RGLCAdditions.m
+-[CIImage(RGLCUIInterfaceOrientation) rglc_applyingUIInterfaceOrientation:]
++[CIImage(RGLCUIInterfaceOrientation) rglc_imageOrientationFromUIInterfaceOrienation:]
+__OBJC_$_CATEGORY_INSTANCE_METHODS_CIImage_$_RGLCUIInterfaceOrientation
+__OBJC_$_CATEGORY_CLASS_METHODS_CIImage_$_RGLCUIInterfaceOrientation
+__OBJC_$_CATEGORY_CIImage_$_RGLCUIInterfaceOrientation
+/Users/administratorregula/workspace/iOS_Common_Build/iOS_Common/Sources/Extensions/CIImage+RGLCUIInterfaceOrientation.m
+Sources/Extensions/CIImage+RGLCUIInterfaceOrientation.m
+-[RGLCProviderTaskRequestSerializer requestWithURL:target:error:]
+___65-[RGLCProviderTaskRequestSerializer requestWithURL:target:error:]_block_invoke
+___65-[RGLCProviderTaskRequestSerializer requestWithURL:target:error:]_block_invoke.63
+-[RGLCProviderTaskRequestSerializer jsonEncodedDataWithParameters:error:]
+-[RGLCProviderTaskRequestSerializer httpMethodFromMethod:]
+_OBJC_CLASSLIST_REFERENCES_$_.23
+___block_descriptor_40_e8_32s_e15_v32?0816^B24l
+_OBJC_CLASSLIST_REFERENCES_$_.82
+_OBJC_SELECTOR_REFERENCES_.84
+__OBJC_METACLASS_RO_$_RGLCProviderTaskRequestSerializer
+__OBJC_$_INSTANCE_METHODS_RGLCProviderTaskRequestSerializer
+__OBJC_CLASS_RO_$_RGLCProviderTaskRequestSerializer
+/Users/administratorregula/workspace/iOS_Common_Build/iOS_Common/Sources/Provider/RGLCProviderTaskRequestSerializer.m
+Sources/Provider/RGLCProviderTaskRequestSerializer.m
+__65-[RGLCProviderTaskRequestSerializer requestWithURL:target:error:]_block_invoke.63
+__65-[RGLCProviderTaskRequestSerializer requestWithURL:target:error:]_block_invoke
+-[RGLCCameraSampleBufferPlugin sendOutputSampleBuffer:sampleBuffer:]
+-[RGLCCameraSampleBufferPlugin sendDidDropSampleBuffer:sampleBuffer:]
+-[RGLCCameraSampleBufferPlugin onSampleBufferOutput]
+-[RGLCCameraSampleBufferPlugin setOnSampleBufferOutput:]
+-[RGLCCameraSampleBufferPlugin onSampleBufferDrop]
+-[RGLCCameraSampleBufferPlugin setOnSampleBufferDrop:]
+-[RGLCCameraSampleBufferPlugin .cxx_destruct]
+__OBJC_METACLASS_RO_$_RGLCCameraSampleBufferPlugin
+__OBJC_$_INSTANCE_METHODS_RGLCCameraSampleBufferPlugin
+_OBJC_IVAR_$_RGLCCameraSampleBufferPlugin._onSampleBufferOutput
+_OBJC_IVAR_$_RGLCCameraSampleBufferPlugin._onSampleBufferDrop
+__OBJC_$_INSTANCE_VARIABLES_RGLCCameraSampleBufferPlugin
+__OBJC_$_PROP_LIST_RGLCCameraSampleBufferPlugin
+__OBJC_CLASS_RO_$_RGLCCameraSampleBufferPlugin
+/Users/administratorregula/workspace/iOS_Common_Build/iOS_Common/Sources/Camera/Output/Plugins/RGLCCameraSampleBufferPlugin.m
+Sources/Camera/Output/Plugins/RGLCCameraSampleBufferPlugin.m
+Sources/Camera/Output/Plugins/RGLCCameraSampleBufferPlugin.h
+-[RGLCKeyValueObserver initWithObject:keyPath:target:selector:options:]
++[RGLCKeyValueObserver observeObject:keyPath:target:selector:]
++[RGLCKeyValueObserver observeObject:keyPath:target:selector:options:]
+-[RGLCKeyValueObserver observeValueForKeyPath:ofObject:change:context:]
+-[RGLCKeyValueObserver didChange:]
+-[RGLCKeyValueObserver dealloc]
+-[RGLCKeyValueObserver target]
+-[RGLCKeyValueObserver setTarget:]
+-[RGLCKeyValueObserver selector]
+-[RGLCKeyValueObserver setSelector:]
+-[RGLCKeyValueObserver observedObject]
+-[RGLCKeyValueObserver setObservedObject:]
+-[RGLCKeyValueObserver keyPath]
+-[RGLCKeyValueObserver setKeyPath:]
+-[RGLCKeyValueObserver .cxx_destruct]
+__OBJC_$_CLASS_METHODS_RGLCKeyValueObserver
+__OBJC_METACLASS_RO_$_RGLCKeyValueObserver
+__OBJC_$_INSTANCE_METHODS_RGLCKeyValueObserver
+_OBJC_IVAR_$_RGLCKeyValueObserver._target
+_OBJC_IVAR_$_RGLCKeyValueObserver._selector
+_OBJC_IVAR_$_RGLCKeyValueObserver._observedObject
+_OBJC_IVAR_$_RGLCKeyValueObserver._keyPath
+__OBJC_$_INSTANCE_VARIABLES_RGLCKeyValueObserver
+__OBJC_$_PROP_LIST_RGLCKeyValueObserver
+__OBJC_CLASS_RO_$_RGLCKeyValueObserver
+/Users/administratorregula/workspace/iOS_Common_Build/iOS_Common/Sources/RGLCKeyValueObserver.m
+Sources/RGLCKeyValueObserver.m
+Sources/RGLCKeyValueObserver.h

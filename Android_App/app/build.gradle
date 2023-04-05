@@ -1,0 +1,174 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+    id 'com.google.firebase.crashlytics'
+    id "org.sonarqube" version "3.3"
+    id("de.mannodermaus.android-junit5") version "1.8.2.1"
+}
+
+android {
+    namespace 'com.digitalid.mauritania'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.digitalid.mauritania"
+        minSdk 23
+        targetSdk 33
+        versionCode 33
+        versionName "1.0.8"
+
+        // 1) Make sure to use the AndroidJUnitRunner, or a subclass of it. This requires a dependency on androidx.test:runner, too!
+        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        // 2) Connect JUnit 5 to the runner
+        testInstrumentationRunnerArguments["runnerBuilder"] = "de.mannodermaus.junit5.AndroidJUnit5Builder"
+
+        ndk {
+            abiFilters "arm64-v8a"
+        }
+    }
+
+
+    packagingOptions {
+
+//        doNotStrip '*/arm64-v8a/libomniMatch_common.so'
+//        doNotStrip '*/arm64-v8a/libomniMatch_commonProto.so'
+//        doNotStrip '*/arm64-v8a/libomniMatch_protobuf_contract.so'
+//        doNotStrip '*/arm64-v8a/libTech5_Matcher.so'
+//        doNotStrip '*/arm64-v8a/libTech5_MatcherProto.so'
+//
+//        doNotStrip '*/arm64-v8a/libTech5_TC.so'
+//        doNotStrip '*/arm64-v8a/libTech5_TCProto.so'
+//        doNotStrip '*/arm64-v8a/libTech5OmniMatchBioSdkDataModels.so'
+//        doNotStrip '*/arm64-v8a/libTech5OmniMatchSDKBaseWrapper.so'
+//        doNotStrip '*/arm64-v8a/libTech5OmniMatchSDKJNI.so'
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+
+        }
+
+        debug {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+
+
+        }
+
+
+        android.applicationVariants.all { variant ->
+            def appName
+            // if applicationName property is set in gradle.properties
+            if (project.hasProperty("applicationName")) {
+                appName = applicationName
+            } else {
+                // if not use the name of the parent project
+                appName = parent.name
+            }
+            appName = appName.replaceAll(" ", "_")
+            def formattedDate = new Date().format('yyyy_MM_dd_HH_mm_ss')
+            variant.outputs.all { output ->
+                outputFileName = "${appName}-${output.baseName}-v${variant.versionName}" +
+                        "(${variant.versionCode})-${formattedDate}.apk"
+                println("outputFileName: " + outputFileName)
+            }
+        }
+    }
+    compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+    }
+
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+
+
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.8.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.navigation:navigation-fragment:2.5.3'
+    implementation 'androidx.navigation:navigation-ui:2.5.3'
+
+    implementation "androidx.security:security-crypto:1.0.0"
+
+
+    def camerax_version = '1.2.2'
+    implementation "androidx.camera:camera-core:$camerax_version"
+    implementation "androidx.camera:camera-camera2:$camerax_version"
+    implementation "androidx.camera:camera-lifecycle:$camerax_version"
+    implementation "androidx.camera:camera-view:$camerax_version"
+
+
+    implementation(project(path: ':AirsnapFaceUI'))
+    implementation(project(path: ':AirsnapFaceCore'))
+
+
+
+    implementation 'ai.tech5.omnimatch.sdk:android-wrapper:4.0.0.978-20230306.063925-2'
+    implementation implementation(project(path: ':CryptographSDK'))
+
+
+    implementation 'com.regula.btdevice:api:1.0+@aar'
+    implementation 'com.regula.documentreader.core:fullrfid:6.6.+@aar'
+    implementation('com.regula.documentreader:api:6.6.+@aar') {
+        transitive = true;
+    }
+
+
+    // retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.14.1'
+
+
+    //Barcode reader
+    // Use this dependency to bundle the model with your app
+    implementation 'com.google.mlkit:barcode-scanning:17.0.3'
+
+
+    //lottie animation lib
+    implementation 'com.airbnb.android:lottie:3.4.0'
+
+    //firebase
+    implementation platform('com.google.firebase:firebase-bom:31.2.0')
+    implementation 'com.google.firebase:firebase-crashlytics'
+
+
+    // (Required) Writing and executing Unit Tests on the JUnit Platform
+    testImplementation("org.junit.jupiter:junit-jupiter-api:5.9.2")
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.9.2")
+
+    // (Optional) If you need "Parameterized Tests"
+    androidTestImplementation("org.junit.jupiter:junit-jupiter-params:5.9.2")
+
+
+    // (Required) Writing and executing Unit Tests on the JUnit Platform
+    androidTestImplementation("org.junit.jupiter:junit-jupiter-api:5.9.2")
+    androidTestRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.9.2")
+
+    // (Optional) If you need "Parameterized Tests"
+    testImplementation("org.junit.jupiter:junit-jupiter-params:5.9.2")
+
+
+    // 4) Jupiter API & Test Runner, if you don't have it already
+    androidTestImplementation("androidx.test:runner:1.5.2")
+
+
+    // 5) The instrumentation test companion libraries
+    androidTestImplementation("de.mannodermaus.junit5:android-test-core:1.3.0")
+    androidTestRuntimeOnly("de.mannodermaus.junit5:android-test-runner:1.3.0")
+
+}
+
+

@@ -1,0 +1,160 @@
+image: openjdk:8
+definitions:
+  steps:
+    - step: &BuildAndPushVersion
+        name: Package
+        services:
+          - docker
+        script:
+          - docker build -t digital-id .
+          - pipe: atlassian/aws-ecr-push-image:2.0.0
+            variables:
+              AWS_ACCESS_KEY_ID: ${AWS_ACCESS_KEY}
+              AWS_SECRET_ACCESS_KEY: ${AWS_SECRET_KEY}
+              AWS_DEFAULT_REGION: ${AWS_DEFAULT_REGION}
+              IMAGE_NAME: ${DOCKER_IMAGE_NAME}
+              TAGS: '${BITBUCKET_TAG} latest'
+pipelines:
+    branches:
+      staging:
+        - step:
+            name: Cleaning
+            image: maven:3-jdk-11
+            caches:
+              - maven
+            script:
+              - mvn clean
+            after-script:
+                # Collect checkstyle results, if any, and convert to Bitbucket Code Insights.///
+              - pipe: atlassian/checkstyle-report:0.3.0
+        - step:
+            name: Test
+            image: maven:3-jdk-11
+            caches:
+              - maven
+            script:
+              - mvn test
+            after-script:
+                # Collect checkstyle results, if any, and convert to Bitbucket Code Insights.
+              - pipe: atlassian/checkstyle-report:0.3.0
+        - step:
+            name:  Build
+            image: maven:3-jdk-11
+            caches:
+                  - maven
+            script:
+                  - "mvn package -X"
+            artifacts:
+                  - target/*.jar
+        - step:
+            name: Code Quality
+            image: maven:3-jdk-11
+            caches:
+              - maven
+            script:
+              - echo "code quality step"
+             # - mvn sonar:sonar -Dsonar.login=b5cc733a5572b392ff0187e58412e84ae9340ea5 -Dsonar.exclusions=**/*.java -Dsonar.host.url=https://7a38-102-216-219-117.eu.ngrok.io
+           # after-script:
+  #              # Collect checkstyle results, if any, and convert to Bitbucket Code Insights.
+              - pipe: atlassian/checkstyle-report:0.3.0
+        - step:
+           name: Snyk scan
+           script:
+            - docker build -t digital-id/scansnyk .
+            - pipe: snyk/snyk-scan:0.5.3
+              variables:
+               SNYK_TOKEN: "bc31a06f-0e44-4cef-9e0a-de78efe53b36"
+               LANGUAGE: "docker"
+               IMAGE_NAME: "digital-id/scansnyk"
+               TARGET_FILE: "Dockerfile"
+               #DONT_BREAK_BUILD: "TRUE"
+               DONT_BREAK_BUILD: "true" 
+              # MONITOR: "true"
+        - step:
+            name: Security Scan
+            script:
+              # Run a security scan for sensitive data.
+              # See more security tools at https://bitbucket.org/product/features/pipelines/integrations?&category=security
+              - pipe: atlassian/git-secrets-scan:0.5.1
+
+        - step: *BuildAndPushVersion
+#    - step:
+#        name: Run Tests
+#        caches:
+#          - maven
+#        script:
+#          - chmod +x mvnw
+#          - ./mvnw test
+#            -Dhttps.protocols=TLSv1.2
+#            -Dmaven.repo.local=$CI_PROJECT_DIR/.m2/repository
+#            -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=WARN
+#            -Dorg.slf4j.simpleLogger.showDateTime=true
+#            -Djava.awt.headless=true
+#            --batch-mode --errors --fail-at-end --show-version -DinstallAtEnd=true -DdeployAtEnd=true
+#    - step:
+#        name: Code Quality
+#        caches:
+#          - maven
+#        script:
+#          - mkdir codequality-results
+#          - docker run
+#            --env CODECLIMATE_CODE="$PWD"
+#            --volume "$PWD":/code
+#            --volume /var/run/docker.sock:/var/run/docker.sock
+#            --volume /tmp/cc:/tmp/cc
+#            codeclimate/codeclimate analyze -f html > ./codequality-results/index.html
+#    - step:
+#        name:  Build
+#        image: maven:3-jdk-11
+#        caches:
+#          - maven
+#        script:
+#          - "mvn package -X"
+#        artifacts:
+#          - target/*.jar
+#    - step:
+#        name: Build Docker Image
+#        image: atlassian/pipelines-awscli
+#        script:
+#          - echo $(aws ecr get-login --no-include-email --region us-east-1)  > login.sh
+#          - aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 174391158959.dkr.ecr.us-east-1.amazonaws.com
+#
+#          - sh login.sh
+#
+#          - docker build -t $DOCKER_IMAGE_NAME:${BITBUCKET_COMMIT} .
+#
+#          - docker tag $DOCKER_IMAGE_NAME:${BITBUCKET_COMMIT} $DOCKER_ECR_REPO_URL/$DOCKER_IMAGE_NAME:${BITBUCKET_COMMIT}
+#
+#         - docker push $DOCKER_ECR_REPO_URL/$DOCKER_IMAGE_NAME:${BITBUCKET_COMMIT}
+
+
+options:
+  docker: true
+
+#  Template maven-build
+
+#  This template allows you to test and build your Java project with Maven.
+#  The workflow allows running tests, code checkstyle and security scans on the default branch.
+
+# Prerequisites: pom.xml and appropriate project structure should exist in the repository.
+
+image: maven:3.6.3
+
+pipelines:
+  default:
+    - parallel:
+      - step:
+          name: Build and Test
+          caches:
+            - maven
+          script:
+            - mvn -B verify --file pom.xml
+          after-script:
+              # Collect checkstyle results, if any, and convert to Bitbucket Code Insights.
+            - pipe: atlassian/checkstyle-report:0.3.0
+      - step:
+          name: Security Scan
+          script:
+            # Run a security scan for sensitive data.
+            # See more security tools at https://bitbucket.org/product/features/pipelines/integrations?&category=security
+            - pipe: atlassian/git-secrets-scan:0.5.1

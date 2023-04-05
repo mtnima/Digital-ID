@@ -1,0 +1,27 @@
+<resources>
+
+
+    <!--    intro page-->
+
+    <dimen name="intro_page_logo_width">80dp</dimen>
+    <dimen name="intro_page_image_height">230dp</dimen>
+    <dimen name="intro_page_continue_btn_height">60dp</dimen>
+    <dimen name="intro_page_skip_btn_height">60dp</dimen>
+    <dimen name="intro_page_heading_text_size">22sp</dimen>
+    <dimen name="intro_page_sub_heading_text_size">20sp</dimen>
+    <!--    intro page-->
+
+
+    <!--  welcome screen dimens-->
+
+    <dimen name="welcome_screen_label_mauritania_eid_top_margin">60dp</dimen>
+    <dimen name="welcome_screen_label_mauritania_eid_text_size">40sp</dimen>
+    <dimen name="welcome_screen_welcome_image_height">300dp</dimen>
+    <dimen name="welcome_screen_bottom_margin">50dp</dimen>
+
+    <!--  welcome screen dimens-->
+
+    <dimen name="nfc_success_screen_done_img_size">180dp</dimen>
+    <dimen name="nfc_success_screen_done_img_top_margin">50dp</dimen>
+
+</resources>
