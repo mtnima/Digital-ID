@@ -145,8 +145,13 @@ For people who want to make changes to your project, it's helpful to have some d
 
 You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
 
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
+## Project Execution
+
+This project have been developped and executed by a partnership of **[SMART MS SA](https://www.smartmssa.com)** and **[TECH5](https://tech5.ai/)**
+
+![architecture](Media/Smart.png)
+![architecture](Media/tech5.png)
+
 
 ## License
 Our recommended Licence is Eclipse Public License - v 2.0: This is a slightly more restrictive license that allows for reuse, modification, and distribution of the licensed software, as long as the license terms are met. It requires any modifications or derivative works to be released under the same license, which can be seen as a slightly more restrictive condition.
