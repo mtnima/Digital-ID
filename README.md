@@ -18,8 +18,8 @@ By leveraging advanced security measures and cutting-edge technologies, this pil
 
 The following demo uses the eID app to login to the "Khidmaty" Portal (currently under developpement itself),
 
+https://user-images.githubusercontent.com/28960489/230915259-ba8232ed-85a8-456b-aa9c-c73b30b38c93.mp4
 
-https://user-images.githubusercontent.com/28960489/230099915-5bdf7f66-ab82-49e8-bf89-596736f4ed18.mp4
 
 ## Brief architecture of the project : 
 
@@ -140,10 +140,6 @@ If you have ideas for releases in the future, it is a good idea to list them in 
 
 ## Contributing
 State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
 
 ## Project Execution
 
